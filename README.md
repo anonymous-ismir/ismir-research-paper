@@ -14,13 +14,13 @@ Our pipeline is built over the **Tango2** latent diffusion model for environment
 
 Check out our generated cinematic soundscapes in action:
 
-- **[Watch the Demo Video Here](./Demo/demo_1)**
+- **[Watch the Demo Video Here](./Demo/demo_1.mp4)**
 
 ## 🏗️ System Architecture
 
 Below is the high-level architecture of the BackgroundMellow master-specialist framework:
 
-![BackgroundMellow Architecture](./archi.png)
+![BackgroundMellow Architecture](./Demo/archi.png)
 
 ---
 
