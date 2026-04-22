@@ -14,7 +14,7 @@ Our pipeline is built over the **Tango2** latent diffusion model for environment
 
 Check out our generated cinematic soundscapes in action:
 
-- **[Watch the Demo Video Here](./Demo/demo_1.mp4)**
+- **[Watch the Demo Video Here](https://www.youtube.com/playlist?list=PLk9zUrtrxbKIFo1hXIi7w1fz7L0m3Qznf)**
 
 ## 🏗️ System Architecture
 
