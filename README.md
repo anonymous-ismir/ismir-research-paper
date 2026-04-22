@@ -116,6 +116,19 @@ We empirically evaluated BackgroundMellow using a nearest-neighbor retrieval app
 
 ---
 
+🔮 Future Work: Perceptual Refinement & RLHF
+While the current framework relies on deterministic DSP algorithms and supervised fine-tuning, cinematic audio is inherently subjective. Our primary future direction is to integrate human perception directly into the orchestration loop via an adversarial Reinforcement Learning from Human Feedback (RLHF) architecture.
+
+Human Score Predictor (HSP): We are training a surrogate reward model based on human-in-the-loop evaluations to predict multi-dimensional satisfaction vectors (Sync, Semantic, Acoustic, and Cinematic Impact).
+
+Inference-Time Feedback Loop: The HSP acts as a zero-shot discriminator. If a generated mix scores below a cinematic threshold, it forces the Master Agent to actively reflect, rewrite mixing parameters (e.g., softening an overpowering SFX), and regenerate the stems.
+
+PPO/DPO Optimization: Ultimately, we will formulate orchestration as a Markov Decision Process (MDP), utilizing Proximal Policy Optimization (PPO) or Direct Preference Optimization (DPO) to fine-tune our alignment models against both objective YouTube metrics and subjective human rewards.
+
+![Future Work](./Demo/future_work.png)
+
+---
+
 ## 📄 Citation
 
 If you use BackgroundMellow or our dataset in your research, please cite our paper:
