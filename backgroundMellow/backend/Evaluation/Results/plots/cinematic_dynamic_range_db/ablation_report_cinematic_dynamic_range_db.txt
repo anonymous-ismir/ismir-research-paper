@@ -1,0 +1,61 @@
+# Ablation comparison: cinematic_dynamic_range_db
+objective: maximize
+specialist_model_variant_tag filter: 'BackgroundMellow_baseline_tango2'
+
+## Best configuration by mean over prompts: toggle_use_llm_to_predict_align
+value: 117.623 (n_prompts=30)
+
+## Best configuration by peak single-prompt score: toggle_use_dsp
+value: 200.063 (n_prompts=35)
+
+## Table
+                                              label  mean_over_prompts  best_single_prompt_value  n_prompts
+                      decide_model_gemini-2.5-flash         104.328822                199.015885         36
+                        toggle_fill_coverage_by_llm          91.562813                199.004161         35
+        toggle_use_avg_llm_and_dsp_to_predict_align          97.273746                198.999843         29
+toggle_use_dl_based_llm_and_dsp_alignment_predictor         102.598148                199.003785         29
+                                     toggle_use_dsp         107.930672                200.063474         35
+                    toggle_use_dsp_to_predict_align         109.583860                199.000660         30
+                    toggle_use_llm_to_predict_align         117.622796                199.076898         30
+                              toggle_use_movie_bgms          96.568657                200.047863         32
+                                toggle_use_narrator         100.978692                199.014075         31
+                          BackgroundMellow_baseline         103.368149                198.980138         39
+                                          AudioLDM2          68.152582                 78.533745         39
+                                             tango2           9.406179                 11.013596         39
+## Per-prompt consensus (intersection only)
+prompts_in_intersection: 29
+ablations: 12
+
+### Win summary (fractional wins split on ties)
+                                           ablation  prompts_won_strict  prompts_won_fractional  win_rate_strict  win_rate_fractional
+                    toggle_use_llm_to_predict_align                   8                     8.0         0.275862             0.275862
+                      decide_model_gemini-2.5-flash                   5                     5.0         0.172414             0.172414
+toggle_use_dl_based_llm_and_dsp_alignment_predictor                   5                     5.0         0.172414             0.172414
+                              toggle_use_movie_bgms                   3                     3.0         0.103448             0.103448
+                        toggle_fill_coverage_by_llm                   2                     2.0         0.068966             0.068966
+        toggle_use_avg_llm_and_dsp_to_predict_align                   2                     2.0         0.068966             0.068966
+                    toggle_use_dsp_to_predict_align                   2                     2.0         0.068966             0.068966
+                                     toggle_use_dsp                   1                     1.0         0.034483             0.034483
+                                toggle_use_narrator                   1                     1.0         0.034483             0.034483
+                          BackgroundMellow_baseline                   0                     0.0         0.000000             0.000000
+                                          AudioLDM2                   0                     0.0         0.000000             0.000000
+                                             tango2                   0                     0.0         0.000000             0.000000
+
+### Mean rank (1 = best)
+                                           ablation  mean_rank
+                    toggle_use_dsp_to_predict_align   4.655172
+                    toggle_use_llm_to_predict_align   4.655172
+                          BackgroundMellow_baseline   5.034483
+                      decide_model_gemini-2.5-flash   5.137931
+toggle_use_dl_based_llm_and_dsp_alignment_predictor   5.655172
+                        toggle_fill_coverage_by_llm   5.965517
+                              toggle_use_movie_bgms   6.068966
+                                toggle_use_narrator   6.241379
+        toggle_use_avg_llm_and_dsp_to_predict_align   6.310345
+                                     toggle_use_dsp   7.000000
+                                          AudioLDM2   9.275862
+                                             tango2  12.000000
+
+Saved: /Users/ajitesh/Desktop/BTP/cinemaudio-studio/backend/Evaluation/Results/plots/cinematic_dynamic_range_db/ablation_matrix_cinematic_dynamic_range_db.csv
+Saved: /Users/ajitesh/Desktop/BTP/cinemaudio-studio/backend/Evaluation/Results/plots/cinematic_dynamic_range_db/win_summary_cinematic_dynamic_range_db.csv
+Saved: /Users/ajitesh/Desktop/BTP/cinemaudio-studio/backend/Evaluation/Results/plots/cinematic_dynamic_range_db/mean_ranks_cinematic_dynamic_range_db.csv

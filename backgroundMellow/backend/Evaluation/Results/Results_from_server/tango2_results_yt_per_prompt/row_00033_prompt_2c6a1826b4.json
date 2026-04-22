@@ -1,0 +1,66 @@
+{
+  "stage": "ok",
+  "saved_at_utc": "2026-04-21T19:03:57.405054+00:00",
+  "source_csv": "/Users/ajitesh/Desktop/BTP/cinemaudio-studio/backend/Evaluation/Results/Results_from_server/tango2_results.csv",
+  "row_index": 33,
+  "gemini_model": "gemini-3-flash-preview",
+  "dry_run": false,
+  "from_cached_cues": false,
+  "story_prompt": "Humans are relentlessly pursued and terrorized by ferocious, unseen forces and monstrous creatures in a series of dark, chaotic, and fiery encounters, fighting desperately for survival against overwhelming odds.",
+  "audio_wav_path": "/Users/ajitesh/Desktop/BTP/cinemaudio-studio/backend/Evaluation/Results/Results_from_server/tango2_audios/prompt_2c6a1826b4.wav",
+  "total_seconds": "48.28835124569014",
+  "cues": [
+    {
+      "audio_class": "rapid metallic clangs / sharp impacts",
+      "starting_time": 0.0,
+      "duration": 0.6,
+      "weight_db": -11.0
+    },
+    {
+      "audio_class": "large-scale explosion and crumbling debris",
+      "starting_time": 0.3,
+      "duration": 2.8,
+      "weight_db": -6.5
+    },
+    {
+      "audio_class": "high-frequency electronic screech / alarm",
+      "starting_time": 0.8,
+      "duration": 1.2,
+      "weight_db": -14.0
+    },
+    {
+      "audio_class": "heavy industrial grinding and mechanical movement",
+      "starting_time": 1.8,
+      "duration": 3.2,
+      "weight_db": -15.5
+    },
+    {
+      "audio_class": "dense action-scene background ambience",
+      "starting_time": 2.5,
+      "duration": 4.0,
+      "weight_db": -23.0
+    },
+    {
+      "audio_class": "epic orchestral build with driving strings and brass",
+      "starting_time": 4.5,
+      "duration": 5.5,
+      "weight_db": -9.0
+    },
+    {
+      "audio_class": "rhythmic electronic synth pulses",
+      "starting_time": 6.0,
+      "duration": 3.5,
+      "weight_db": -17.5
+    },
+    {
+      "audio_class": "massive low-frequency cinematic hit / boom",
+      "starting_time": 8.4,
+      "duration": 1.6,
+      "weight_db": -7.0
+    }
+  ],
+  "yt_coverage_score": "0.0",
+  "yt_sync_score": "0.0",
+  "yt_gemini_eval_error": "",
+  "yt_gemini_cues_json_cell": "{\"cues\":[{\"audio_class\":\"rapid metallic clangs / sharp impacts\",\"starting_time\":0.0,\"duration\":0.6,\"weight_db\":-11.0},{\"audio_class\":\"large-scale explosion and crumbling debris\",\"starting_time\":0.3,\"duration\":2.8,\"weight_db\":-6.5},{\"audio_class\":\"high-frequency electronic screech / alarm\",\"starting_time\":0.8,\"duration\":1.2,\"weight_db\":-14.0},{\"audio_class\":\"heavy industrial grinding and mechanical movement\",\"starting_time\":1.8,\"duration\":3.2,\"weight_db\":-15.5},{\"audio_class\":\"dense action-scene background ambience\",\"starting_time\":2.5,\"duration\":4.0,\"weight_db\":-23.0},{\"audio_class\":\"epic orchestral build with driving strings and brass\",\"starting_time\":4.5,\"duration\":5.5,\"weight_db\":-9.0},{\"audio_class\":\"rhythmic electronic synth pulses\",\"starting_time\":6.0,\"duration\":3.5,\"weight_db\":-17.5},{\"audio_class\":\"massive low-frequency cinematic hit / boom\",\"starting_time\":8.4,\"duration\":1.6,\"weight_db\":-7.0}]}"
+}

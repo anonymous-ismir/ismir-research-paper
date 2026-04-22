@@ -1,0 +1,72 @@
+{
+  "stage": "ok",
+  "saved_at_utc": "2026-04-21T18:58:29.605393+00:00",
+  "source_csv": "/Users/ajitesh/Desktop/BTP/cinemaudio-studio/backend/Evaluation/Results/Results_from_server/tango2_results.csv",
+  "row_index": 18,
+  "gemini_model": "gemini-3-flash-preview",
+  "dry_run": false,
+  "from_cached_cues": false,
+  "story_prompt": "A quiet suburban night is shattered by the aftermath of a home invasion, revealing a seemingly ordinary man's unsettling calm amidst police inquiries and family distress, hinting at a suppressed, dangerous nature.",
+  "audio_wav_path": "/Users/ajitesh/Desktop/BTP/cinemaudio-studio/backend/Evaluation/Results/Results_from_server/tango2_audios/prompt_2adb0f7f3c.wav",
+  "total_seconds": "49.03698434121907",
+  "cues": [
+    {
+      "audio_class": "high-pitched female screaming and crowd panic",
+      "starting_time": 0.0,
+      "duration": 3.8,
+      "weight_db": -10.5
+    },
+    {
+      "audio_class": "massive explosion and debris impact SFX",
+      "starting_time": 0.5,
+      "duration": 1.5,
+      "weight_db": -7.0
+    },
+    {
+      "audio_class": "shattering glass and metallic scraping sounds",
+      "starting_time": 1.2,
+      "duration": 2.5,
+      "weight_db": -14.0
+    },
+    {
+      "audio_class": "deep cinematic synth bass drone",
+      "starting_time": 3.0,
+      "duration": 7.0,
+      "weight_db": -18.5
+    },
+    {
+      "audio_class": "heavy rhythmic trailer percussion hits",
+      "starting_time": 4.2,
+      "duration": 5.8,
+      "weight_db": -11.0
+    },
+    {
+      "audio_class": "high-tension screeching orchestral strings",
+      "starting_time": 5.0,
+      "duration": 5.0,
+      "weight_db": -20.0
+    },
+    {
+      "audio_class": "distorted male dialogue / narration",
+      "starting_time": 6.5,
+      "duration": 1.4,
+      "weight_db": -12.5
+    },
+    {
+      "audio_class": "dramatic metallic slam / riser impact",
+      "starting_time": 8.0,
+      "duration": 1.2,
+      "weight_db": -9.5
+    },
+    {
+      "audio_class": "low-frequency atmospheric rumble",
+      "starting_time": 0.0,
+      "duration": 10.0,
+      "weight_db": -25.0
+    }
+  ],
+  "yt_coverage_score": "12.5",
+  "yt_sync_score": "0.02956951818061071",
+  "yt_gemini_eval_error": "",
+  "yt_gemini_cues_json_cell": "{\"cues\":[{\"audio_class\":\"high-pitched female screaming and crowd panic\",\"starting_time\":0.0,\"duration\":3.8,\"weight_db\":-10.5},{\"audio_class\":\"massive explosion and debris impact SFX\",\"starting_time\":0.5,\"duration\":1.5,\"weight_db\":-7.0},{\"audio_class\":\"shattering glass and metallic scraping sounds\",\"starting_time\":1.2,\"duration\":2.5,\"weight_db\":-14.0},{\"audio_class\":\"deep cinematic synth bass drone\",\"starting_time\":3.0,\"duration\":7.0,\"weight_db\":-18.5},{\"audio_class\":\"heavy rhythmic trailer percussion hits\",\"starting_time\":4.2,\"duration\":5.8,\"weight_db\":-11.0},{\"audio_class\":\"high-tension screeching orchestral strings\",\"starting_time\":5.0,\"duration\":5.0,\"weight_db\":-20.0},{\"audio_class\":\"distorted male dialogue / narration\",\"starting_time\":6.5,\"duration\":1.4,\"weight_db\":-12.5},{\"audio_class\":\"dramatic metallic slam / riser impact\",\"starting_time\":8.0,\"duration\":1.2,\"weight_db\":-9.5},{\"audio_class\":\"low-frequency atmospheric rumble\",\"starting_time\":0.0,\"duration\":10.0,\"weight_db\":-25.0}]}"
+}

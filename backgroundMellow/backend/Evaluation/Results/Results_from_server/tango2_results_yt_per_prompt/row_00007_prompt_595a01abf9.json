@@ -1,0 +1,78 @@
+{
+  "stage": "ok",
+  "saved_at_utc": "2026-04-21T18:55:30.315846+00:00",
+  "source_csv": "/Users/ajitesh/Desktop/BTP/cinemaudio-studio/backend/Evaluation/Results/Results_from_server/tango2_results.csv",
+  "row_index": 7,
+  "gemini_model": "gemini-3-flash-preview",
+  "dry_run": false,
+  "from_cached_cues": false,
+  "story_prompt": "A weary James Bond confronts a skeptical M and a challenging superior about his past and readiness, before a massive explosion devastates a building, leaving a somber symbol of national loss in its wake.",
+  "audio_wav_path": "/Users/ajitesh/Desktop/BTP/cinemaudio-studio/backend/Evaluation/Results/Results_from_server/tango2_audios/prompt_595a01abf9.wav",
+  "total_seconds": "50.121433983556926",
+  "cues": [
+    {
+      "audio_class": "Aggressive high-pitched engine roar and wind noise",
+      "starting_time": 0.0,
+      "duration": 3.5,
+      "weight_db": -8.2
+    },
+    {
+      "audio_class": "Chaotic shouting and vocal battle cries",
+      "starting_time": 0.2,
+      "duration": 1.8,
+      "weight_db": -12.5
+    },
+    {
+      "audio_class": "Massive cinematic explosion and debris impact",
+      "starting_time": 1.5,
+      "duration": 2.8,
+      "weight_db": -5.0
+    },
+    {
+      "audio_class": "Metallic clanging and mechanical screeching",
+      "starting_time": 1.0,
+      "duration": 1.5,
+      "weight_db": -14.0
+    },
+    {
+      "audio_class": "Deep orchestral 'braam' brass hit",
+      "starting_time": 3.8,
+      "duration": 2.2,
+      "weight_db": -9.5
+    },
+    {
+      "audio_class": "Gravelly female character dialogue",
+      "starting_time": 5.2,
+      "duration": 3.8,
+      "weight_db": -10.0
+    },
+    {
+      "audio_class": "Rhythmic industrial percussion with synth bass pulse",
+      "starting_time": 0.0,
+      "duration": 10.0,
+      "weight_db": -20.0
+    },
+    {
+      "audio_class": "High-tension rising orchestral strings",
+      "starting_time": 6.5,
+      "duration": 3.5,
+      "weight_db": -18.5
+    },
+    {
+      "audio_class": "Sub-bass drop transition / whoosh",
+      "starting_time": 9.2,
+      "duration": 0.8,
+      "weight_db": -7.5
+    },
+    {
+      "audio_class": "Sharp snare drum crack with reverb",
+      "starting_time": 4.0,
+      "duration": 0.5,
+      "weight_db": -11.0
+    }
+  ],
+  "yt_coverage_score": "25.0",
+  "yt_sync_score": "0.0",
+  "yt_gemini_eval_error": "",
+  "yt_gemini_cues_json_cell": "{\"cues\":[{\"audio_class\":\"Aggressive high-pitched engine roar and wind noise\",\"starting_time\":0.0,\"duration\":3.5,\"weight_db\":-8.2},{\"audio_class\":\"Chaotic shouting and vocal battle cries\",\"starting_time\":0.2,\"duration\":1.8,\"weight_db\":-12.5},{\"audio_class\":\"Massive cinematic explosion and debris impact\",\"starting_time\":1.5,\"duration\":2.8,\"weight_db\":-5.0},{\"audio_class\":\"Metallic clanging and mechanical screeching\",\"starting_time\":1.0,\"duration\":1.5,\"weight_db\":-14.0},{\"audio_class\":\"Deep orchestral 'braam' brass hit\",\"starting_time\":3.8,\"duration\":2.2,\"weight_db\":-9.5},{\"audio_class\":\"Gravelly female character dialogue\",\"starting_time\":5.2,\"duration\":3.8,\"weight_db\":-10.0},{\"audio_class\":\"Rhythmic industrial percussion with synth bass pulse\",\"starting_time\":0.0,\"duration\":10.0,\"weight_db\":-20.0},{\"audio_class\":\"High-tension rising orchestral strings\",\"starting_time\":6.5,\"duration\":3.5,\"weight_db\":-18.5},{\"audio_class\":\"Sub-bass drop transition / whoosh\",\"starting_time\":9.2,\"duration\":0.8,\"weight_db\":-7.5},{\"audio_class\":\"Sharp snare drum crack with reverb\",\"starting_time\":4.0,\"duration\":0.5,\"weight_db\":-11.0}]}"
+}

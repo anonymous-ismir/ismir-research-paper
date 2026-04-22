@@ -1,0 +1,78 @@
+{
+  "stage": "ok",
+  "saved_at_utc": "2026-04-21T19:02:06.221297+00:00",
+  "source_csv": "/Users/ajitesh/Desktop/BTP/cinemaudio-studio/backend/Evaluation/Results/Results_from_server/tango2_results.csv",
+  "row_index": 28,
+  "gemini_model": "gemini-3-flash-preview",
+  "dry_run": false,
+  "from_cached_cues": false,
+  "story_prompt": "A blue-skinned indigenous family battles futuristic human forces in a series of breathtaking aerial and ground skirmishes involving explosive weaponry and desperate escapes, highlighting their fierce resilience and familial bonds amidst chaos.",
+  "audio_wav_path": "/Users/ajitesh/Desktop/BTP/cinemaudio-studio/backend/Evaluation/Results/Results_from_server/tango2_audios/prompt_386cc5ccc8.wav",
+  "total_seconds": "49.277187650091946",
+  "cues": [
+    {
+      "audio_class": "high-pitched female scream",
+      "starting_time": 0.0,
+      "duration": 1.2,
+      "weight_db": -8.0
+    },
+    {
+      "audio_class": "cinematic whoosh transition",
+      "starting_time": 0.0,
+      "duration": 0.8,
+      "weight_db": -12.5
+    },
+    {
+      "audio_class": "fast-paced rhythmic orchestral strings",
+      "starting_time": 0.5,
+      "duration": 8.5,
+      "weight_db": -18.0
+    },
+    {
+      "audio_class": "driving industrial percussion and trailer hits",
+      "starting_time": 0.5,
+      "duration": 8.5,
+      "weight_db": -11.0
+    },
+    {
+      "audio_class": "metallic screeching and train brake sounds",
+      "starting_time": 1.2,
+      "duration": 2.5,
+      "weight_db": -9.5
+    },
+    {
+      "audio_class": "explosive impact and heavy rumble",
+      "starting_time": 3.0,
+      "duration": 1.2,
+      "weight_db": -7.0
+    },
+    {
+      "audio_class": "distant frantic alarm sirens",
+      "starting_time": 4.2,
+      "duration": 3.5,
+      "weight_db": -22.0
+    },
+    {
+      "audio_class": "heavy debris crashing and metal grinding",
+      "starting_time": 5.8,
+      "duration": 2.5,
+      "weight_db": -10.0
+    },
+    {
+      "audio_class": "shattering glass sound effect",
+      "starting_time": 7.6,
+      "duration": 0.8,
+      "weight_db": -14.0
+    },
+    {
+      "audio_class": "massive final metallic crash and bass boom",
+      "starting_time": 8.5,
+      "duration": 0.5,
+      "weight_db": -5.5
+    }
+  ],
+  "yt_coverage_score": "33.33333333333333",
+  "yt_sync_score": "0.0",
+  "yt_gemini_eval_error": "",
+  "yt_gemini_cues_json_cell": "{\"cues\":[{\"audio_class\":\"high-pitched female scream\",\"starting_time\":0.0,\"duration\":1.2,\"weight_db\":-8.0},{\"audio_class\":\"cinematic whoosh transition\",\"starting_time\":0.0,\"duration\":0.8,\"weight_db\":-12.5},{\"audio_class\":\"fast-paced rhythmic orchestral strings\",\"starting_time\":0.5,\"duration\":8.5,\"weight_db\":-18.0},{\"audio_class\":\"driving industrial percussion and trailer hits\",\"starting_time\":0.5,\"duration\":8.5,\"weight_db\":-11.0},{\"audio_class\":\"metallic screeching and train brake sounds\",\"starting_time\":1.2,\"duration\":2.5,\"weight_db\":-9.5},{\"audio_class\":\"explosive impact and heavy rumble\",\"starting_time\":3.0,\"duration\":1.2,\"weight_db\":-7.0},{\"audio_class\":\"distant frantic alarm sirens\",\"starting_time\":4.2,\"duration\":3.5,\"weight_db\":-22.0},{\"audio_class\":\"heavy debris crashing and metal grinding\",\"starting_time\":5.8,\"duration\":2.5,\"weight_db\":-10.0},{\"audio_class\":\"shattering glass sound effect\",\"starting_time\":7.6,\"duration\":0.8,\"weight_db\":-14.0},{\"audio_class\":\"massive final metallic crash and bass boom\",\"starting_time\":8.5,\"duration\":0.5,\"weight_db\":-5.5}]}"
+}

@@ -1,0 +1,54 @@
+{
+  "stage": "ok",
+  "saved_at_utc": "2026-04-21T18:43:24.730297+00:00",
+  "source_csv": "/Users/ajitesh/Desktop/BTP/cinemaudio-studio/backend/Evaluation/Results/Results_from_server/audioldm2_results.csv",
+  "row_index": 7,
+  "gemini_model": "gemini-3-flash-preview",
+  "dry_run": false,
+  "from_cached_cues": false,
+  "story_prompt": "A weary James Bond confronts a skeptical M and a challenging superior about his past and readiness, before a massive explosion devastates a building, leaving a somber symbol of national loss in its wake.",
+  "audio_wav_path": "/Users/ajitesh/Desktop/BTP/cinemaudio-studio/backend/Evaluation/Results/Results_from_server/audioldm_audios/prompt_595a01abf9.wav",
+  "total_seconds": "61.386373499641195",
+  "cues": [
+    {
+      "audio_class": "angelic choral vocal melody",
+      "starting_time": 0.0,
+      "duration": 1.6,
+      "weight_db": -14.0
+    },
+    {
+      "audio_class": "heavy cinematic impact with sub-bass tail",
+      "starting_time": 1.1,
+      "duration": 2.5,
+      "weight_db": -7.5
+    },
+    {
+      "audio_class": "deep mechanical synth braam / growl",
+      "starting_time": 1.5,
+      "duration": 4.5,
+      "weight_db": -9.0
+    },
+    {
+      "audio_class": "atmospheric low-frequency rumble",
+      "starting_time": 0.0,
+      "duration": 9.5,
+      "weight_db": -22.0
+    },
+    {
+      "audio_class": "rhythmic low-frequency percussive thuds",
+      "starting_time": 5.2,
+      "duration": 4.3,
+      "weight_db": -16.5
+    },
+    {
+      "audio_class": "metallic whoosh riser",
+      "starting_time": 0.8,
+      "duration": 0.6,
+      "weight_db": -18.0
+    }
+  ],
+  "yt_coverage_score": "0.0",
+  "yt_sync_score": "0.0",
+  "yt_gemini_eval_error": "",
+  "yt_gemini_cues_json_cell": "{\"cues\":[{\"audio_class\":\"angelic choral vocal melody\",\"starting_time\":0.0,\"duration\":1.6,\"weight_db\":-14.0},{\"audio_class\":\"heavy cinematic impact with sub-bass tail\",\"starting_time\":1.1,\"duration\":2.5,\"weight_db\":-7.5},{\"audio_class\":\"deep mechanical synth braam / growl\",\"starting_time\":1.5,\"duration\":4.5,\"weight_db\":-9.0},{\"audio_class\":\"atmospheric low-frequency rumble\",\"starting_time\":0.0,\"duration\":9.5,\"weight_db\":-22.0},{\"audio_class\":\"rhythmic low-frequency percussive thuds\",\"starting_time\":5.2,\"duration\":4.3,\"weight_db\":-16.5},{\"audio_class\":\"metallic whoosh riser\",\"starting_time\":0.8,\"duration\":0.6,\"weight_db\":-18.0}]}"
+}

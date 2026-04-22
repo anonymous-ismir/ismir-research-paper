@@ -1,0 +1,66 @@
+{
+  "stage": "ok",
+  "saved_at_utc": "2026-04-21T19:04:33.591330+00:00",
+  "source_csv": "/Users/ajitesh/Desktop/BTP/cinemaudio-studio/backend/Evaluation/Results/Results_from_server/tango2_results.csv",
+  "row_index": 35,
+  "gemini_model": "gemini-3-flash-preview",
+  "dry_run": false,
+  "from_cached_cues": false,
+  "story_prompt": "A seemingly idyllic suburban life quickly unravels into a supernatural horror, as a woman's transformation and an ominous prophecy lead her to a dark, unsettling forest.",
+  "audio_wav_path": "/Users/ajitesh/Desktop/BTP/cinemaudio-studio/backend/Evaluation/Results/Results_from_server/tango2_audios/prompt_9d0d3b60e4.wav",
+  "total_seconds": "48.28906114352867",
+  "cues": [
+    {
+      "audio_class": "high-speed engine roar and mechanical whine",
+      "starting_time": 0.0,
+      "duration": 3.5,
+      "weight_db": -10.5
+    },
+    {
+      "audio_class": "fast-paced cinematic orchestral music with strings and brass",
+      "starting_time": 0.5,
+      "duration": 9.5,
+      "weight_db": -16.0
+    },
+    {
+      "audio_class": "character vocal exertion and shouting",
+      "starting_time": 2.2,
+      "duration": 2.8,
+      "weight_db": -8.5
+    },
+    {
+      "audio_class": "cinematic whoosh sound effect",
+      "starting_time": 1.8,
+      "duration": 1.2,
+      "weight_db": -12.0
+    },
+    {
+      "audio_class": "heavy orchestral percussion impact",
+      "starting_time": 3.1,
+      "duration": 0.9,
+      "weight_db": -11.0
+    },
+    {
+      "audio_class": "metallic rattling and mechanical vibration",
+      "starting_time": 4.0,
+      "duration": 6.0,
+      "weight_db": -22.5
+    },
+    {
+      "audio_class": "distal crowd shouting and cheering",
+      "starting_time": 5.5,
+      "duration": 4.5,
+      "weight_db": -24.0
+    },
+    {
+      "audio_class": "high-pitched energy hum and electronic buzz",
+      "starting_time": 8.0,
+      "duration": 2.0,
+      "weight_db": -14.5
+    }
+  ],
+  "yt_coverage_score": "14.285714285714285",
+  "yt_sync_score": "0.0",
+  "yt_gemini_eval_error": "",
+  "yt_gemini_cues_json_cell": "{\"cues\":[{\"audio_class\":\"high-speed engine roar and mechanical whine\",\"starting_time\":0.0,\"duration\":3.5,\"weight_db\":-10.5},{\"audio_class\":\"fast-paced cinematic orchestral music with strings and brass\",\"starting_time\":0.5,\"duration\":9.5,\"weight_db\":-16.0},{\"audio_class\":\"character vocal exertion and shouting\",\"starting_time\":2.2,\"duration\":2.8,\"weight_db\":-8.5},{\"audio_class\":\"cinematic whoosh sound effect\",\"starting_time\":1.8,\"duration\":1.2,\"weight_db\":-12.0},{\"audio_class\":\"heavy orchestral percussion impact\",\"starting_time\":3.1,\"duration\":0.9,\"weight_db\":-11.0},{\"audio_class\":\"metallic rattling and mechanical vibration\",\"starting_time\":4.0,\"duration\":6.0,\"weight_db\":-22.5},{\"audio_class\":\"distal crowd shouting and cheering\",\"starting_time\":5.5,\"duration\":4.5,\"weight_db\":-24.0},{\"audio_class\":\"high-pitched energy hum and electronic buzz\",\"starting_time\":8.0,\"duration\":2.0,\"weight_db\":-14.5}]}"
+}

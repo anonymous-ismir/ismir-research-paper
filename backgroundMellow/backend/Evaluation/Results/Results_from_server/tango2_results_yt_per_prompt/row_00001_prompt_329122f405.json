@@ -1,0 +1,66 @@
+{
+  "stage": "ok",
+  "saved_at_utc": "2026-04-21T18:53:19.692692+00:00",
+  "source_csv": "/Users/ajitesh/Desktop/BTP/cinemaudio-studio/backend/Evaluation/Results/Results_from_server/tango2_results.csv",
+  "row_index": 1,
+  "gemini_model": "gemini-3-flash-preview",
+  "dry_run": false,
+  "from_cached_cues": false,
+  "story_prompt": "Amidst the warm, inviting interiors of a family home, various generations interact with tender moments and subtle tensions, hinting at complex familial bonds and underlying emotional struggles.",
+  "audio_wav_path": "/Users/ajitesh/Desktop/BTP/cinemaudio-studio/backend/Evaluation/Results/Results_from_server/tango2_audios/prompt_329122f405.wav",
+  "total_seconds": "50.84271444519982",
+  "cues": [
+    {
+      "audio_class": "high-frequency crowd uproar and cheering",
+      "starting_time": 0.0,
+      "duration": 9.0,
+      "weight_db": -11.0
+    },
+    {
+      "audio_class": "distorted mechanical engine screech with bass thrum",
+      "starting_time": 0.2,
+      "duration": 4.8,
+      "weight_db": -7.5
+    },
+    {
+      "audio_class": "aggressive whoosh bypass sound effect",
+      "starting_time": 1.1,
+      "duration": 1.5,
+      "weight_db": -10.0
+    },
+    {
+      "audio_class": "high-pitched electronic siren / alarm sound",
+      "starting_time": 1.5,
+      "duration": 3.0,
+      "weight_db": -19.5
+    },
+    {
+      "audio_class": "reverberant female vocal command / shout",
+      "starting_time": 5.6,
+      "duration": 2.4,
+      "weight_db": -13.0
+    },
+    {
+      "audio_class": "low-end cinematic sub-bass drone",
+      "starting_time": 0.0,
+      "duration": 6.5,
+      "weight_db": -24.0
+    },
+    {
+      "audio_class": "chaotic environmental sci-fi atmosphere",
+      "starting_time": 4.5,
+      "duration": 4.5,
+      "weight_db": -18.0
+    },
+    {
+      "audio_class": "metallic clatter and debris textures",
+      "starting_time": 2.0,
+      "duration": 2.5,
+      "weight_db": -16.0
+    }
+  ],
+  "yt_coverage_score": "0.0",
+  "yt_sync_score": "0.0",
+  "yt_gemini_eval_error": "",
+  "yt_gemini_cues_json_cell": "{\"cues\":[{\"audio_class\":\"high-frequency crowd uproar and cheering\",\"starting_time\":0.0,\"duration\":9.0,\"weight_db\":-11.0},{\"audio_class\":\"distorted mechanical engine screech with bass thrum\",\"starting_time\":0.2,\"duration\":4.8,\"weight_db\":-7.5},{\"audio_class\":\"aggressive whoosh bypass sound effect\",\"starting_time\":1.1,\"duration\":1.5,\"weight_db\":-10.0},{\"audio_class\":\"high-pitched electronic siren / alarm sound\",\"starting_time\":1.5,\"duration\":3.0,\"weight_db\":-19.5},{\"audio_class\":\"reverberant female vocal command / shout\",\"starting_time\":5.6,\"duration\":2.4,\"weight_db\":-13.0},{\"audio_class\":\"low-end cinematic sub-bass drone\",\"starting_time\":0.0,\"duration\":6.5,\"weight_db\":-24.0},{\"audio_class\":\"chaotic environmental sci-fi atmosphere\",\"starting_time\":4.5,\"duration\":4.5,\"weight_db\":-18.0},{\"audio_class\":\"metallic clatter and debris textures\",\"starting_time\":2.0,\"duration\":2.5,\"weight_db\":-16.0}]}"
+}

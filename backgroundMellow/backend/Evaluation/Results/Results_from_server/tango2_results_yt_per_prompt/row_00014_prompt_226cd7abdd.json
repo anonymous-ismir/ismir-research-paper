@@ -1,0 +1,66 @@
+{
+  "stage": "ok",
+  "saved_at_utc": "2026-04-21T18:57:33.798247+00:00",
+  "source_csv": "/Users/ajitesh/Desktop/BTP/cinemaudio-studio/backend/Evaluation/Results/Results_from_server/tango2_results.csv",
+  "row_index": 14,
+  "gemini_model": "gemini-3-flash-preview",
+  "dry_run": false,
+  "from_cached_cues": false,
+  "story_prompt": "A chilling montage reveals a descent into a brutal world where a stoic killer targets the innocent, while others arm themselves for a desperate, violent confrontation with an inevitable, sinister force.",
+  "audio_wav_path": "/Users/ajitesh/Desktop/BTP/cinemaudio-studio/backend/Evaluation/Results/Results_from_server/tango2_audios/prompt_226cd7abdd.wav",
+  "total_seconds": "48.930969453882426",
+  "cues": [
+    {
+      "audio_class": "deep seismic rumble and low-end trailer ambience",
+      "starting_time": 0.0,
+      "duration": 10.0,
+      "weight_db": -18.5
+    },
+    {
+      "audio_class": "high-pitched monstrous screech and creature roar",
+      "starting_time": 0.0,
+      "duration": 2.2,
+      "weight_db": -8.0
+    },
+    {
+      "audio_class": "aggressive rhythmic trailer percussion and rapid hits",
+      "starting_time": 0.0,
+      "duration": 1.5,
+      "weight_db": -12.0
+    },
+    {
+      "audio_class": "metallic debris and heavy structural collapse sound effects",
+      "starting_time": 1.2,
+      "duration": 4.5,
+      "weight_db": -9.5
+    },
+    {
+      "audio_class": "distorted orchestral brass swell with synth textures",
+      "starting_time": 3.5,
+      "duration": 6.5,
+      "weight_db": -14.0
+    },
+    {
+      "audio_class": "distressed human yelling and panicked crowd chaos",
+      "starting_time": 5.0,
+      "duration": 3.8,
+      "weight_db": -11.5
+    },
+    {
+      "audio_class": "high-pitched mechanical siren or piercing electronic screech",
+      "starting_time": 5.8,
+      "duration": 3.5,
+      "weight_db": -17.0
+    },
+    {
+      "audio_class": "cinematic low-frequency bass drop / braam impact",
+      "starting_time": 8.5,
+      "duration": 1.5,
+      "weight_db": -6.0
+    }
+  ],
+  "yt_coverage_score": "25.0",
+  "yt_sync_score": "0.0",
+  "yt_gemini_eval_error": "",
+  "yt_gemini_cues_json_cell": "{\"cues\":[{\"audio_class\":\"deep seismic rumble and low-end trailer ambience\",\"starting_time\":0.0,\"duration\":10.0,\"weight_db\":-18.5},{\"audio_class\":\"high-pitched monstrous screech and creature roar\",\"starting_time\":0.0,\"duration\":2.2,\"weight_db\":-8.0},{\"audio_class\":\"aggressive rhythmic trailer percussion and rapid hits\",\"starting_time\":0.0,\"duration\":1.5,\"weight_db\":-12.0},{\"audio_class\":\"metallic debris and heavy structural collapse sound effects\",\"starting_time\":1.2,\"duration\":4.5,\"weight_db\":-9.5},{\"audio_class\":\"distorted orchestral brass swell with synth textures\",\"starting_time\":3.5,\"duration\":6.5,\"weight_db\":-14.0},{\"audio_class\":\"distressed human yelling and panicked crowd chaos\",\"starting_time\":5.0,\"duration\":3.8,\"weight_db\":-11.5},{\"audio_class\":\"high-pitched mechanical siren or piercing electronic screech\",\"starting_time\":5.8,\"duration\":3.5,\"weight_db\":-17.0},{\"audio_class\":\"cinematic low-frequency bass drop / braam impact\",\"starting_time\":8.5,\"duration\":1.5,\"weight_db\":-6.0}]}"
+}

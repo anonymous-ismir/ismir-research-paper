@@ -1,0 +1,127 @@
+Index(['clap_score', 'audio_richness_spectral_entropy', 'noise_floor_db',
+       'audio_onsets', 'cinematic_dynamic_range_db', 'cinematic_crest_factor',
+       'cinematic_spectral_entropy', 'cinematic_spectral_centroid_hz'],
+      dtype='object')
+['clap_score', 'audio_richness_spectral_entropy', 'noise_floor_db', 'audio_onsets', 'cinematic_dynamic_range_db', 'cinematic_crest_factor', 'cinematic_spectral_entropy', 'cinematic_spectral_centroid_hz']
+x
+[ 0.  1.  2.  3.  4.  5.  6.  7.  8.  9. 10. 11.]
+--------------------------------
+ for metric  clap_score  and scale factor  1.0
+ for ablation  baseline  raw mean value is  0.20397275490643588
+ for ablation  decide_model_gemini-2.5-flash  raw mean value is  0.22799333277888886
+ for ablation  toggle_fill_coverage_by_llm  raw mean value is  0.20751860719028573
+ for ablation  toggle_use_avg_llm_and_dsp_to_predict_align  raw mean value is  0.2020172846403793
+ for ablation  toggle_use_dl_based_llm_and_dsp_alignment_predictor  raw mean value is  0.2174311584675862
+ for ablation  toggle_use_dsp  raw mean value is  0.20819424949111426
+ for ablation  toggle_use_dsp_to_predict_align  raw mean value is  0.20937802107046663
+ for ablation  toggle_use_llm_to_predict_align  raw mean value is  0.18250814819199998
+ for ablation  toggle_use_movie_bgms  raw mean value is  0.207757272124625
+ for ablation  toggle_use_narrator  raw mean value is  0.21202848646903225
+ for ablation  tango2  raw mean value is  0.22374684024506655
+ for ablation  AudioLDM2  raw mean value is  0.3333127422210498
+--------------------------------
+--------------------------------
+ for metric  audio_richness_spectral_entropy  and scale factor  0.1
+ for ablation  baseline  raw mean value is  4.436763532051283
+ for ablation  decide_model_gemini-2.5-flash  raw mean value is  4.3918613055555555
+ for ablation  toggle_fill_coverage_by_llm  raw mean value is  4.424067085714286
+ for ablation  toggle_use_avg_llm_and_dsp_to_predict_align  raw mean value is  4.401240210344828
+ for ablation  toggle_use_dl_based_llm_and_dsp_alignment_predictor  raw mean value is  4.417654396551724
+ for ablation  toggle_use_dsp  raw mean value is  4.44240339142857
+ for ablation  toggle_use_dsp_to_predict_align  raw mean value is  4.4715587999999995
+ for ablation  toggle_use_llm_to_predict_align  raw mean value is  4.552328286666667
+ for ablation  toggle_use_movie_bgms  raw mean value is  4.4805360343750005
+ for ablation  toggle_use_narrator  raw mean value is  4.278821590322581
+ for ablation  tango2  raw mean value is  5.599762702564102
+ for ablation  AudioLDM2  raw mean value is  3.5337605769230773
+--------------------------------
+--------------------------------
+ for metric  noise_floor_db  and scale factor  -0.025
+ for ablation  baseline  raw mean value is  -43.8385553974359
+ for ablation  decide_model_gemini-2.5-flash  raw mean value is  -43.93873819444445
+ for ablation  toggle_fill_coverage_by_llm  raw mean value is  -38.9626124
+ for ablation  toggle_use_avg_llm_and_dsp_to_predict_align  raw mean value is  -41.1691385862069
+ for ablation  toggle_use_dl_based_llm_and_dsp_alignment_predictor  raw mean value is  -43.23879562068965
+ for ablation  toggle_use_dsp  raw mean value is  -45.54019245714285
+ for ablation  toggle_use_dsp_to_predict_align  raw mean value is  -46.2674021
+ for ablation  toggle_use_llm_to_predict_align  raw mean value is  -49.11759323333333
+ for ablation  toggle_use_movie_bgms  raw mean value is  -41.03968740625
+ for ablation  toggle_use_narrator  raw mean value is  -42.8053094516129
+ for ablation  tango2  raw mean value is  -1.5477093
+ for ablation  AudioLDM2  raw mean value is  -29.459296451282054
+--------------------------------
+--------------------------------
+ for metric  audio_onsets  and scale factor  0.01
+ for ablation  baseline  raw mean value is  77.98717948717949
+ for ablation  decide_model_gemini-2.5-flash  raw mean value is  76.97222222222223
+ for ablation  toggle_fill_coverage_by_llm  raw mean value is  74.62857142857143
+ for ablation  toggle_use_avg_llm_and_dsp_to_predict_align  raw mean value is  76.03448275862068
+ for ablation  toggle_use_dl_based_llm_and_dsp_alignment_predictor  raw mean value is  73.0
+ for ablation  toggle_use_dsp  raw mean value is  72.6
+ for ablation  toggle_use_dsp_to_predict_align  raw mean value is  77.73333333333333
+ for ablation  toggle_use_llm_to_predict_align  raw mean value is  72.33333333333333
+ for ablation  toggle_use_movie_bgms  raw mean value is  73.25
+ for ablation  toggle_use_narrator  raw mean value is  73.61290322580645
+ for ablation  tango2  raw mean value is  63.205128205128204
+ for ablation  AudioLDM2  raw mean value is  16.564102564102566
+--------------------------------
+--------------------------------
+ for metric  cinematic_dynamic_range_db  and scale factor  0.01
+ for ablation  baseline  raw mean value is  103.36814873743589
+ for ablation  decide_model_gemini-2.5-flash  raw mean value is  104.32882169138891
+ for ablation  toggle_fill_coverage_by_llm  raw mean value is  91.56281303828573
+ for ablation  toggle_use_avg_llm_and_dsp_to_predict_align  raw mean value is  97.27374615206897
+ for ablation  toggle_use_dl_based_llm_and_dsp_alignment_predictor  raw mean value is  102.59814806034484
+ for ablation  toggle_use_dsp  raw mean value is  107.93067184285714
+ for ablation  toggle_use_dsp_to_predict_align  raw mean value is  109.58386029966667
+ for ablation  toggle_use_llm_to_predict_align  raw mean value is  117.62279560466663
+ for ablation  toggle_use_movie_bgms  raw mean value is  96.56865706031249
+ for ablation  toggle_use_narrator  raw mean value is  100.9786917464516
+ for ablation  tango2  raw mean value is  9.406179447266235
+ for ablation  AudioLDM2  raw mean value is  68.15258153672741
+--------------------------------
+--------------------------------
+ for metric  cinematic_crest_factor  and scale factor  0.06666666666666667
+ for ablation  baseline  raw mean value is  11.048259481602564
+ for ablation  decide_model_gemini-2.5-flash  raw mean value is  10.59217833875
+ for ablation  toggle_fill_coverage_by_llm  raw mean value is  10.161044845428572
+ for ablation  toggle_use_avg_llm_and_dsp_to_predict_align  raw mean value is  10.887974366275863
+ for ablation  toggle_use_dl_based_llm_and_dsp_alignment_predictor  raw mean value is  10.721401965689653
+ for ablation  toggle_use_dsp  raw mean value is  11.837781968742858
+ for ablation  toggle_use_dsp_to_predict_align  raw mean value is  11.572651634700001
+ for ablation  toggle_use_llm_to_predict_align  raw mean value is  11.638761290766666
+ for ablation  toggle_use_movie_bgms  raw mean value is  10.429743969937501
+ for ablation  toggle_use_narrator  raw mean value is  9.919276323161291
+ for ablation  tango2  raw mean value is  2.090114522982358
+ for ablation  AudioLDM2  raw mean value is  7.760526966429538
+--------------------------------
+--------------------------------
+ for metric  cinematic_spectral_entropy  and scale factor  0.1
+ for ablation  baseline  raw mean value is  4.436763515794872
+ for ablation  decide_model_gemini-2.5-flash  raw mean value is  4.391861312888889
+ for ablation  toggle_fill_coverage_by_llm  raw mean value is  4.424067088571429
+ for ablation  toggle_use_avg_llm_and_dsp_to_predict_align  raw mean value is  4.401240209068965
+ for ablation  toggle_use_dl_based_llm_and_dsp_alignment_predictor  raw mean value is  4.417654391
+ for ablation  toggle_use_dsp  raw mean value is  4.442403405085715
+ for ablation  toggle_use_dsp_to_predict_align  raw mean value is  4.471558801333333
+ for ablation  toggle_use_llm_to_predict_align  raw mean value is  4.552328284633334
+ for ablation  toggle_use_movie_bgms  raw mean value is  4.48053600640625
+ for ablation  toggle_use_narrator  raw mean value is  4.278821576
+ for ablation  tango2  raw mean value is  5.599762720939441
+ for ablation  AudioLDM2  raw mean value is  3.533760572091127
+--------------------------------
+--------------------------------
+ for metric  cinematic_spectral_centroid_hz  and scale factor  0.0003333333333333333
+ for ablation  baseline  raw mean value is  2063.629041538461
+ for ablation  decide_model_gemini-2.5-flash  raw mean value is  2029.8095288333332
+ for ablation  toggle_fill_coverage_by_llm  raw mean value is  2035.0727035142856
+ for ablation  toggle_use_avg_llm_and_dsp_to_predict_align  raw mean value is  2087.0894472068967
+ for ablation  toggle_use_dl_based_llm_and_dsp_alignment_predictor  raw mean value is  2071.7907436206897
+ for ablation  toggle_use_dsp  raw mean value is  2039.7808731999996
+ for ablation  toggle_use_dsp_to_predict_align  raw mean value is  2066.3036564999998
+ for ablation  toggle_use_llm_to_predict_align  raw mean value is  1917.2705057133342
+ for ablation  toggle_use_movie_bgms  raw mean value is  1997.4784017812497
+ for ablation  toggle_use_narrator  raw mean value is  2062.135552677419
+ for ablation  tango2  raw mean value is  2686.8533026314085
+ for ablation  AudioLDM2  raw mean value is  1322.1115849401285
+--------------------------------

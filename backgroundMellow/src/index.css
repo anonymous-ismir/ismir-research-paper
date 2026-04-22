@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;900&family=Inter:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 222 47% 5%;
+    --foreground: 180 100% 95%;
+
+    --card: 222 50% 8%;
+    --card-foreground: 180 100% 95%;
+
+    --popover: 222 50% 8%;
+    --popover-foreground: 180 100% 95%;
+
+    --primary: 174 100% 50%;
+    --primary-foreground: 222 47% 5%;
+
+    --secondary: 155 100% 45%;
+    --secondary-foreground: 222 47% 5%;
+
+    --muted: 222 30% 15%;
+    --muted-foreground: 180 20% 60%;
+
+    --accent: 174 80% 40%;
+    --accent-foreground: 180 100% 95%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 180 50% 15%;
+    --input: 222 40% 12%;
+    --ring: 174 100% 50%;
+
+    --radius: 0.75rem;
+
+    /* Custom BackGroundMellow tokens */
+    --neon-cyan: 174 100% 50%;
+    --neon-green: 155 100% 50%;
+    --neon-purple: 270 100% 60%;
+    --glow-cyan: 0 0 30px hsl(174 100% 50% / 0.5);
+    --glow-green: 0 0 30px hsl(155 100% 50% / 0.5);
+    --glass-bg: hsl(222 50% 8% / 0.8);
+    --glass-border: hsl(180 50% 20% / 0.3);
+
+    --sidebar-background: 222 50% 6%;
+    --sidebar-foreground: 180 100% 95%;
+    --sidebar-primary: 174 100% 50%;
+    --sidebar-primary-foreground: 222 47% 5%;
+    --sidebar-accent: 222 40% 12%;
+    --sidebar-accent-foreground: 180 100% 95%;
+    --sidebar-border: 180 50% 15%;
+    --sidebar-ring: 174 100% 50%;
+  }
+
+  .dark {
+    --background: 222 47% 5%;
+    --foreground: 180 100% 95%;
+    --card: 222 50% 8%;
+    --card-foreground: 180 100% 95%;
+    --popover: 222 50% 8%;
+    --popover-foreground: 180 100% 95%;
+    --primary: 174 100% 50%;
+    --primary-foreground: 222 47% 5%;
+    --secondary: 155 100% 45%;
+    --secondary-foreground: 222 47% 5%;
+    --muted: 222 30% 15%;
+    --muted-foreground: 180 20% 60%;
+    --accent: 174 80% 40%;
+    --accent-foreground: 180 100% 95%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 180 50% 15%;
+    --input: 222 40% 12%;
+    --ring: 174 100% 50%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+    font-family: 'Inter', sans-serif;
+  }
+
+  h1, h2, h3, h4, h5, h6, .font-display {
+    font-family: 'Orbitron', sans-serif;
+  }
+}
+
+@layer components {
+  .glass-panel {
+    @apply bg-card/80 backdrop-blur-xl border border-border/30 rounded-xl;
+    box-shadow: 
+      0 0 40px hsl(var(--primary) / 0.1),
+      inset 0 1px 0 hsl(180 100% 100% / 0.05);
+  }
+
+  .neon-glow {
+    box-shadow: 
+      0 0 20px hsl(var(--primary) / 0.4),
+      0 0 40px hsl(var(--primary) / 0.2),
+      0 0 60px hsl(var(--primary) / 0.1);
+  }
+
+  .neon-glow-green {
+    box-shadow: 
+      0 0 20px hsl(var(--secondary) / 0.4),
+      0 0 40px hsl(var(--secondary) / 0.2),
+      0 0 60px hsl(var(--secondary) / 0.1);
+  }
+
+  .neon-text {
+    text-shadow: 
+      0 0 10px hsl(var(--primary) / 0.8),
+      0 0 20px hsl(var(--primary) / 0.5),
+      0 0 30px hsl(var(--primary) / 0.3);
+  }
+
+  .neon-text-green {
+    text-shadow: 
+      0 0 10px hsl(var(--secondary) / 0.8),
+      0 0 20px hsl(var(--secondary) / 0.5),
+      0 0 30px hsl(var(--secondary) / 0.3);
+  }
+
+  .gradient-border {
+    position: relative;
+    background: linear-gradient(135deg, hsl(var(--card)) 0%, hsl(222 50% 6%) 100%);
+  }
+
+  .gradient-border::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    padding: 1px;
+    border-radius: inherit;
+    background: linear-gradient(135deg, hsl(var(--primary) / 0.5) 0%, hsl(var(--secondary) / 0.5) 100%);
+    -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    pointer-events: none;
+  }
+
+  .waveform-bar {
+    @apply bg-gradient-to-t from-primary/60 to-primary rounded-full;
+    animation: wave 1.5s ease-in-out infinite;
+  }
+
+  @keyframes wave {
+    0%, 100% { transform: scaleY(0.3); }
+    50% { transform: scaleY(1); }
+  }
+
+  .pulse-glow {
+    animation: pulseGlow 2s ease-in-out infinite;
+  }
+
+  @keyframes pulseGlow {
+    0%, 100% { 
+      box-shadow: 0 0 20px hsl(var(--primary) / 0.3);
+    }
+    50% { 
+      box-shadow: 0 0 40px hsl(var(--primary) / 0.6), 0 0 60px hsl(var(--primary) / 0.3);
+    }
+  }
+
+  .loading-shimmer {
+    background: linear-gradient(
+      90deg,
+      hsl(var(--muted)) 0%,
+      hsl(var(--primary) / 0.2) 50%,
+      hsl(var(--muted)) 100%
+    );
+    background-size: 200% 100%;
+    animation: shimmer 1.5s infinite;
+  }
+
+  @keyframes shimmer {
+    0% { background-position: -200% 0; }
+    100% { background-position: 200% 0; }
+  }
+
+  .floating {
+    animation: float 3s ease-in-out infinite;
+  }
+
+  @keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+  }
+}
+
+/* Scrollbar Styling */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: hsl(var(--background));
+}
+
+::-webkit-scrollbar-thumb {
+  background: hsl(var(--primary) / 0.3);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: hsl(var(--primary) / 0.5);
+}

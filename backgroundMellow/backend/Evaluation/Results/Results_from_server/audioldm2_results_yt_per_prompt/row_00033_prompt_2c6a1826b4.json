@@ -1,0 +1,72 @@
+{
+  "stage": "ok",
+  "saved_at_utc": "2026-04-21T18:51:13.837978+00:00",
+  "source_csv": "/Users/ajitesh/Desktop/BTP/cinemaudio-studio/backend/Evaluation/Results/Results_from_server/audioldm2_results.csv",
+  "row_index": 33,
+  "gemini_model": "gemini-3-flash-preview",
+  "dry_run": false,
+  "from_cached_cues": false,
+  "story_prompt": "Humans are relentlessly pursued and terrorized by ferocious, unseen forces and monstrous creatures in a series of dark, chaotic, and fiery encounters, fighting desperately for survival against overwhelming odds.",
+  "audio_wav_path": "/Users/ajitesh/Desktop/BTP/cinemaudio-studio/backend/Evaluation/Results/Results_from_server/audioldm_audios/prompt_2c6a1826b4.wav",
+  "total_seconds": "58.29163413029164",
+  "cues": [
+    {
+      "audio_class": "high-performance racing engine drone",
+      "starting_time": 0,
+      "duration": 10,
+      "weight_db": -12.5
+    },
+    {
+      "audio_class": "intense tire screeching",
+      "starting_time": 0,
+      "duration": 2.2,
+      "weight_db": -14.0
+    },
+    {
+      "audio_class": "rhythmic trailer percussion",
+      "starting_time": 2.1,
+      "duration": 7.9,
+      "weight_db": -13.5
+    },
+    {
+      "audio_class": "fast wind rush / atmospheric ambience",
+      "starting_time": 0,
+      "duration": 10,
+      "weight_db": -28.0
+    },
+    {
+      "audio_class": "mechanical gear shifting click",
+      "starting_time": 1.7,
+      "duration": 0.4,
+      "weight_db": -18.5
+    },
+    {
+      "audio_class": "metallic chassis rattle and debris",
+      "starting_time": 3.0,
+      "duration": 5.5,
+      "weight_db": -22.0
+    },
+    {
+      "audio_class": "high-pitched cinematic synth riser",
+      "starting_time": 6.0,
+      "duration": 3.5,
+      "weight_db": -19.0
+    },
+    {
+      "audio_class": "dramatic low-end impact transition",
+      "starting_time": 9.2,
+      "duration": 0.8,
+      "weight_db": -11.5
+    },
+    {
+      "audio_class": "intense engine rev-up",
+      "starting_time": 4.5,
+      "duration": 2.5,
+      "weight_db": -13.0
+    }
+  ],
+  "yt_coverage_score": "11.11111111111111",
+  "yt_sync_score": "0.0",
+  "yt_gemini_eval_error": "",
+  "yt_gemini_cues_json_cell": "{\"cues\":[{\"audio_class\":\"high-performance racing engine drone\",\"starting_time\":0,\"duration\":10,\"weight_db\":-12.5},{\"audio_class\":\"intense tire screeching\",\"starting_time\":0,\"duration\":2.2,\"weight_db\":-14.0},{\"audio_class\":\"rhythmic trailer percussion\",\"starting_time\":2.1,\"duration\":7.9,\"weight_db\":-13.5},{\"audio_class\":\"fast wind rush / atmospheric ambience\",\"starting_time\":0,\"duration\":10,\"weight_db\":-28.0},{\"audio_class\":\"mechanical gear shifting click\",\"starting_time\":1.7,\"duration\":0.4,\"weight_db\":-18.5},{\"audio_class\":\"metallic chassis rattle and debris\",\"starting_time\":3.0,\"duration\":5.5,\"weight_db\":-22.0},{\"audio_class\":\"high-pitched cinematic synth riser\",\"starting_time\":6.0,\"duration\":3.5,\"weight_db\":-19.0},{\"audio_class\":\"dramatic low-end impact transition\",\"starting_time\":9.2,\"duration\":0.8,\"weight_db\":-11.5},{\"audio_class\":\"intense engine rev-up\",\"starting_time\":4.5,\"duration\":2.5,\"weight_db\":-13.0}]}"
+}

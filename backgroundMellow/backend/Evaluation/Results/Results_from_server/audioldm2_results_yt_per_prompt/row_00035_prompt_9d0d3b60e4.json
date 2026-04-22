@@ -1,0 +1,60 @@
+{
+  "stage": "ok",
+  "saved_at_utc": "2026-04-21T18:51:43.203908+00:00",
+  "source_csv": "/Users/ajitesh/Desktop/BTP/cinemaudio-studio/backend/Evaluation/Results/Results_from_server/audioldm2_results.csv",
+  "row_index": 35,
+  "gemini_model": "gemini-3-flash-preview",
+  "dry_run": false,
+  "from_cached_cues": false,
+  "story_prompt": "A seemingly idyllic suburban life quickly unravels into a supernatural horror, as a woman's transformation and an ominous prophecy lead her to a dark, unsettling forest.",
+  "audio_wav_path": "/Users/ajitesh/Desktop/BTP/cinemaudio-studio/backend/Evaluation/Results/Results_from_server/audioldm_audios/prompt_9d0d3b60e4.wav",
+  "total_seconds": "58.27811673749238",
+  "cues": [
+    {
+      "audio_class": "eerie high-pitched metallic drone",
+      "starting_time": 0.0,
+      "duration": 2.2,
+      "weight_db": -20.0
+    },
+    {
+      "audio_class": "low-frequency atmospheric tension bed",
+      "starting_time": 0.0,
+      "duration": 10.0,
+      "weight_db": -30.0
+    },
+    {
+      "audio_class": "heavy cinematic thud impact",
+      "starting_time": 1.7,
+      "duration": 1.3,
+      "weight_db": -10.5
+    },
+    {
+      "audio_class": "heavy cinematic thud impact",
+      "starting_time": 3.3,
+      "duration": 1.3,
+      "weight_db": -10.5
+    },
+    {
+      "audio_class": "subtle fabric rustle and movement ambience",
+      "starting_time": 5.0,
+      "duration": 1.8,
+      "weight_db": -28.0
+    },
+    {
+      "audio_class": "sharp mechanical metallic click sound effect",
+      "starting_time": 6.8,
+      "duration": 0.5,
+      "weight_db": -16.0
+    },
+    {
+      "audio_class": "epic orchestral brass stinger with impact",
+      "starting_time": 7.6,
+      "duration": 2.4,
+      "weight_db": -8.0
+    }
+  ],
+  "yt_coverage_score": "0.0",
+  "yt_sync_score": "0.0",
+  "yt_gemini_eval_error": "",
+  "yt_gemini_cues_json_cell": "{\"cues\":[{\"audio_class\":\"eerie high-pitched metallic drone\",\"starting_time\":0.0,\"duration\":2.2,\"weight_db\":-20.0},{\"audio_class\":\"low-frequency atmospheric tension bed\",\"starting_time\":0.0,\"duration\":10.0,\"weight_db\":-30.0},{\"audio_class\":\"heavy cinematic thud impact\",\"starting_time\":1.7,\"duration\":1.3,\"weight_db\":-10.5},{\"audio_class\":\"heavy cinematic thud impact\",\"starting_time\":3.3,\"duration\":1.3,\"weight_db\":-10.5},{\"audio_class\":\"subtle fabric rustle and movement ambience\",\"starting_time\":5.0,\"duration\":1.8,\"weight_db\":-28.0},{\"audio_class\":\"sharp mechanical metallic click sound effect\",\"starting_time\":6.8,\"duration\":0.5,\"weight_db\":-16.0},{\"audio_class\":\"epic orchestral brass stinger with impact\",\"starting_time\":7.6,\"duration\":2.4,\"weight_db\":-8.0}]}"
+}

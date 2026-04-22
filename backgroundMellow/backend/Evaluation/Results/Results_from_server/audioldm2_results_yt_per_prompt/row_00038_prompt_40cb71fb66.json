@@ -1,0 +1,54 @@
+{
+  "stage": "ok",
+  "saved_at_utc": "2026-04-21T18:52:36.658710+00:00",
+  "source_csv": "/Users/ajitesh/Desktop/BTP/cinemaudio-studio/backend/Evaluation/Results/Results_from_server/audioldm2_results.csv",
+  "row_index": 38,
+  "gemini_model": "gemini-3-flash-preview",
+  "dry_run": false,
+  "from_cached_cues": false,
+  "story_prompt": "The scene abruptly shifts from a dimly lit, intense discussion between two men about writing a serial killer's story, punctuated by stark textual reveals and unsettling sound effects, to sun-drenched, idyllic moments of a loving couple joyfully embracing while moving into a charming, tree-lined suburban home, underscored by melancholic music and the nostalgic sound of a record player, hinting at a sharp dichotomy between dark narrative creation and a serene domestic life.",
+  "audio_wav_path": "/Users/ajitesh/Desktop/BTP/cinemaudio-studio/backend/Evaluation/Results/Results_from_server/audioldm_audios/prompt_40cb71fb66.wav",
+  "total_seconds": "58.15122326246152",
+  "cues": [
+    {
+      "audio_class": "low frequency thrumming industrial ambience",
+      "starting_time": 0.0,
+      "duration": 9.0,
+      "weight_db": -28.5
+    },
+    {
+      "audio_class": "heavy rhythmic metallic footsteps",
+      "starting_time": 0.0,
+      "duration": 9.0,
+      "weight_db": -14.2
+    },
+    {
+      "audio_class": "metallic latch clicking / mechanical engagement sound",
+      "starting_time": 0.2,
+      "duration": 1.8,
+      "weight_db": -11.5
+    },
+    {
+      "audio_class": "resonant metallic clangs with reverb",
+      "starting_time": 2.0,
+      "duration": 3.5,
+      "weight_db": -16.0
+    },
+    {
+      "audio_class": "mechanical gear sequence / rhythmic ticking",
+      "starting_time": 4.5,
+      "duration": 2.5,
+      "weight_db": -19.5
+    },
+    {
+      "audio_class": "heavy metallic impact / final stomp",
+      "starting_time": 7.2,
+      "duration": 1.8,
+      "weight_db": -8.0
+    }
+  ],
+  "yt_coverage_score": "16.666666666666664",
+  "yt_sync_score": "0.0",
+  "yt_gemini_eval_error": "",
+  "yt_gemini_cues_json_cell": "{\"cues\":[{\"audio_class\":\"low frequency thrumming industrial ambience\",\"starting_time\":0.0,\"duration\":9.0,\"weight_db\":-28.5},{\"audio_class\":\"heavy rhythmic metallic footsteps\",\"starting_time\":0.0,\"duration\":9.0,\"weight_db\":-14.2},{\"audio_class\":\"metallic latch clicking / mechanical engagement sound\",\"starting_time\":0.2,\"duration\":1.8,\"weight_db\":-11.5},{\"audio_class\":\"resonant metallic clangs with reverb\",\"starting_time\":2.0,\"duration\":3.5,\"weight_db\":-16.0},{\"audio_class\":\"mechanical gear sequence / rhythmic ticking\",\"starting_time\":4.5,\"duration\":2.5,\"weight_db\":-19.5},{\"audio_class\":\"heavy metallic impact / final stomp\",\"starting_time\":7.2,\"duration\":1.8,\"weight_db\":-8.0}]}"
+}

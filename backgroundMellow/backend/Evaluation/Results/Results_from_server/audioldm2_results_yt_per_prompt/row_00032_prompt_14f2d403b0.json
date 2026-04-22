@@ -1,0 +1,54 @@
+{
+  "stage": "ok",
+  "saved_at_utc": "2026-04-21T18:50:59.123553+00:00",
+  "source_csv": "/Users/ajitesh/Desktop/BTP/cinemaudio-studio/backend/Evaluation/Results/Results_from_server/audioldm2_results.csv",
+  "row_index": 32,
+  "gemini_model": "gemini-3-flash-preview",
+  "dry_run": false,
+  "from_cached_cues": false,
+  "story_prompt": "A terrified woman's desperate flight from an unseen threat culminates in a horrific car collision on a desolate road, abruptly shifting to serene domestic scenes where mundane conversations about a troublesome tree hide a growing unease, underscored by glimpses of predatory wildlife in the night.",
+  "audio_wav_path": "/Users/ajitesh/Desktop/BTP/cinemaudio-studio/backend/Evaluation/Results/Results_from_server/audioldm_audios/prompt_14f2d403b0.wav",
+  "total_seconds": "58.39521153923124",
+  "cues": [
+    {
+      "audio_class": "low-frequency industrial drone",
+      "starting_time": 0.0,
+      "duration": 9.0,
+      "weight_db": -28.0
+    },
+    {
+      "audio_class": "high-pitched mechanical screech",
+      "starting_time": 0.8,
+      "duration": 1.7,
+      "weight_db": -14.5
+    },
+    {
+      "audio_class": "distant metallic clinking",
+      "starting_time": 2.8,
+      "duration": 1.8,
+      "weight_db": -23.0
+    },
+    {
+      "audio_class": "heavy mechanical impact stomp",
+      "starting_time": 5.2,
+      "duration": 0.9,
+      "weight_db": -9.0
+    },
+    {
+      "audio_class": "guttural creature roar and breathing",
+      "starting_time": 6.4,
+      "duration": 1.6,
+      "weight_db": -12.5
+    },
+    {
+      "audio_class": "rushing atmospheric wind whoosh",
+      "starting_time": 7.8,
+      "duration": 1.2,
+      "weight_db": -19.0
+    }
+  ],
+  "yt_coverage_score": "0.0",
+  "yt_sync_score": "0.0",
+  "yt_gemini_eval_error": "",
+  "yt_gemini_cues_json_cell": "{\"cues\":[{\"audio_class\":\"low-frequency industrial drone\",\"starting_time\":0.0,\"duration\":9.0,\"weight_db\":-28.0},{\"audio_class\":\"high-pitched mechanical screech\",\"starting_time\":0.8,\"duration\":1.7,\"weight_db\":-14.5},{\"audio_class\":\"distant metallic clinking\",\"starting_time\":2.8,\"duration\":1.8,\"weight_db\":-23.0},{\"audio_class\":\"heavy mechanical impact stomp\",\"starting_time\":5.2,\"duration\":0.9,\"weight_db\":-9.0},{\"audio_class\":\"guttural creature roar and breathing\",\"starting_time\":6.4,\"duration\":1.6,\"weight_db\":-12.5},{\"audio_class\":\"rushing atmospheric wind whoosh\",\"starting_time\":7.8,\"duration\":1.2,\"weight_db\":-19.0}]}"
+}

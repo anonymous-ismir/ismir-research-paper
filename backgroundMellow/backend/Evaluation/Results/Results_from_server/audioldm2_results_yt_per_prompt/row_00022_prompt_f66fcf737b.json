@@ -1,0 +1,72 @@
+{
+  "stage": "ok",
+  "saved_at_utc": "2026-04-21T18:47:45.072394+00:00",
+  "source_csv": "/Users/ajitesh/Desktop/BTP/cinemaudio-studio/backend/Evaluation/Results/Results_from_server/audioldm2_results.csv",
+  "row_index": 22,
+  "gemini_model": "gemini-3-flash-preview",
+  "dry_run": false,
+  "from_cached_cues": false,
+  "story_prompt": "A whirlwind montage of chaotic opulence, arrests, and extravagant revelry quickly transitions to a serene high-rise restaurant where a quirky mentor introduces a rhythmic, self-affirming ritual to a wide-eyed prot��g�� against the backdrop of a bustling city.",
+  "audio_wav_path": "/Users/ajitesh/Desktop/BTP/cinemaudio-studio/backend/Evaluation/Results/Results_from_server/audioldm_audios/prompt_f66fcf737b.wav",
+  "total_seconds": "58.136630796361715",
+  "cues": [
+    {
+      "audio_class": "high-energy pop rock trailer music with driving drums",
+      "starting_time": 0.0,
+      "duration": 10.0,
+      "weight_db": -16.5
+    },
+    {
+      "audio_class": "male dialogue (narration style)",
+      "starting_time": 0.2,
+      "duration": 3.5,
+      "weight_db": -10.0
+    },
+    {
+      "audio_class": "camera shutter clicks and flash sound effects",
+      "starting_time": 0.0,
+      "duration": 1.5,
+      "weight_db": -22.0
+    },
+    {
+      "audio_class": "heavy thud / body landing impact sound effect",
+      "starting_time": 3.1,
+      "duration": 0.7,
+      "weight_db": -12.5
+    },
+    {
+      "audio_class": "ambient crowd noise and background chatter",
+      "starting_time": 0.0,
+      "duration": 10.0,
+      "weight_db": -30.0
+    },
+    {
+      "audio_class": "female dialogue / set assistant voice",
+      "starting_time": 4.2,
+      "duration": 1.8,
+      "weight_db": -11.0
+    },
+    {
+      "audio_class": "car engine revving with tire screech whoosh",
+      "starting_time": 6.3,
+      "duration": 1.4,
+      "weight_db": -14.5
+    },
+    {
+      "audio_class": "sharp cinematic impact / punch sound effect",
+      "starting_time": 7.9,
+      "duration": 0.6,
+      "weight_db": -11.5
+    },
+    {
+      "audio_class": "deep rhythmic synth bass pulse",
+      "starting_time": 9.2,
+      "duration": 0.8,
+      "weight_db": -13.0
+    }
+  ],
+  "yt_coverage_score": "20.0",
+  "yt_sync_score": "0.0",
+  "yt_gemini_eval_error": "",
+  "yt_gemini_cues_json_cell": "{\"cues\":[{\"audio_class\":\"high-energy pop rock trailer music with driving drums\",\"starting_time\":0.0,\"duration\":10.0,\"weight_db\":-16.5},{\"audio_class\":\"male dialogue (narration style)\",\"starting_time\":0.2,\"duration\":3.5,\"weight_db\":-10.0},{\"audio_class\":\"camera shutter clicks and flash sound effects\",\"starting_time\":0.0,\"duration\":1.5,\"weight_db\":-22.0},{\"audio_class\":\"heavy thud / body landing impact sound effect\",\"starting_time\":3.1,\"duration\":0.7,\"weight_db\":-12.5},{\"audio_class\":\"ambient crowd noise and background chatter\",\"starting_time\":0.0,\"duration\":10.0,\"weight_db\":-30.0},{\"audio_class\":\"female dialogue / set assistant voice\",\"starting_time\":4.2,\"duration\":1.8,\"weight_db\":-11.0},{\"audio_class\":\"car engine revving with tire screech whoosh\",\"starting_time\":6.3,\"duration\":1.4,\"weight_db\":-14.5},{\"audio_class\":\"sharp cinematic impact / punch sound effect\",\"starting_time\":7.9,\"duration\":0.6,\"weight_db\":-11.5},{\"audio_class\":\"deep rhythmic synth bass pulse\",\"starting_time\":9.2,\"duration\":0.8,\"weight_db\":-13.0}]}"
+}

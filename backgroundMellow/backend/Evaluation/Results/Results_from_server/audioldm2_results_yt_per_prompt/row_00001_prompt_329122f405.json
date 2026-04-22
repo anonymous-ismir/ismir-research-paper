@@ -1,0 +1,72 @@
+{
+  "stage": "ok",
+  "saved_at_utc": "2026-04-21T18:41:18.173496+00:00",
+  "source_csv": "/Users/ajitesh/Desktop/BTP/cinemaudio-studio/backend/Evaluation/Results/Results_from_server/audioldm2_results.csv",
+  "row_index": 1,
+  "gemini_model": "gemini-3-flash-preview",
+  "dry_run": false,
+  "from_cached_cues": false,
+  "story_prompt": "Amidst the warm, inviting interiors of a family home, various generations interact with tender moments and subtle tensions, hinting at complex familial bonds and underlying emotional struggles.",
+  "audio_wav_path": "/Users/ajitesh/Desktop/BTP/cinemaudio-studio/backend/Evaluation/Results/Results_from_server/audioldm_audios/prompt_329122f405.wav",
+  "total_seconds": "57.935262045357376",
+  "cues": [
+    {
+      "audio_class": "ambient atmospheric wind and room tone",
+      "starting_time": 0.0,
+      "duration": 10.0,
+      "weight_db": -25.0
+    },
+    {
+      "audio_class": "ethereal breathy flute melody with reverb",
+      "starting_time": 0.0,
+      "duration": 10.0,
+      "weight_db": -12.0
+    },
+    {
+      "audio_class": "resonant metallic chime hit",
+      "starting_time": 0.5,
+      "duration": 2.5,
+      "weight_db": -10.5
+    },
+    {
+      "audio_class": "resonant metallic chime hit",
+      "starting_time": 2.5,
+      "duration": 2.5,
+      "weight_db": -10.5
+    },
+    {
+      "audio_class": "resonant metallic chime hit",
+      "starting_time": 4.5,
+      "duration": 2.5,
+      "weight_db": -10.5
+    },
+    {
+      "audio_class": "resonant metallic chime hit",
+      "starting_time": 6.5,
+      "duration": 2.5,
+      "weight_db": -10.5
+    },
+    {
+      "audio_class": "resonant metallic chime hit",
+      "starting_time": 8.5,
+      "duration": 1.5,
+      "weight_db": -10.5
+    },
+    {
+      "audio_class": "steady low-frequency digital pulse",
+      "starting_time": 0.0,
+      "duration": 10.0,
+      "weight_db": -18.0
+    },
+    {
+      "audio_class": "soft high-pitched synth pad",
+      "starting_time": 0.0,
+      "duration": 10.0,
+      "weight_db": -22.0
+    }
+  ],
+  "yt_coverage_score": "0.0",
+  "yt_sync_score": "0.0",
+  "yt_gemini_eval_error": "",
+  "yt_gemini_cues_json_cell": "{\"cues\":[{\"audio_class\":\"ambient atmospheric wind and room tone\",\"starting_time\":0.0,\"duration\":10.0,\"weight_db\":-25.0},{\"audio_class\":\"ethereal breathy flute melody with reverb\",\"starting_time\":0.0,\"duration\":10.0,\"weight_db\":-12.0},{\"audio_class\":\"resonant metallic chime hit\",\"starting_time\":0.5,\"duration\":2.5,\"weight_db\":-10.5},{\"audio_class\":\"resonant metallic chime hit\",\"starting_time\":2.5,\"duration\":2.5,\"weight_db\":-10.5},{\"audio_class\":\"resonant metallic chime hit\",\"starting_time\":4.5,\"duration\":2.5,\"weight_db\":-10.5},{\"audio_class\":\"resonant metallic chime hit\",\"starting_time\":6.5,\"duration\":2.5,\"weight_db\":-10.5},{\"audio_class\":\"resonant metallic chime hit\",\"starting_time\":8.5,\"duration\":1.5,\"weight_db\":-10.5},{\"audio_class\":\"steady low-frequency digital pulse\",\"starting_time\":0.0,\"duration\":10.0,\"weight_db\":-18.0},{\"audio_class\":\"soft high-pitched synth pad\",\"starting_time\":0.0,\"duration\":10.0,\"weight_db\":-22.0}]}"
+}

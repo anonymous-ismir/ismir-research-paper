@@ -1,0 +1,78 @@
+{
+  "stage": "ok",
+  "saved_at_utc": "2026-04-21T18:50:44.851103+00:00",
+  "source_csv": "/Users/ajitesh/Desktop/BTP/cinemaudio-studio/backend/Evaluation/Results/Results_from_server/audioldm2_results.csv",
+  "row_index": 31,
+  "gemini_model": "gemini-3-flash-preview",
+  "dry_run": false,
+  "from_cached_cues": false,
+  "story_prompt": "The clip rapidly transitions from intense night-time urban chaos and a distressed hospital scene to a desert car chase culminating in massive explosions and a frantic escape through a tunnel, before abruptly shifting to a serene rural landscape with calm conversation, setting a jarring contrast between high-stakes action and peaceful contemplation.",
+  "audio_wav_path": "/Users/ajitesh/Desktop/BTP/cinemaudio-studio/backend/Evaluation/Results/Results_from_server/audioldm_audios/prompt_81cc68b142.wav",
+  "total_seconds": "57.094570599729195",
+  "cues": [
+    {
+      "audio_class": "low-frequency ambient rumble",
+      "starting_time": 0.0,
+      "duration": 10.0,
+      "weight_db": -28.5
+    },
+    {
+      "audio_class": "heavy rhythmic percussive impacts",
+      "starting_time": 0.0,
+      "duration": 1.8,
+      "weight_db": -12.0
+    },
+    {
+      "audio_class": "atmospheric synth tension riser",
+      "starting_time": 1.2,
+      "duration": 3.0,
+      "weight_db": -20.5
+    },
+    {
+      "audio_class": "mechanical metallic scraping SFX",
+      "starting_time": 3.5,
+      "duration": 1.5,
+      "weight_db": -16.0
+    },
+    {
+      "audio_class": "rhythmic train-like metallic chugging",
+      "starting_time": 4.8,
+      "duration": 2.2,
+      "weight_db": -11.5
+    },
+    {
+      "audio_class": "high-pitched steam hiss / pressure release",
+      "starting_time": 5.8,
+      "duration": 1.4,
+      "weight_db": -22.0
+    },
+    {
+      "audio_class": "dramatic cinematic impact / sub boom",
+      "starting_time": 6.8,
+      "duration": 1.5,
+      "weight_db": -7.0
+    },
+    {
+      "audio_class": "syncopated heavy metallic crashes",
+      "starting_time": 7.5,
+      "duration": 1.5,
+      "weight_db": -5.5
+    },
+    {
+      "audio_class": "distant ambient shouting and screaming",
+      "starting_time": 8.6,
+      "duration": 1.4,
+      "weight_db": -24.0
+    },
+    {
+      "audio_class": "final low-end tail / vibration fade",
+      "starting_time": 9.5,
+      "duration": 0.5,
+      "weight_db": -35.0
+    }
+  ],
+  "yt_coverage_score": "28.57142857142857",
+  "yt_sync_score": "0.0",
+  "yt_gemini_eval_error": "",
+  "yt_gemini_cues_json_cell": "{\"cues\":[{\"audio_class\":\"low-frequency ambient rumble\",\"starting_time\":0.0,\"duration\":10.0,\"weight_db\":-28.5},{\"audio_class\":\"heavy rhythmic percussive impacts\",\"starting_time\":0.0,\"duration\":1.8,\"weight_db\":-12.0},{\"audio_class\":\"atmospheric synth tension riser\",\"starting_time\":1.2,\"duration\":3.0,\"weight_db\":-20.5},{\"audio_class\":\"mechanical metallic scraping SFX\",\"starting_time\":3.5,\"duration\":1.5,\"weight_db\":-16.0},{\"audio_class\":\"rhythmic train-like metallic chugging\",\"starting_time\":4.8,\"duration\":2.2,\"weight_db\":-11.5},{\"audio_class\":\"high-pitched steam hiss / pressure release\",\"starting_time\":5.8,\"duration\":1.4,\"weight_db\":-22.0},{\"audio_class\":\"dramatic cinematic impact / sub boom\",\"starting_time\":6.8,\"duration\":1.5,\"weight_db\":-7.0},{\"audio_class\":\"syncopated heavy metallic crashes\",\"starting_time\":7.5,\"duration\":1.5,\"weight_db\":-5.5},{\"audio_class\":\"distant ambient shouting and screaming\",\"starting_time\":8.6,\"duration\":1.4,\"weight_db\":-24.0},{\"audio_class\":\"final low-end tail / vibration fade\",\"starting_time\":9.5,\"duration\":0.5,\"weight_db\":-35.0}]}"
+}

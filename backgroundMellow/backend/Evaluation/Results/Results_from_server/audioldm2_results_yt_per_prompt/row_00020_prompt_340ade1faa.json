@@ -1,0 +1,60 @@
+{
+  "stage": "ok",
+  "saved_at_utc": "2026-04-21T18:47:01.691402+00:00",
+  "source_csv": "/Users/ajitesh/Desktop/BTP/cinemaudio-studio/backend/Evaluation/Results/Results_from_server/audioldm2_results.csv",
+  "row_index": 20,
+  "gemini_model": "gemini-3-flash-preview",
+  "dry_run": false,
+  "from_cached_cues": false,
+  "story_prompt": "Within the grim confines of a prison yard and mess hall, an inmate's quiet contemplation of the sky and the natural world beyond inspires a fellow prisoner to articulate the enduring power of hope against formidable walls, a sentiment one wise elder acknowledges with a cautionary warning.",
+  "audio_wav_path": "/Users/ajitesh/Desktop/BTP/cinemaudio-studio/backend/Evaluation/Results/Results_from_server/audioldm_audios/prompt_340ade1faa.wav",
+  "total_seconds": "58.25936421332881",
+  "cues": [
+    {
+      "audio_class": "low-frequency atmospheric room tone",
+      "starting_time": 0.0,
+      "duration": 10.0,
+      "weight_db": -30.0
+    },
+    {
+      "audio_class": "distant crowd chatter and public space ambience",
+      "starting_time": 0.0,
+      "duration": 5.0,
+      "weight_db": -26.5
+    },
+    {
+      "audio_class": "reverberant female voice public address announcement",
+      "starting_time": 0.8,
+      "duration": 2.5,
+      "weight_db": -21.0
+    },
+    {
+      "audio_class": "dark ambient synth pad underscore",
+      "starting_time": 0.0,
+      "duration": 10.0,
+      "weight_db": -24.0
+    },
+    {
+      "audio_class": "soft rhythmic footsteps on hard floor",
+      "starting_time": 3.8,
+      "duration": 2.2,
+      "weight_db": -28.0
+    },
+    {
+      "audio_class": "male dialogue: 'Wait, so what does he mean?'",
+      "starting_time": 6.2,
+      "duration": 2.4,
+      "weight_db": -12.0
+    },
+    {
+      "audio_class": "subtle bass synth swell",
+      "starting_time": 8.5,
+      "duration": 1.5,
+      "weight_db": -19.5
+    }
+  ],
+  "yt_coverage_score": "0.0",
+  "yt_sync_score": "0.0",
+  "yt_gemini_eval_error": "",
+  "yt_gemini_cues_json_cell": "{\"cues\":[{\"audio_class\":\"low-frequency atmospheric room tone\",\"starting_time\":0.0,\"duration\":10.0,\"weight_db\":-30.0},{\"audio_class\":\"distant crowd chatter and public space ambience\",\"starting_time\":0.0,\"duration\":5.0,\"weight_db\":-26.5},{\"audio_class\":\"reverberant female voice public address announcement\",\"starting_time\":0.8,\"duration\":2.5,\"weight_db\":-21.0},{\"audio_class\":\"dark ambient synth pad underscore\",\"starting_time\":0.0,\"duration\":10.0,\"weight_db\":-24.0},{\"audio_class\":\"soft rhythmic footsteps on hard floor\",\"starting_time\":3.8,\"duration\":2.2,\"weight_db\":-28.0},{\"audio_class\":\"male dialogue: 'Wait, so what does he mean?'\",\"starting_time\":6.2,\"duration\":2.4,\"weight_db\":-12.0},{\"audio_class\":\"subtle bass synth swell\",\"starting_time\":8.5,\"duration\":1.5,\"weight_db\":-19.5}]}"
+}

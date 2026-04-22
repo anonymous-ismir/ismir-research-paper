@@ -1,0 +1,84 @@
+{
+  "stage": "ok",
+  "saved_at_utc": "2026-04-21T19:03:33.597280+00:00",
+  "source_csv": "/Users/ajitesh/Desktop/BTP/cinemaudio-studio/backend/Evaluation/Results/Results_from_server/tango2_results.csv",
+  "row_index": 31,
+  "gemini_model": "gemini-3-flash-preview",
+  "dry_run": false,
+  "from_cached_cues": false,
+  "story_prompt": "The clip rapidly transitions from intense night-time urban chaos and a distressed hospital scene to a desert car chase culminating in massive explosions and a frantic escape through a tunnel, before abruptly shifting to a serene rural landscape with calm conversation, setting a jarring contrast between high-stakes action and peaceful contemplation.",
+  "audio_wav_path": "/Users/ajitesh/Desktop/BTP/cinemaudio-studio/backend/Evaluation/Results/Results_from_server/tango2_audios/prompt_81cc68b142.wav",
+  "total_seconds": "49.186886282637715",
+  "cues": [
+    {
+      "audio_class": "epic orchestral music with aggressive percussion and staccato strings",
+      "starting_time": 0.0,
+      "duration": 9.0,
+      "weight_db": -12.5
+    },
+    {
+      "audio_class": "crowd screaming and chaotic panic ambience",
+      "starting_time": 0.0,
+      "duration": 3.5,
+      "weight_db": -15.0
+    },
+    {
+      "audio_class": "metallic industrial clang / impact",
+      "starting_time": 0.2,
+      "duration": 0.8,
+      "weight_db": -8.0
+    },
+    {
+      "audio_class": "high-pitched screech / whoosh transition",
+      "starting_time": 1.2,
+      "duration": 1.1,
+      "weight_db": -10.5
+    },
+    {
+      "audio_class": "heavy dramatic thud / stomp effect",
+      "starting_time": 2.1,
+      "duration": 0.9,
+      "weight_db": -7.5
+    },
+    {
+      "audio_class": "deep distorted industrial siren / horn sound",
+      "starting_time": 3.1,
+      "duration": 1.4,
+      "weight_db": -6.0
+    },
+    {
+      "audio_class": "massive cinematic explosion impact",
+      "starting_time": 4.0,
+      "duration": 2.5,
+      "weight_db": -5.0
+    },
+    {
+      "audio_class": "deep low-frequency rumble / seismic ambience",
+      "starting_time": 4.5,
+      "duration": 4.5,
+      "weight_db": -20.0
+    },
+    {
+      "audio_class": "metallic scraping / blade-like transition",
+      "starting_time": 5.8,
+      "duration": 1.2,
+      "weight_db": -12.0
+    },
+    {
+      "audio_class": "debris falling and crumbling sound effect",
+      "starting_time": 7.0,
+      "duration": 2.0,
+      "weight_db": -18.5
+    },
+    {
+      "audio_class": "final orchestral crescendo / riser",
+      "starting_time": 8.0,
+      "duration": 1.0,
+      "weight_db": -10.0
+    }
+  ],
+  "yt_coverage_score": "42.857142857142854",
+  "yt_sync_score": "0.005001978466740063",
+  "yt_gemini_eval_error": "",
+  "yt_gemini_cues_json_cell": "{\"cues\":[{\"audio_class\":\"epic orchestral music with aggressive percussion and staccato strings\",\"starting_time\":0.0,\"duration\":9.0,\"weight_db\":-12.5},{\"audio_class\":\"crowd screaming and chaotic panic ambience\",\"starting_time\":0.0,\"duration\":3.5,\"weight_db\":-15.0},{\"audio_class\":\"metallic industrial clang / impact\",\"starting_time\":0.2,\"duration\":0.8,\"weight_db\":-8.0},{\"audio_class\":\"high-pitched screech / whoosh transition\",\"starting_time\":1.2,\"duration\":1.1,\"weight_db\":-10.5},{\"audio_class\":\"heavy dramatic thud / stomp effect\",\"starting_time\":2.1,\"duration\":0.9,\"weight_db\":-7.5},{\"audio_class\":\"deep distorted industrial siren / horn sound\",\"starting_time\":3.1,\"duration\":1.4,\"weight_db\":-6.0},{\"audio_class\":\"massive cinematic explosion impact\",\"starting_time\":4.0,\"duration\":2.5,\"weight_db\":-5.0},{\"audio_class\":\"deep low-frequency rumble / seismic ambience\",\"starting_time\":4.5,\"duration\":4.5,\"weight_db\":-20.0},{\"audio_class\":\"metallic scraping / blade-like transition\",\"starting_time\":5.8,\"duration\":1.2,\"weight_db\":-12.0},{\"audio_class\":\"debris falling and crumbling sound effect\",\"starting_time\":7.0,\"duration\":2.0,\"weight_db\":-18.5},{\"audio_class\":\"final orchestral crescendo / riser\",\"starting_time\":8.0,\"duration\":1.0,\"weight_db\":-10.0}]}"
+}

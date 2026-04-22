@@ -1,0 +1,66 @@
+{
+  "stage": "ok",
+  "saved_at_utc": "2026-04-21T18:58:59.970906+00:00",
+  "source_csv": "/Users/ajitesh/Desktop/BTP/cinemaudio-studio/backend/Evaluation/Results/Results_from_server/tango2_results.csv",
+  "row_index": 20,
+  "gemini_model": "gemini-3-flash-preview",
+  "dry_run": false,
+  "from_cached_cues": false,
+  "story_prompt": "Within the grim confines of a prison yard and mess hall, an inmate's quiet contemplation of the sky and the natural world beyond inspires a fellow prisoner to articulate the enduring power of hope against formidable walls, a sentiment one wise elder acknowledges with a cautionary warning.",
+  "audio_wav_path": "/Users/ajitesh/Desktop/BTP/cinemaudio-studio/backend/Evaluation/Results/Results_from_server/tango2_audios/prompt_340ade1faa.wav",
+  "total_seconds": "49.49120091297664",
+  "cues": [
+    {
+      "audio_class": "energetic male narrator",
+      "starting_time": 0.0,
+      "duration": 9.5,
+      "weight_db": -6.5
+    },
+    {
+      "audio_class": "high-energy electronic hybrid trailer music",
+      "starting_time": 0.0,
+      "duration": 10.0,
+      "weight_db": -14.2
+    },
+    {
+      "audio_class": "dramatic cinematic impact / sub-bass boom",
+      "starting_time": 0.0,
+      "duration": 1.8,
+      "weight_db": -4.0
+    },
+    {
+      "audio_class": "rushing wind and high-pitched cheering ambience",
+      "starting_time": 0.0,
+      "duration": 10.0,
+      "weight_db": -18.5
+    },
+    {
+      "audio_class": "rhythmic synth bass pulse",
+      "starting_time": 2.3,
+      "duration": 0.6,
+      "weight_db": -11.0
+    },
+    {
+      "audio_class": "rhythmic synth bass pulse",
+      "starting_time": 4.8,
+      "duration": 0.6,
+      "weight_db": -11.5
+    },
+    {
+      "audio_class": "rhythmic synth bass pulse",
+      "starting_time": 7.4,
+      "duration": 0.6,
+      "weight_db": -11.2
+    },
+    {
+      "audio_class": "sub-bass low end rumble",
+      "starting_time": 0.5,
+      "duration": 9.5,
+      "weight_db": -22.0
+    }
+  ],
+  "yt_coverage_score": "0.0",
+  "yt_sync_score": "0.0",
+  "yt_gemini_eval_error": "",
+  "yt_gemini_cues_json_cell": "{\"cues\":[{\"audio_class\":\"energetic male narrator\",\"starting_time\":0.0,\"duration\":9.5,\"weight_db\":-6.5},{\"audio_class\":\"high-energy electronic hybrid trailer music\",\"starting_time\":0.0,\"duration\":10.0,\"weight_db\":-14.2},{\"audio_class\":\"dramatic cinematic impact / sub-bass boom\",\"starting_time\":0.0,\"duration\":1.8,\"weight_db\":-4.0},{\"audio_class\":\"rushing wind and high-pitched cheering ambience\",\"starting_time\":0.0,\"duration\":10.0,\"weight_db\":-18.5},{\"audio_class\":\"rhythmic synth bass pulse\",\"starting_time\":2.3,\"duration\":0.6,\"weight_db\":-11.0},{\"audio_class\":\"rhythmic synth bass pulse\",\"starting_time\":4.8,\"duration\":0.6,\"weight_db\":-11.5},{\"audio_class\":\"rhythmic synth bass pulse\",\"starting_time\":7.4,\"duration\":0.6,\"weight_db\":-11.2},{\"audio_class\":\"sub-bass low end rumble\",\"starting_time\":0.5,\"duration\":9.5,\"weight_db\":-22.0}]}"
+}

@@ -1,0 +1,11 @@
+ablation,mean_rank
+toggle_use_dsp_to_predict_align,4.724137931034483
+decide_model_gemini-2.5-flash,4.879310344827586
+toggle_use_dsp,5.379310344827586
+BackgroundMellow_baseline,5.4655172413793105
+toggle_use_avg_llm_and_dsp_to_predict_align,5.5
+toggle_use_llm_to_predict_align,5.517241379310345
+toggle_fill_coverage_by_llm,5.603448275862069
+toggle_use_dl_based_llm_and_dsp_alignment_predictor,5.827586206896552
+toggle_use_narrator,5.844827586206897
+toggle_use_movie_bgms,6.258620689655173

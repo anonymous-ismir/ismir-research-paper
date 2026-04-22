@@ -1,0 +1,66 @@
+{
+  "stage": "ok",
+  "saved_at_utc": "2026-04-21T18:46:13.708887+00:00",
+  "source_csv": "/Users/ajitesh/Desktop/BTP/cinemaudio-studio/backend/Evaluation/Results/Results_from_server/audioldm2_results.csv",
+  "row_index": 17,
+  "gemini_model": "gemini-3-flash-preview",
+  "dry_run": false,
+  "from_cached_cues": false,
+  "story_prompt": "The final moments of the trailer reveal the film's stark title and essential creative credits against a dark, bokeh-lit backdrop, culminating in a series of production company logos, signifying a contemplative conclusion.",
+  "audio_wav_path": "/Users/ajitesh/Desktop/BTP/cinemaudio-studio/backend/Evaluation/Results/Results_from_server/audioldm_audios/prompt_09c8867f9e.wav",
+  "total_seconds": "58.85967511846684",
+  "cues": [
+    {
+      "audio_class": "low-frequency atmospheric rumble",
+      "starting_time": 0.0,
+      "duration": 9.0,
+      "weight_db": -25.0
+    },
+    {
+      "audio_class": "cinematic bass braam impact",
+      "starting_time": 1.0,
+      "duration": 2.5,
+      "weight_db": -8.0
+    },
+    {
+      "audio_class": "orchestral tension riser with strings",
+      "starting_time": 1.2,
+      "duration": 3.3,
+      "weight_db": -14.5
+    },
+    {
+      "audio_class": "metallic mechanical clank impact",
+      "starting_time": 2.1,
+      "duration": 1.5,
+      "weight_db": -11.0
+    },
+    {
+      "audio_class": "heavy cinematic percussive hit",
+      "starting_time": 4.3,
+      "duration": 1.8,
+      "weight_db": -9.5
+    },
+    {
+      "audio_class": "high-pitched digital synth pulse",
+      "starting_time": 6.2,
+      "duration": 1.2,
+      "weight_db": -18.0
+    },
+    {
+      "audio_class": "deep synth bass drone",
+      "starting_time": 6.5,
+      "duration": 2.5,
+      "weight_db": -21.0
+    },
+    {
+      "audio_class": "fast transition whoosh sound effect",
+      "starting_time": 8.2,
+      "duration": 0.8,
+      "weight_db": -13.5
+    }
+  ],
+  "yt_coverage_score": "100.0",
+  "yt_sync_score": "0.0",
+  "yt_gemini_eval_error": "",
+  "yt_gemini_cues_json_cell": "{\"cues\":[{\"audio_class\":\"low-frequency atmospheric rumble\",\"starting_time\":0.0,\"duration\":9.0,\"weight_db\":-25.0},{\"audio_class\":\"cinematic bass braam impact\",\"starting_time\":1.0,\"duration\":2.5,\"weight_db\":-8.0},{\"audio_class\":\"orchestral tension riser with strings\",\"starting_time\":1.2,\"duration\":3.3,\"weight_db\":-14.5},{\"audio_class\":\"metallic mechanical clank impact\",\"starting_time\":2.1,\"duration\":1.5,\"weight_db\":-11.0},{\"audio_class\":\"heavy cinematic percussive hit\",\"starting_time\":4.3,\"duration\":1.8,\"weight_db\":-9.5},{\"audio_class\":\"high-pitched digital synth pulse\",\"starting_time\":6.2,\"duration\":1.2,\"weight_db\":-18.0},{\"audio_class\":\"deep synth bass drone\",\"starting_time\":6.5,\"duration\":2.5,\"weight_db\":-21.0},{\"audio_class\":\"fast transition whoosh sound effect\",\"starting_time\":8.2,\"duration\":0.8,\"weight_db\":-13.5}]}"
+}

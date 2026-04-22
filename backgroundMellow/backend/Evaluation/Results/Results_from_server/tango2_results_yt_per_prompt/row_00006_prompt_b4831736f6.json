@@ -1,0 +1,60 @@
+{
+  "stage": "ok",
+  "saved_at_utc": "2026-04-21T18:55:09.984462+00:00",
+  "source_csv": "/Users/ajitesh/Desktop/BTP/cinemaudio-studio/backend/Evaluation/Results/Results_from_server/tango2_results.csv",
+  "row_index": 6,
+  "gemini_model": "gemini-3-flash-preview",
+  "dry_run": false,
+  "from_cached_cues": false,
+  "story_prompt": "A young warrior and his companion navigate perilous desert dunes, demonstrating raw, determined power as they use fremkit hooks to traverse the shifting sands, facing unseen, colossal forces that violently disturb the very landscape.",
+  "audio_wav_path": "/Users/ajitesh/Desktop/BTP/cinemaudio-studio/backend/Evaluation/Results/Results_from_server/tango2_audios/prompt_b4831736f6.wav",
+  "total_seconds": "50.113798985257745",
+  "cues": [
+    {
+      "audio_class": "intense high-pitched screaming and vocal chaos",
+      "starting_time": 0.0,
+      "duration": 3.5,
+      "weight_db": -8.2
+    },
+    {
+      "audio_class": "high-energy rhythmic industrial percussion",
+      "starting_time": 0.0,
+      "duration": 10.0,
+      "weight_db": -11.5
+    },
+    {
+      "audio_class": "deep cinematic low-frequency mechanical drone",
+      "starting_time": 0.0,
+      "duration": 10.0,
+      "weight_db": -24.0
+    },
+    {
+      "audio_class": "high-pitched metallic screech / mechanical SFX",
+      "starting_time": 1.5,
+      "duration": 2.8,
+      "weight_db": -14.5
+    },
+    {
+      "audio_class": "heavy cinematic sub-bass impact hit",
+      "starting_time": 4.2,
+      "duration": 1.5,
+      "weight_db": -9.8
+    },
+    {
+      "audio_class": "rapid rhythmic electronic synth pulses",
+      "starting_time": 5.8,
+      "duration": 4.2,
+      "weight_db": -15.2
+    },
+    {
+      "audio_class": "rising tension transition whoosh effect",
+      "starting_time": 8.2,
+      "duration": 1.8,
+      "weight_db": -13.0
+    }
+  ],
+  "yt_coverage_score": "14.285714285714285",
+  "yt_sync_score": "0.0",
+  "yt_gemini_eval_error": "",
+  "yt_gemini_cues_json_cell": "{\"cues\":[{\"audio_class\":\"intense high-pitched screaming and vocal chaos\",\"starting_time\":0.0,\"duration\":3.5,\"weight_db\":-8.2},{\"audio_class\":\"high-energy rhythmic industrial percussion\",\"starting_time\":0.0,\"duration\":10.0,\"weight_db\":-11.5},{\"audio_class\":\"deep cinematic low-frequency mechanical drone\",\"starting_time\":0.0,\"duration\":10.0,\"weight_db\":-24.0},{\"audio_class\":\"high-pitched metallic screech / mechanical SFX\",\"starting_time\":1.5,\"duration\":2.8,\"weight_db\":-14.5},{\"audio_class\":\"heavy cinematic sub-bass impact hit\",\"starting_time\":4.2,\"duration\":1.5,\"weight_db\":-9.8},{\"audio_class\":\"rapid rhythmic electronic synth pulses\",\"starting_time\":5.8,\"duration\":4.2,\"weight_db\":-15.2},{\"audio_class\":\"rising tension transition whoosh effect\",\"starting_time\":8.2,\"duration\":1.8,\"weight_db\":-13.0}]}"
+}

@@ -1,0 +1,72 @@
+{
+  "stage": "ok",
+  "saved_at_utc": "2026-04-21T18:51:58.448864+00:00",
+  "source_csv": "/Users/ajitesh/Desktop/BTP/cinemaudio-studio/backend/Evaluation/Results/Results_from_server/audioldm2_results.csv",
+  "row_index": 36,
+  "gemini_model": "gemini-3-flash-preview",
+  "dry_run": false,
+  "from_cached_cues": false,
+  "story_prompt": "As an ancient ritual inadvertently unleashes terrifying demonic forces upon a modern city, desperate citizens and heroes alike must confront overwhelming destruction and grotesque horrors, culminating in a poignant moment of familial fear amidst the chaos.",
+  "audio_wav_path": "/Users/ajitesh/Desktop/BTP/cinemaudio-studio/backend/Evaluation/Results/Results_from_server/audioldm_audios/prompt_481180dad2.wav",
+  "total_seconds": "58.178170677895345",
+  "cues": [
+    {
+      "audio_class": "ambient crowd cheering and shouting",
+      "starting_time": 0,
+      "duration": 10,
+      "weight_db": -20.0
+    },
+    {
+      "audio_class": "heavy rhythmic breathing and grunting",
+      "starting_time": 0,
+      "duration": 1.5,
+      "weight_db": -12.0
+    },
+    {
+      "audio_class": "dramatic orchestral brass impact",
+      "starting_time": 1.0,
+      "duration": 1.2,
+      "weight_db": -8.0
+    },
+    {
+      "audio_class": "epic orchestral music with rhythmic strings",
+      "starting_time": 1.5,
+      "duration": 8.5,
+      "weight_db": -15.0
+    },
+    {
+      "audio_class": "heavy cinematic drum hit",
+      "starting_time": 2.8,
+      "duration": 0.5,
+      "weight_db": -9.0
+    },
+    {
+      "audio_class": "heavy cinematic drum hit",
+      "starting_time": 4.8,
+      "duration": 0.5,
+      "weight_db": -9.0
+    },
+    {
+      "audio_class": "heavy cinematic drum hit",
+      "starting_time": 6.8,
+      "duration": 0.5,
+      "weight_db": -9.0
+    },
+    {
+      "audio_class": "heavy cinematic drum hit",
+      "starting_time": 8.8,
+      "duration": 1.2,
+      "weight_db": -9.0
+    },
+    {
+      "audio_class": "low-end sub-bass rumble",
+      "starting_time": 0,
+      "duration": 10,
+      "weight_db": -25.0
+    }
+  ],
+  "yt_coverage_score": "25.0",
+  "yt_sync_score": "0.0",
+  "yt_gemini_eval_error": "",
+  "yt_gemini_cues_json_cell": "{\"cues\":[{\"audio_class\":\"ambient crowd cheering and shouting\",\"starting_time\":0,\"duration\":10,\"weight_db\":-20.0},{\"audio_class\":\"heavy rhythmic breathing and grunting\",\"starting_time\":0,\"duration\":1.5,\"weight_db\":-12.0},{\"audio_class\":\"dramatic orchestral brass impact\",\"starting_time\":1.0,\"duration\":1.2,\"weight_db\":-8.0},{\"audio_class\":\"epic orchestral music with rhythmic strings\",\"starting_time\":1.5,\"duration\":8.5,\"weight_db\":-15.0},{\"audio_class\":\"heavy cinematic drum hit\",\"starting_time\":2.8,\"duration\":0.5,\"weight_db\":-9.0},{\"audio_class\":\"heavy cinematic drum hit\",\"starting_time\":4.8,\"duration\":0.5,\"weight_db\":-9.0},{\"audio_class\":\"heavy cinematic drum hit\",\"starting_time\":6.8,\"duration\":0.5,\"weight_db\":-9.0},{\"audio_class\":\"heavy cinematic drum hit\",\"starting_time\":8.8,\"duration\":1.2,\"weight_db\":-9.0},{\"audio_class\":\"low-end sub-bass rumble\",\"starting_time\":0,\"duration\":10,\"weight_db\":-25.0}]}"
+}

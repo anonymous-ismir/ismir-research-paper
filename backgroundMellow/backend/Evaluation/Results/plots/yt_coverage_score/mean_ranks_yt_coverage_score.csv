@@ -1,0 +1,13 @@
+ablation,mean_rank
+toggle_use_avg_llm_and_dsp_to_predict_align,5.392857142857143
+BackgroundMellow_baseline,5.678571428571429
+toggle_use_llm_to_predict_align,5.892857142857143
+toggle_fill_coverage_by_llm,6.089285714285714
+toggle_use_dsp,6.089285714285714
+toggle_use_dl_based_llm_and_dsp_alignment_predictor,6.482142857142857
+decide_model_gemini-2.5-flash,6.678571428571429
+toggle_use_dsp_to_predict_align,6.732142857142857
+toggle_use_narrator,6.821428571428571
+tango2,6.910714285714286
+toggle_use_movie_bgms,7.428571428571429
+AudioLDM2,7.803571428571429

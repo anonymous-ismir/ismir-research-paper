@@ -1,0 +1,66 @@
+{
+  "stage": "ok",
+  "saved_at_utc": "2026-04-21T18:57:03.021385+00:00",
+  "source_csv": "/Users/ajitesh/Desktop/BTP/cinemaudio-studio/backend/Evaluation/Results/Results_from_server/tango2_results.csv",
+  "row_index": 12,
+  "gemini_model": "gemini-3-flash-preview",
+  "dry_run": false,
+  "from_cached_cues": false,
+  "story_prompt": "An astronaut frantically grapples with failing equipment in the dark abyss of space, punctuated by a catastrophic explosion, before the scene transitions to a corporate logo and then back to the desperate astronaut spinning uncontrollably against the Earth, pleading for help amidst escalating chaos and radio silence.",
+  "audio_wav_path": "/Users/ajitesh/Desktop/BTP/cinemaudio-studio/backend/Evaluation/Results/Results_from_server/tango2_audios/prompt_1d4dec4a9b.wav",
+  "total_seconds": "48.93634136905894",
+  "cues": [
+    {
+      "audio_class": "high-pitched jet engine whine",
+      "starting_time": 0.0,
+      "duration": 2.2,
+      "weight_db": -10.5
+    },
+    {
+      "audio_class": "continuous mechanical industrial drone",
+      "starting_time": 0.0,
+      "duration": 10.0,
+      "weight_db": -22.0
+    },
+    {
+      "audio_class": "heavy explosion impact and debris crash",
+      "starting_time": 2.2,
+      "duration": 1.5,
+      "weight_db": -5.0
+    },
+    {
+      "audio_class": "intense fire roar and rushing wind",
+      "starting_time": 3.5,
+      "duration": 4.5,
+      "weight_db": -16.0
+    },
+    {
+      "audio_class": "sharp metallic screeching and grinding",
+      "starting_time": 5.8,
+      "duration": 1.2,
+      "weight_db": -11.0
+    },
+    {
+      "audio_class": "chaotic crowd screaming and vocal panic",
+      "starting_time": 7.2,
+      "duration": 2.8,
+      "weight_db": -13.5
+    },
+    {
+      "audio_class": "low-end rhythmic industrial percussion thuds",
+      "starting_time": 0.5,
+      "duration": 9.5,
+      "weight_db": -19.0
+    },
+    {
+      "audio_class": "deep accelerating engine roar",
+      "starting_time": 8.0,
+      "duration": 2.0,
+      "weight_db": -8.5
+    }
+  ],
+  "yt_coverage_score": "16.666666666666664",
+  "yt_sync_score": "0.0",
+  "yt_gemini_eval_error": "",
+  "yt_gemini_cues_json_cell": "{\"cues\":[{\"audio_class\":\"high-pitched jet engine whine\",\"starting_time\":0.0,\"duration\":2.2,\"weight_db\":-10.5},{\"audio_class\":\"continuous mechanical industrial drone\",\"starting_time\":0.0,\"duration\":10.0,\"weight_db\":-22.0},{\"audio_class\":\"heavy explosion impact and debris crash\",\"starting_time\":2.2,\"duration\":1.5,\"weight_db\":-5.0},{\"audio_class\":\"intense fire roar and rushing wind\",\"starting_time\":3.5,\"duration\":4.5,\"weight_db\":-16.0},{\"audio_class\":\"sharp metallic screeching and grinding\",\"starting_time\":5.8,\"duration\":1.2,\"weight_db\":-11.0},{\"audio_class\":\"chaotic crowd screaming and vocal panic\",\"starting_time\":7.2,\"duration\":2.8,\"weight_db\":-13.5},{\"audio_class\":\"low-end rhythmic industrial percussion thuds\",\"starting_time\":0.5,\"duration\":9.5,\"weight_db\":-19.0},{\"audio_class\":\"deep accelerating engine roar\",\"starting_time\":8.0,\"duration\":2.0,\"weight_db\":-8.5}]}"
+}

@@ -1,0 +1,54 @@
+{
+  "stage": "ok",
+  "saved_at_utc": "2026-04-21T18:58:06.714287+00:00",
+  "source_csv": "/Users/ajitesh/Desktop/BTP/cinemaudio-studio/backend/Evaluation/Results/Results_from_server/tango2_results.csv",
+  "row_index": 17,
+  "gemini_model": "gemini-3-flash-preview",
+  "dry_run": false,
+  "from_cached_cues": false,
+  "story_prompt": "The final moments of the trailer reveal the film's stark title and essential creative credits against a dark, bokeh-lit backdrop, culminating in a series of production company logos, signifying a contemplative conclusion.",
+  "audio_wav_path": "/Users/ajitesh/Desktop/BTP/cinemaudio-studio/backend/Evaluation/Results/Results_from_server/tango2_audios/prompt_09c8867f9e.wav",
+  "total_seconds": "49.037290785461664",
+  "cues": [
+    {
+      "audio_class": "heavy cinematic impact with low-end sub",
+      "starting_time": 0.0,
+      "duration": 2.5,
+      "weight_db": -8.0
+    },
+    {
+      "audio_class": "rapid rhythmic electronic pulse",
+      "starting_time": 0.5,
+      "duration": 4.0,
+      "weight_db": -16.0
+    },
+    {
+      "audio_class": "metallic rhythmic booms / heavy machinery sounds",
+      "starting_time": 4.2,
+      "duration": 4.5,
+      "weight_db": -10.5
+    },
+    {
+      "audio_class": "high-pitched tense synth riser",
+      "starting_time": 7.0,
+      "duration": 2.8,
+      "weight_db": -14.0
+    },
+    {
+      "audio_class": "distorted gritty synth bass growl",
+      "starting_time": 9.5,
+      "duration": 2.5,
+      "weight_db": -11.0
+    },
+    {
+      "audio_class": "dark atmospheric ominous background drone",
+      "starting_time": 0.0,
+      "duration": 12.0,
+      "weight_db": -28.0
+    }
+  ],
+  "yt_coverage_score": "100.0",
+  "yt_sync_score": "8.351791971701595e-05",
+  "yt_gemini_eval_error": "",
+  "yt_gemini_cues_json_cell": "{\"cues\":[{\"audio_class\":\"heavy cinematic impact with low-end sub\",\"starting_time\":0.0,\"duration\":2.5,\"weight_db\":-8.0},{\"audio_class\":\"rapid rhythmic electronic pulse\",\"starting_time\":0.5,\"duration\":4.0,\"weight_db\":-16.0},{\"audio_class\":\"metallic rhythmic booms / heavy machinery sounds\",\"starting_time\":4.2,\"duration\":4.5,\"weight_db\":-10.5},{\"audio_class\":\"high-pitched tense synth riser\",\"starting_time\":7.0,\"duration\":2.8,\"weight_db\":-14.0},{\"audio_class\":\"distorted gritty synth bass growl\",\"starting_time\":9.5,\"duration\":2.5,\"weight_db\":-11.0},{\"audio_class\":\"dark atmospheric ominous background drone\",\"starting_time\":0.0,\"duration\":12.0,\"weight_db\":-28.0}]}"
+}

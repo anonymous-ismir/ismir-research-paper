@@ -1,0 +1,66 @@
+{
+  "stage": "ok",
+  "saved_at_utc": "2026-04-21T18:49:40.458774+00:00",
+  "source_csv": "/Users/ajitesh/Desktop/BTP/cinemaudio-studio/backend/Evaluation/Results/Results_from_server/audioldm2_results.csv",
+  "row_index": 26,
+  "gemini_model": "gemini-3-flash-preview",
+  "dry_run": false,
+  "from_cached_cues": false,
+  "story_prompt": "Amidst a rapid-fire montage of high-stakes combat, mysterious alien creatures, and colossal monsters unleash chaotic destruction across dark industrial settings and otherworldly forests, hinting at an epic, genre-bending war for survival.",
+  "audio_wav_path": "/Users/ajitesh/Desktop/BTP/cinemaudio-studio/backend/Evaluation/Results/Results_from_server/audioldm_audios/prompt_e4d72b29ae.wav",
+  "total_seconds": "57.12265621707775",
+  "cues": [
+    {
+      "audio_class": "heavy engine roar with high-speed wind rushing",
+      "starting_time": 0.0,
+      "duration": 3.5,
+      "weight_db": -10.5
+    },
+    {
+      "audio_class": "low-frequency atmospheric rumble",
+      "starting_time": 0.0,
+      "duration": 10.0,
+      "weight_db": -22.0
+    },
+    {
+      "audio_class": "dramatic synth riser with mechanical whirring",
+      "starting_time": 1.2,
+      "duration": 4.8,
+      "weight_db": -16.0
+    },
+    {
+      "audio_class": "staccato orchestral string tension",
+      "starting_time": 2.5,
+      "duration": 5.0,
+      "weight_db": -19.5
+    },
+    {
+      "audio_class": "heavy cinematic drum hit",
+      "starting_time": 3.8,
+      "duration": 1.5,
+      "weight_db": -8.0
+    },
+    {
+      "audio_class": "heavy cinematic drum hit",
+      "starting_time": 5.2,
+      "duration": 1.5,
+      "weight_db": -8.0
+    },
+    {
+      "audio_class": "high-pitched metallic screech and air hiss",
+      "starting_time": 6.5,
+      "duration": 2.8,
+      "weight_db": -12.5
+    },
+    {
+      "audio_class": "explosive impact with sub-bass tail",
+      "starting_time": 8.5,
+      "duration": 1.5,
+      "weight_db": -6.0
+    }
+  ],
+  "yt_coverage_score": "25.0",
+  "yt_sync_score": "0.0",
+  "yt_gemini_eval_error": "",
+  "yt_gemini_cues_json_cell": "{\"cues\":[{\"audio_class\":\"heavy engine roar with high-speed wind rushing\",\"starting_time\":0.0,\"duration\":3.5,\"weight_db\":-10.5},{\"audio_class\":\"low-frequency atmospheric rumble\",\"starting_time\":0.0,\"duration\":10.0,\"weight_db\":-22.0},{\"audio_class\":\"dramatic synth riser with mechanical whirring\",\"starting_time\":1.2,\"duration\":4.8,\"weight_db\":-16.0},{\"audio_class\":\"staccato orchestral string tension\",\"starting_time\":2.5,\"duration\":5.0,\"weight_db\":-19.5},{\"audio_class\":\"heavy cinematic drum hit\",\"starting_time\":3.8,\"duration\":1.5,\"weight_db\":-8.0},{\"audio_class\":\"heavy cinematic drum hit\",\"starting_time\":5.2,\"duration\":1.5,\"weight_db\":-8.0},{\"audio_class\":\"high-pitched metallic screech and air hiss\",\"starting_time\":6.5,\"duration\":2.8,\"weight_db\":-12.5},{\"audio_class\":\"explosive impact with sub-bass tail\",\"starting_time\":8.5,\"duration\":1.5,\"weight_db\":-6.0}]}"
+}

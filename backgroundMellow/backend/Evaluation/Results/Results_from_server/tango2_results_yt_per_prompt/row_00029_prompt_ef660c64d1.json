@@ -1,0 +1,66 @@
+{
+  "stage": "ok",
+  "saved_at_utc": "2026-04-21T19:02:34.778415+00:00",
+  "source_csv": "/Users/ajitesh/Desktop/BTP/cinemaudio-studio/backend/Evaluation/Results/Results_from_server/tango2_results.csv",
+  "row_index": 29,
+  "gemini_model": "gemini-3-flash-preview",
+  "dry_run": false,
+  "from_cached_cues": false,
+  "story_prompt": "This clip presents a dynamic montage of breathtaking alien landscapes and intense confrontations, featuring Na'vi warriors forming profound bonds with majestic creatures while fiercely battling against overwhelming enemy forces in both aerial dogfights and colossal aquatic skirmishes.",
+  "audio_wav_path": "/Users/ajitesh/Desktop/BTP/cinemaudio-studio/backend/Evaluation/Results/Results_from_server/tango2_audios/prompt_ef660c64d1.wav",
+  "total_seconds": "49.169744559563696",
+  "cues": [
+    {
+      "audio_class": "high-pitched frantic female scream",
+      "starting_time": 0.0,
+      "duration": 5.2,
+      "weight_db": -7.5
+    },
+    {
+      "audio_class": "driving cinematic percussion with heavy rhythmic kicks",
+      "starting_time": 0.0,
+      "duration": 10.0,
+      "weight_db": -10.2
+    },
+    {
+      "audio_class": "dramatic orchestral staccato strings and synth pulse",
+      "starting_time": 0.0,
+      "duration": 10.0,
+      "weight_db": -14.8
+    },
+    {
+      "audio_class": "aggressive crowd shouting and chaotic group vocalizations",
+      "starting_time": 5.2,
+      "duration": 4.8,
+      "weight_db": -9.2
+    },
+    {
+      "audio_class": "low-end cinematic environmental rumble and wind rush",
+      "starting_time": 0.0,
+      "duration": 10.0,
+      "weight_db": -22.5
+    },
+    {
+      "audio_class": "distorted metallic impact / trailer accent hit",
+      "starting_time": 0.1,
+      "duration": 1.4,
+      "weight_db": -8.0
+    },
+    {
+      "audio_class": "sub-bass frequency swell",
+      "starting_time": 4.5,
+      "duration": 3.0,
+      "weight_db": -15.0
+    },
+    {
+      "audio_class": "faint mechanical whirring and debris scattering",
+      "starting_time": 2.0,
+      "duration": 8.0,
+      "weight_db": -28.0
+    }
+  ],
+  "yt_coverage_score": "9.090909090909092",
+  "yt_sync_score": "0.04067541977114039",
+  "yt_gemini_eval_error": "",
+  "yt_gemini_cues_json_cell": "{\"cues\":[{\"audio_class\":\"high-pitched frantic female scream\",\"starting_time\":0.0,\"duration\":5.2,\"weight_db\":-7.5},{\"audio_class\":\"driving cinematic percussion with heavy rhythmic kicks\",\"starting_time\":0.0,\"duration\":10.0,\"weight_db\":-10.2},{\"audio_class\":\"dramatic orchestral staccato strings and synth pulse\",\"starting_time\":0.0,\"duration\":10.0,\"weight_db\":-14.8},{\"audio_class\":\"aggressive crowd shouting and chaotic group vocalizations\",\"starting_time\":5.2,\"duration\":4.8,\"weight_db\":-9.2},{\"audio_class\":\"low-end cinematic environmental rumble and wind rush\",\"starting_time\":0.0,\"duration\":10.0,\"weight_db\":-22.5},{\"audio_class\":\"distorted metallic impact / trailer accent hit\",\"starting_time\":0.1,\"duration\":1.4,\"weight_db\":-8.0},{\"audio_class\":\"sub-bass frequency swell\",\"starting_time\":4.5,\"duration\":3.0,\"weight_db\":-15.0},{\"audio_class\":\"faint mechanical whirring and debris scattering\",\"starting_time\":2.0,\"duration\":8.0,\"weight_db\":-28.0}]}"
+}

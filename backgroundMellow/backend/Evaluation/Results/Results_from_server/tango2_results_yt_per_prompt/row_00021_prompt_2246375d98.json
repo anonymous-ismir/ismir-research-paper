@@ -1,0 +1,66 @@
+{
+  "stage": "ok",
+  "saved_at_utc": "2026-04-21T18:59:16.697126+00:00",
+  "source_csv": "/Users/ajitesh/Desktop/BTP/cinemaudio-studio/backend/Evaluation/Results/Results_from_server/tango2_results.csv",
+  "row_index": 21,
+  "gemini_model": "gemini-3-flash-preview",
+  "dry_run": false,
+  "from_cached_cues": false,
+  "story_prompt": "A whirlwind montage of lavish excess, power-flaunting, and hints of impending legal scrutiny, showcasing a charismatic financial mogul surrounded by money, beautiful women, and luxurious settings, culminating in a confrontational yacht encounter with federal agents.",
+  "audio_wav_path": "/Users/ajitesh/Desktop/BTP/cinemaudio-studio/backend/Evaluation/Results/Results_from_server/tango2_audios/prompt_2246375d98.wav",
+  "total_seconds": "49.4701014359016",
+  "cues": [
+    {
+      "audio_class": "high-pitched digital glitch and static burst",
+      "starting_time": 0.0,
+      "duration": 1.2,
+      "weight_db": -9.0
+    },
+    {
+      "audio_class": "heavy mechanical grinding and metal crunching",
+      "starting_time": 0.8,
+      "duration": 3.7,
+      "weight_db": -10.5
+    },
+    {
+      "audio_class": "distorted guttural monster roar",
+      "starting_time": 3.4,
+      "duration": 2.5,
+      "weight_db": -7.2
+    },
+    {
+      "audio_class": "low-frequency cinematic sub-bass drone",
+      "starting_time": 0.0,
+      "duration": 10.0,
+      "weight_db": -22.0
+    },
+    {
+      "audio_class": "high-pitched metallic screeching and scraping",
+      "starting_time": 5.5,
+      "duration": 3.2,
+      "weight_db": -12.5
+    },
+    {
+      "audio_class": "distant explosive thud and rumble",
+      "starting_time": 7.0,
+      "duration": 2.5,
+      "weight_db": -15.0
+    },
+    {
+      "audio_class": "stuttering synth percussion",
+      "starting_time": 1.0,
+      "duration": 9.0,
+      "weight_db": -26.0
+    },
+    {
+      "audio_class": "industrial atmosphere with wind-like whistling",
+      "starting_time": 0.0,
+      "duration": 10.0,
+      "weight_db": -30.0
+    }
+  ],
+  "yt_coverage_score": "0.0",
+  "yt_sync_score": "0.0",
+  "yt_gemini_eval_error": "",
+  "yt_gemini_cues_json_cell": "{\"cues\":[{\"audio_class\":\"high-pitched digital glitch and static burst\",\"starting_time\":0.0,\"duration\":1.2,\"weight_db\":-9.0},{\"audio_class\":\"heavy mechanical grinding and metal crunching\",\"starting_time\":0.8,\"duration\":3.7,\"weight_db\":-10.5},{\"audio_class\":\"distorted guttural monster roar\",\"starting_time\":3.4,\"duration\":2.5,\"weight_db\":-7.2},{\"audio_class\":\"low-frequency cinematic sub-bass drone\",\"starting_time\":0.0,\"duration\":10.0,\"weight_db\":-22.0},{\"audio_class\":\"high-pitched metallic screeching and scraping\",\"starting_time\":5.5,\"duration\":3.2,\"weight_db\":-12.5},{\"audio_class\":\"distant explosive thud and rumble\",\"starting_time\":7.0,\"duration\":2.5,\"weight_db\":-15.0},{\"audio_class\":\"stuttering synth percussion\",\"starting_time\":1.0,\"duration\":9.0,\"weight_db\":-26.0},{\"audio_class\":\"industrial atmosphere with wind-like whistling\",\"starting_time\":0.0,\"duration\":10.0,\"weight_db\":-30.0}]}"
+}

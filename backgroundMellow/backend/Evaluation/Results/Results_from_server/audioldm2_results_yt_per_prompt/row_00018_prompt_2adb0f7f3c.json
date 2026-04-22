@@ -1,0 +1,72 @@
+{
+  "stage": "ok",
+  "saved_at_utc": "2026-04-21T18:46:26.530404+00:00",
+  "source_csv": "/Users/ajitesh/Desktop/BTP/cinemaudio-studio/backend/Evaluation/Results/Results_from_server/audioldm2_results.csv",
+  "row_index": 18,
+  "gemini_model": "gemini-3-flash-preview",
+  "dry_run": false,
+  "from_cached_cues": false,
+  "story_prompt": "A quiet suburban night is shattered by the aftermath of a home invasion, revealing a seemingly ordinary man's unsettling calm amidst police inquiries and family distress, hinting at a suppressed, dangerous nature.",
+  "audio_wav_path": "/Users/ajitesh/Desktop/BTP/cinemaudio-studio/backend/Evaluation/Results/Results_from_server/audioldm_audios/prompt_2adb0f7f3c.wav",
+  "total_seconds": "58.80339081468992",
+  "cues": [
+    {
+      "audio_class": "Ambient low-frequency desert wind",
+      "starting_time": 0.0,
+      "duration": 10.0,
+      "weight_db": -28.0
+    },
+    {
+      "audio_class": "High-pitched metallic tension riser",
+      "starting_time": 0.0,
+      "duration": 4.5,
+      "weight_db": -18.5
+    },
+    {
+      "audio_class": "Mechanical whirring and gear shifts",
+      "starting_time": 1.5,
+      "duration": 3.0,
+      "weight_db": -22.0
+    },
+    {
+      "audio_class": "Cinematic whoosh transition",
+      "starting_time": 4.0,
+      "duration": 1.2,
+      "weight_db": -12.0
+    },
+    {
+      "audio_class": "Heavy dramatic impact with sub-bass tail",
+      "starting_time": 5.0,
+      "duration": 3.5,
+      "weight_db": -7.5
+    },
+    {
+      "audio_class": "Deep synth bass growl",
+      "starting_time": 5.2,
+      "duration": 4.8,
+      "weight_db": -15.0
+    },
+    {
+      "audio_class": "Metallic sword unsheathing sound",
+      "starting_time": 6.8,
+      "duration": 1.5,
+      "weight_db": -14.0
+    },
+    {
+      "audio_class": "Rhythmic percussion hit with reverb",
+      "starting_time": 8.5,
+      "duration": 1.5,
+      "weight_db": -10.0
+    },
+    {
+      "audio_class": "Orchestral string staccato build-up",
+      "starting_time": 9.0,
+      "duration": 1.0,
+      "weight_db": -12.5
+    }
+  ],
+  "yt_coverage_score": "0.0",
+  "yt_sync_score": "0.0",
+  "yt_gemini_eval_error": "",
+  "yt_gemini_cues_json_cell": "{\"cues\":[{\"audio_class\":\"Ambient low-frequency desert wind\",\"starting_time\":0.0,\"duration\":10.0,\"weight_db\":-28.0},{\"audio_class\":\"High-pitched metallic tension riser\",\"starting_time\":0.0,\"duration\":4.5,\"weight_db\":-18.5},{\"audio_class\":\"Mechanical whirring and gear shifts\",\"starting_time\":1.5,\"duration\":3.0,\"weight_db\":-22.0},{\"audio_class\":\"Cinematic whoosh transition\",\"starting_time\":4.0,\"duration\":1.2,\"weight_db\":-12.0},{\"audio_class\":\"Heavy dramatic impact with sub-bass tail\",\"starting_time\":5.0,\"duration\":3.5,\"weight_db\":-7.5},{\"audio_class\":\"Deep synth bass growl\",\"starting_time\":5.2,\"duration\":4.8,\"weight_db\":-15.0},{\"audio_class\":\"Metallic sword unsheathing sound\",\"starting_time\":6.8,\"duration\":1.5,\"weight_db\":-14.0},{\"audio_class\":\"Rhythmic percussion hit with reverb\",\"starting_time\":8.5,\"duration\":1.5,\"weight_db\":-10.0},{\"audio_class\":\"Orchestral string staccato build-up\",\"starting_time\":9.0,\"duration\":1.0,\"weight_db\":-12.5}]}"
+}

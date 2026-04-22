@@ -1,0 +1,72 @@
+{
+  "stage": "ok",
+  "saved_at_utc": "2026-04-21T19:04:19.282424+00:00",
+  "source_csv": "/Users/ajitesh/Desktop/BTP/cinemaudio-studio/backend/Evaluation/Results/Results_from_server/tango2_results.csv",
+  "row_index": 34,
+  "gemini_model": "gemini-3-flash-preview",
+  "dry_run": false,
+  "from_cached_cues": false,
+  "story_prompt": "A young woman in a dense, sun-dappled forest experiences growing terror as mysterious events unfold, interspersed with scenes of an older woman sharing unsettling stories indoors, culminating in the young woman's horrified realization of a monstrous presence.",
+  "audio_wav_path": "/Users/ajitesh/Desktop/BTP/cinemaudio-studio/backend/Evaluation/Results/Results_from_server/tango2_audios/prompt_90a25624ff.wav",
+  "total_seconds": "48.29069407051429",
+  "cues": [
+    {
+      "audio_class": "aggressive monster roar and screech",
+      "starting_time": 0,
+      "duration": 3.2,
+      "weight_db": -8.0
+    },
+    {
+      "audio_class": "heavy cinematic percussion hits",
+      "starting_time": 0,
+      "duration": 10.0,
+      "weight_db": -12.5
+    },
+    {
+      "audio_class": "tense orchestral music with brass and staccato strings",
+      "starting_time": 0,
+      "duration": 10.0,
+      "weight_db": -15.0
+    },
+    {
+      "audio_class": "male character shouting in distress",
+      "starting_time": 4.1,
+      "duration": 1.9,
+      "weight_db": -9.5
+    },
+    {
+      "audio_class": "piercing female scream",
+      "starting_time": 6.3,
+      "duration": 2.2,
+      "weight_db": -11.0
+    },
+    {
+      "audio_class": "high-pitched feedback and string riser effect",
+      "starting_time": 7.8,
+      "duration": 2.2,
+      "weight_db": -13.5
+    },
+    {
+      "audio_class": "low-frequency atmospheric rumble",
+      "starting_time": 0,
+      "duration": 10.0,
+      "weight_db": -20.0
+    },
+    {
+      "audio_class": "chaotic environmental crashing and debris sound",
+      "starting_time": 0,
+      "duration": 10.0,
+      "weight_db": -18.5
+    },
+    {
+      "audio_class": "secondary monster growl",
+      "starting_time": 6.5,
+      "duration": 3.0,
+      "weight_db": -10.5
+    }
+  ],
+  "yt_coverage_score": "37.5",
+  "yt_sync_score": "8.881072494434372e-06",
+  "yt_gemini_eval_error": "",
+  "yt_gemini_cues_json_cell": "{\"cues\":[{\"audio_class\":\"aggressive monster roar and screech\",\"starting_time\":0,\"duration\":3.2,\"weight_db\":-8.0},{\"audio_class\":\"heavy cinematic percussion hits\",\"starting_time\":0,\"duration\":10.0,\"weight_db\":-12.5},{\"audio_class\":\"tense orchestral music with brass and staccato strings\",\"starting_time\":0,\"duration\":10.0,\"weight_db\":-15.0},{\"audio_class\":\"male character shouting in distress\",\"starting_time\":4.1,\"duration\":1.9,\"weight_db\":-9.5},{\"audio_class\":\"piercing female scream\",\"starting_time\":6.3,\"duration\":2.2,\"weight_db\":-11.0},{\"audio_class\":\"high-pitched feedback and string riser effect\",\"starting_time\":7.8,\"duration\":2.2,\"weight_db\":-13.5},{\"audio_class\":\"low-frequency atmospheric rumble\",\"starting_time\":0,\"duration\":10.0,\"weight_db\":-20.0},{\"audio_class\":\"chaotic environmental crashing and debris sound\",\"starting_time\":0,\"duration\":10.0,\"weight_db\":-18.5},{\"audio_class\":\"secondary monster growl\",\"starting_time\":6.5,\"duration\":3.0,\"weight_db\":-10.5}]}"
+}

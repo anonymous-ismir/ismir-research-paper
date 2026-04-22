@@ -1,0 +1,66 @@
+{
+  "stage": "ok",
+  "saved_at_utc": "2026-04-21T18:56:09.460102+00:00",
+  "source_csv": "/Users/ajitesh/Desktop/BTP/cinemaudio-studio/backend/Evaluation/Results/Results_from_server/tango2_results.csv",
+  "row_index": 9,
+  "gemini_model": "gemini-3-flash-preview",
+  "dry_run": false,
+  "from_cached_cues": false,
+  "story_prompt": "A helmet-clad soldier cautiously navigates a grimy, dimly lit urban corridor before being brutally ambushed by a bloodied operative, who then, protecting a young boy, plunges into a chaotic close-quarters gunfight against multiple assailants.",
+  "audio_wav_path": "/Users/ajitesh/Desktop/BTP/cinemaudio-studio/backend/Evaluation/Results/Results_from_server/tango2_audios/prompt_cf2fd90480.wav",
+  "total_seconds": "49.910243845311925",
+  "cues": [
+    {
+      "audio_class": "loud crashing debris and chaotic wind SFX",
+      "starting_time": 0,
+      "duration": 3.5,
+      "weight_db": -5.0
+    },
+    {
+      "audio_class": "distressed shouting and panic vocals",
+      "starting_time": 0.2,
+      "duration": 2.5,
+      "weight_db": -8.5
+    },
+    {
+      "audio_class": "deep cinematic low-end drone / sub-bass rumble",
+      "starting_time": 2.5,
+      "duration": 6.5,
+      "weight_db": -18.0
+    },
+    {
+      "audio_class": "atmospheric wind and rain ambience",
+      "starting_time": 3.0,
+      "duration": 6.0,
+      "weight_db": -22.0
+    },
+    {
+      "audio_class": "rising orchestral strings with high tension",
+      "starting_time": 3.8,
+      "duration": 5.2,
+      "weight_db": -14.0
+    },
+    {
+      "audio_class": "male voice shouting dialogue",
+      "starting_time": 5.5,
+      "duration": 1.2,
+      "weight_db": -10.5
+    },
+    {
+      "audio_class": "rhythmic percussion with industrial metallic textures",
+      "starting_time": 6.8,
+      "duration": 2.2,
+      "weight_db": -12.0
+    },
+    {
+      "audio_class": "dramatic impact sound effect / boom",
+      "starting_time": 8.5,
+      "duration": 0.5,
+      "weight_db": -7.0
+    }
+  ],
+  "yt_coverage_score": "0.0",
+  "yt_sync_score": "0.0",
+  "yt_gemini_eval_error": "",
+  "yt_gemini_cues_json_cell": "{\"cues\":[{\"audio_class\":\"loud crashing debris and chaotic wind SFX\",\"starting_time\":0,\"duration\":3.5,\"weight_db\":-5.0},{\"audio_class\":\"distressed shouting and panic vocals\",\"starting_time\":0.2,\"duration\":2.5,\"weight_db\":-8.5},{\"audio_class\":\"deep cinematic low-end drone / sub-bass rumble\",\"starting_time\":2.5,\"duration\":6.5,\"weight_db\":-18.0},{\"audio_class\":\"atmospheric wind and rain ambience\",\"starting_time\":3.0,\"duration\":6.0,\"weight_db\":-22.0},{\"audio_class\":\"rising orchestral strings with high tension\",\"starting_time\":3.8,\"duration\":5.2,\"weight_db\":-14.0},{\"audio_class\":\"male voice shouting dialogue\",\"starting_time\":5.5,\"duration\":1.2,\"weight_db\":-10.5},{\"audio_class\":\"rhythmic percussion with industrial metallic textures\",\"starting_time\":6.8,\"duration\":2.2,\"weight_db\":-12.0},{\"audio_class\":\"dramatic impact sound effect / boom\",\"starting_time\":8.5,\"duration\":0.5,\"weight_db\":-7.0}]}"
+}

@@ -1,0 +1,72 @@
+{
+  "stage": "ok",
+  "saved_at_utc": "2026-04-21T19:00:59.443178+00:00",
+  "source_csv": "/Users/ajitesh/Desktop/BTP/cinemaudio-studio/backend/Evaluation/Results/Results_from_server/tango2_results.csv",
+  "row_index": 26,
+  "gemini_model": "gemini-3-flash-preview",
+  "dry_run": false,
+  "from_cached_cues": false,
+  "story_prompt": "Amidst a rapid-fire montage of high-stakes combat, mysterious alien creatures, and colossal monsters unleash chaotic destruction across dark industrial settings and otherworldly forests, hinting at an epic, genre-bending war for survival.",
+  "audio_wav_path": "/Users/ajitesh/Desktop/BTP/cinemaudio-studio/backend/Evaluation/Results/Results_from_server/tango2_audios/prompt_e4d72b29ae.wav",
+  "total_seconds": "49.693632028764114",
+  "cues": [
+    {
+      "audio_class": "group of terrified female and male screams",
+      "starting_time": 0.0,
+      "duration": 4.5,
+      "weight_db": -8.0
+    },
+    {
+      "audio_class": "low-frequency atmospheric rumble and wind",
+      "starting_time": 0.0,
+      "duration": 9.0,
+      "weight_db": -22.0
+    },
+    {
+      "audio_class": "metallic mechanical grinding and whirring",
+      "starting_time": 0.5,
+      "duration": 3.0,
+      "weight_db": -15.5
+    },
+    {
+      "audio_class": "cinematic percussive boom / sub-bass hit",
+      "starting_time": 1.2,
+      "duration": 1.5,
+      "weight_db": -7.0
+    },
+    {
+      "audio_class": "massive explosion and debris impact",
+      "starting_time": 3.1,
+      "duration": 3.5,
+      "weight_db": -5.2
+    },
+    {
+      "audio_class": "high-pitched metallic screeching and stress",
+      "starting_time": 5.0,
+      "duration": 2.5,
+      "weight_db": -12.0
+    },
+    {
+      "audio_class": "short sharp creature-like screech",
+      "starting_time": 6.2,
+      "duration": 1.0,
+      "weight_db": -10.5
+    },
+    {
+      "audio_class": "heavy falling object impact with concrete",
+      "starting_time": 7.5,
+      "duration": 1.5,
+      "weight_db": -9.0
+    },
+    {
+      "audio_class": "high-frequency ringing / tinnitus effect",
+      "starting_time": 8.0,
+      "duration": 1.0,
+      "weight_db": -28.0
+    }
+  ],
+  "yt_coverage_score": "37.5",
+  "yt_sync_score": "0.0",
+  "yt_gemini_eval_error": "",
+  "yt_gemini_cues_json_cell": "{\"cues\":[{\"audio_class\":\"group of terrified female and male screams\",\"starting_time\":0.0,\"duration\":4.5,\"weight_db\":-8.0},{\"audio_class\":\"low-frequency atmospheric rumble and wind\",\"starting_time\":0.0,\"duration\":9.0,\"weight_db\":-22.0},{\"audio_class\":\"metallic mechanical grinding and whirring\",\"starting_time\":0.5,\"duration\":3.0,\"weight_db\":-15.5},{\"audio_class\":\"cinematic percussive boom / sub-bass hit\",\"starting_time\":1.2,\"duration\":1.5,\"weight_db\":-7.0},{\"audio_class\":\"massive explosion and debris impact\",\"starting_time\":3.1,\"duration\":3.5,\"weight_db\":-5.2},{\"audio_class\":\"high-pitched metallic screeching and stress\",\"starting_time\":5.0,\"duration\":2.5,\"weight_db\":-12.0},{\"audio_class\":\"short sharp creature-like screech\",\"starting_time\":6.2,\"duration\":1.0,\"weight_db\":-10.5},{\"audio_class\":\"heavy falling object impact with concrete\",\"starting_time\":7.5,\"duration\":1.5,\"weight_db\":-9.0},{\"audio_class\":\"high-frequency ringing / tinnitus effect\",\"starting_time\":8.0,\"duration\":1.0,\"weight_db\":-28.0}]}"
+}

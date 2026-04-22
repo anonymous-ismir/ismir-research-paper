@@ -1,0 +1,66 @@
+{
+  "stage": "ok",
+  "saved_at_utc": "2026-04-21T18:42:58.318868+00:00",
+  "source_csv": "/Users/ajitesh/Desktop/BTP/cinemaudio-studio/backend/Evaluation/Results/Results_from_server/audioldm2_results.csv",
+  "row_index": 6,
+  "gemini_model": "gemini-3-flash-preview",
+  "dry_run": false,
+  "from_cached_cues": false,
+  "story_prompt": "A young warrior and his companion navigate perilous desert dunes, demonstrating raw, determined power as they use fremkit hooks to traverse the shifting sands, facing unseen, colossal forces that violently disturb the very landscape.",
+  "audio_wav_path": "/Users/ajitesh/Desktop/BTP/cinemaudio-studio/backend/Evaluation/Results/Results_from_server/audioldm_audios/prompt_b4831736f6.wav",
+  "total_seconds": "61.418056927854195",
+  "cues": [
+    {
+      "audio_class": "low-frequency atmospheric drone",
+      "starting_time": 0.0,
+      "duration": 9.2,
+      "weight_db": -28.0
+    },
+    {
+      "audio_class": "slow rhythmic metallic thuds",
+      "starting_time": 0.0,
+      "duration": 3.5,
+      "weight_db": -11.5
+    },
+    {
+      "audio_class": "industrial gear grinding and mechanical whirring",
+      "starting_time": 0.5,
+      "duration": 8.0,
+      "weight_db": -21.0
+    },
+    {
+      "audio_class": "rapid metallic percussion build-up",
+      "starting_time": 3.5,
+      "duration": 5.1,
+      "weight_db": -7.5
+    },
+    {
+      "audio_class": "high-pitched metallic friction / screech",
+      "starting_time": 4.5,
+      "duration": 3.5,
+      "weight_db": -24.0
+    },
+    {
+      "audio_class": "heavy dramatic impact sound effect",
+      "starting_time": 8.6,
+      "duration": 0.6,
+      "weight_db": -4.5
+    },
+    {
+      "audio_class": "metallic reverb tail",
+      "starting_time": 8.8,
+      "duration": 0.4,
+      "weight_db": -16.0
+    },
+    {
+      "audio_class": "rhythmic mechanical clicking sound",
+      "starting_time": 6.0,
+      "duration": 2.5,
+      "weight_db": -19.5
+    }
+  ],
+  "yt_coverage_score": "0.0",
+  "yt_sync_score": "0.0",
+  "yt_gemini_eval_error": "",
+  "yt_gemini_cues_json_cell": "{\"cues\":[{\"audio_class\":\"low-frequency atmospheric drone\",\"starting_time\":0.0,\"duration\":9.2,\"weight_db\":-28.0},{\"audio_class\":\"slow rhythmic metallic thuds\",\"starting_time\":0.0,\"duration\":3.5,\"weight_db\":-11.5},{\"audio_class\":\"industrial gear grinding and mechanical whirring\",\"starting_time\":0.5,\"duration\":8.0,\"weight_db\":-21.0},{\"audio_class\":\"rapid metallic percussion build-up\",\"starting_time\":3.5,\"duration\":5.1,\"weight_db\":-7.5},{\"audio_class\":\"high-pitched metallic friction / screech\",\"starting_time\":4.5,\"duration\":3.5,\"weight_db\":-24.0},{\"audio_class\":\"heavy dramatic impact sound effect\",\"starting_time\":8.6,\"duration\":0.6,\"weight_db\":-4.5},{\"audio_class\":\"metallic reverb tail\",\"starting_time\":8.8,\"duration\":0.4,\"weight_db\":-16.0},{\"audio_class\":\"rhythmic mechanical clicking sound\",\"starting_time\":6.0,\"duration\":2.5,\"weight_db\":-19.5}]}"
+}

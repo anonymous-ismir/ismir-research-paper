@@ -1,0 +1,54 @@
+{
+  "stage": "ok",
+  "saved_at_utc": "2026-04-21T18:58:39.348431+00:00",
+  "source_csv": "/Users/ajitesh/Desktop/BTP/cinemaudio-studio/backend/Evaluation/Results/Results_from_server/tango2_results.csv",
+  "row_index": 19,
+  "gemini_model": "gemini-3-flash-preview",
+  "dry_run": false,
+  "from_cached_cues": false,
+  "story_prompt": "Amidst a crumbling future where humanity immerses itself in the vibrant virtual realm of the OASIS, a high-stakes hunt for dominance ignites, forcing characters to confront the perilous fusion of digital escapism and tangible consequences.",
+  "audio_wav_path": "/Users/ajitesh/Desktop/BTP/cinemaudio-studio/backend/Evaluation/Results/Results_from_server/tango2_audios/prompt_8e663ae4c7.wav",
+  "total_seconds": "49.036483521573246",
+  "cues": [
+    {
+      "audio_class": "continuous high-pitched screaming and panic",
+      "starting_time": 0.0,
+      "duration": 9.5,
+      "weight_db": -10.0
+    },
+    {
+      "audio_class": "deep fire roar and heavy atmospheric rumble",
+      "starting_time": 0.0,
+      "duration": 9.5,
+      "weight_db": -15.0
+    },
+    {
+      "audio_class": "dramatic impact sound effect",
+      "starting_time": 1.2,
+      "duration": 1.0,
+      "weight_db": -8.5
+    },
+    {
+      "audio_class": "high-pitched mechanical screech / alarm",
+      "starting_time": 4.5,
+      "duration": 1.5,
+      "weight_db": -12.0
+    },
+    {
+      "audio_class": "heavy explosion with low-frequency thump",
+      "starting_time": 6.8,
+      "duration": 1.7,
+      "weight_db": -9.0
+    },
+    {
+      "audio_class": "chaotic wind and whoosh sound effects",
+      "starting_time": 0.0,
+      "duration": 4.0,
+      "weight_db": -20.0
+    }
+  ],
+  "yt_coverage_score": "28.57142857142857",
+  "yt_sync_score": "0.0",
+  "yt_gemini_eval_error": "",
+  "yt_gemini_cues_json_cell": "{\"cues\":[{\"audio_class\":\"continuous high-pitched screaming and panic\",\"starting_time\":0.0,\"duration\":9.5,\"weight_db\":-10.0},{\"audio_class\":\"deep fire roar and heavy atmospheric rumble\",\"starting_time\":0.0,\"duration\":9.5,\"weight_db\":-15.0},{\"audio_class\":\"dramatic impact sound effect\",\"starting_time\":1.2,\"duration\":1.0,\"weight_db\":-8.5},{\"audio_class\":\"high-pitched mechanical screech / alarm\",\"starting_time\":4.5,\"duration\":1.5,\"weight_db\":-12.0},{\"audio_class\":\"heavy explosion with low-frequency thump\",\"starting_time\":6.8,\"duration\":1.7,\"weight_db\":-9.0},{\"audio_class\":\"chaotic wind and whoosh sound effects\",\"starting_time\":0.0,\"duration\":4.0,\"weight_db\":-20.0}]}"
+}

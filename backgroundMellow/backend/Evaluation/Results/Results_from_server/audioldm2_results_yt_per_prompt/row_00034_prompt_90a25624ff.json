@@ -1,0 +1,60 @@
+{
+  "stage": "ok",
+  "saved_at_utc": "2026-04-21T18:51:28.466076+00:00",
+  "source_csv": "/Users/ajitesh/Desktop/BTP/cinemaudio-studio/backend/Evaluation/Results/Results_from_server/audioldm2_results.csv",
+  "row_index": 34,
+  "gemini_model": "gemini-3-flash-preview",
+  "dry_run": false,
+  "from_cached_cues": false,
+  "story_prompt": "A young woman in a dense, sun-dappled forest experiences growing terror as mysterious events unfold, interspersed with scenes of an older woman sharing unsettling stories indoors, culminating in the young woman's horrified realization of a monstrous presence.",
+  "audio_wav_path": "/Users/ajitesh/Desktop/BTP/cinemaudio-studio/backend/Evaluation/Results/Results_from_server/audioldm_audios/prompt_90a25624ff.wav",
+  "total_seconds": "58.29229392763227",
+  "cues": [
+    {
+      "audio_class": "low-frequency atmospheric wind and rumble",
+      "starting_time": 0.0,
+      "duration": 10.0,
+      "weight_db": -28.0
+    },
+    {
+      "audio_class": "dissonant orchestral riser with strings",
+      "starting_time": 0.0,
+      "duration": 2.5,
+      "weight_db": -18.5
+    },
+    {
+      "audio_class": "massive low-end cinematic impact",
+      "starting_time": 2.5,
+      "duration": 1.5,
+      "weight_db": -8.0
+    },
+    {
+      "audio_class": "shrill metallic screech sound effect",
+      "starting_time": 2.8,
+      "duration": 1.2,
+      "weight_db": -14.0
+    },
+    {
+      "audio_class": "rhythmic heavy percussive stomps",
+      "starting_time": 4.5,
+      "duration": 2.0,
+      "weight_db": -12.5
+    },
+    {
+      "audio_class": "distorted synth bass drone",
+      "starting_time": 6.0,
+      "duration": 4.0,
+      "weight_db": -22.0
+    },
+    {
+      "audio_class": "distant echo of mechanical clatter",
+      "starting_time": 7.5,
+      "duration": 2.5,
+      "weight_db": -32.0
+    }
+  ],
+  "yt_coverage_score": "25.0",
+  "yt_sync_score": "0.002401689667142023",
+  "yt_gemini_eval_error": "",
+  "yt_gemini_cues_json_cell": "{\"cues\":[{\"audio_class\":\"low-frequency atmospheric wind and rumble\",\"starting_time\":0.0,\"duration\":10.0,\"weight_db\":-28.0},{\"audio_class\":\"dissonant orchestral riser with strings\",\"starting_time\":0.0,\"duration\":2.5,\"weight_db\":-18.5},{\"audio_class\":\"massive low-end cinematic impact\",\"starting_time\":2.5,\"duration\":1.5,\"weight_db\":-8.0},{\"audio_class\":\"shrill metallic screech sound effect\",\"starting_time\":2.8,\"duration\":1.2,\"weight_db\":-14.0},{\"audio_class\":\"rhythmic heavy percussive stomps\",\"starting_time\":4.5,\"duration\":2.0,\"weight_db\":-12.5},{\"audio_class\":\"distorted synth bass drone\",\"starting_time\":6.0,\"duration\":4.0,\"weight_db\":-22.0},{\"audio_class\":\"distant echo of mechanical clatter\",\"starting_time\":7.5,\"duration\":2.5,\"weight_db\":-32.0}]}"
+}

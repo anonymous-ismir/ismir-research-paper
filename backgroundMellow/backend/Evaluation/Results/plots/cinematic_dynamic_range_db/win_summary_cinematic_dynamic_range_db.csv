@@ -1,0 +1,13 @@
+ablation,prompts_won_strict,prompts_won_fractional,win_rate_strict,win_rate_fractional
+toggle_use_llm_to_predict_align,8,8.0,0.27586206896551724,0.27586206896551724
+decide_model_gemini-2.5-flash,5,5.0,0.1724137931034483,0.1724137931034483
+toggle_use_dl_based_llm_and_dsp_alignment_predictor,5,5.0,0.1724137931034483,0.1724137931034483
+toggle_use_movie_bgms,3,3.0,0.10344827586206896,0.10344827586206896
+toggle_fill_coverage_by_llm,2,2.0,0.06896551724137931,0.06896551724137931
+toggle_use_avg_llm_and_dsp_to_predict_align,2,2.0,0.06896551724137931,0.06896551724137931
+toggle_use_dsp_to_predict_align,2,2.0,0.06896551724137931,0.06896551724137931
+toggle_use_dsp,1,1.0,0.034482758620689655,0.034482758620689655
+toggle_use_narrator,1,1.0,0.034482758620689655,0.034482758620689655
+BackgroundMellow_baseline,0,0.0,0.0,0.0
+AudioLDM2,0,0.0,0.0,0.0
+tango2,0,0.0,0.0,0.0

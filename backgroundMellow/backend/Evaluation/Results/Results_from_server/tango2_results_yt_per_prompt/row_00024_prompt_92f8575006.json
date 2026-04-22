@@ -1,0 +1,60 @@
+{
+  "stage": "ok",
+  "saved_at_utc": "2026-04-21T19:00:20.703678+00:00",
+  "source_csv": "/Users/ajitesh/Desktop/BTP/cinemaudio-studio/backend/Evaluation/Results/Results_from_server/tango2_results.csv",
+  "row_index": 24,
+  "gemini_model": "gemini-3-flash-preview",
+  "dry_run": false,
+  "from_cached_cues": false,
+  "story_prompt": "Two frantic men attempt a chaotic escape from relentless pursuers in a parking lot, culminating in an absurdly intense car chase on the highway, suddenly soundtracked by an unexpected pop anthem.",
+  "audio_wav_path": "/Users/ajitesh/Desktop/BTP/cinemaudio-studio/backend/Evaluation/Results/Results_from_server/tango2_audios/prompt_92f8575006.wav",
+  "total_seconds": "49.69926240458153",
+  "cues": [
+    {
+      "audio_class": "intense high-pitched screaming and screeching vocals",
+      "starting_time": 0.0,
+      "duration": 6.5,
+      "weight_db": -7.2
+    },
+    {
+      "audio_class": "epic cinematic drum hits and rhythmic percussion",
+      "starting_time": 0.0,
+      "duration": 10.0,
+      "weight_db": -9.5
+    },
+    {
+      "audio_class": "dramatic orchestral brass and aggressive choir riser",
+      "starting_time": 1.5,
+      "duration": 5.0,
+      "weight_db": -12.8
+    },
+    {
+      "audio_class": "metallic scraping and mechanical industrial sound effects",
+      "starting_time": 4.2,
+      "duration": 3.8,
+      "weight_db": -15.0
+    },
+    {
+      "audio_class": "deep sub-bass braam impact sound",
+      "starting_time": 6.8,
+      "duration": 2.2,
+      "weight_db": -8.4
+    },
+    {
+      "audio_class": "fast rhythmic ticking and synth pulses",
+      "starting_time": 3.0,
+      "duration": 7.0,
+      "weight_db": -20.5
+    },
+    {
+      "audio_class": "distorted electronic glitch and white noise textures",
+      "starting_time": 8.1,
+      "duration": 1.9,
+      "weight_db": -18.2
+    }
+  ],
+  "yt_coverage_score": "14.285714285714285",
+  "yt_sync_score": "0.0",
+  "yt_gemini_eval_error": "",
+  "yt_gemini_cues_json_cell": "{\"cues\":[{\"audio_class\":\"intense high-pitched screaming and screeching vocals\",\"starting_time\":0.0,\"duration\":6.5,\"weight_db\":-7.2},{\"audio_class\":\"epic cinematic drum hits and rhythmic percussion\",\"starting_time\":0.0,\"duration\":10.0,\"weight_db\":-9.5},{\"audio_class\":\"dramatic orchestral brass and aggressive choir riser\",\"starting_time\":1.5,\"duration\":5.0,\"weight_db\":-12.8},{\"audio_class\":\"metallic scraping and mechanical industrial sound effects\",\"starting_time\":4.2,\"duration\":3.8,\"weight_db\":-15.0},{\"audio_class\":\"deep sub-bass braam impact sound\",\"starting_time\":6.8,\"duration\":2.2,\"weight_db\":-8.4},{\"audio_class\":\"fast rhythmic ticking and synth pulses\",\"starting_time\":3.0,\"duration\":7.0,\"weight_db\":-20.5},{\"audio_class\":\"distorted electronic glitch and white noise textures\",\"starting_time\":8.1,\"duration\":1.9,\"weight_db\":-18.2}]}"
+}

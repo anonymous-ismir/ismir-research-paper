@@ -1,0 +1,66 @@
+{
+  "stage": "ok",
+  "saved_at_utc": "2026-04-21T19:04:44.782123+00:00",
+  "source_csv": "/Users/ajitesh/Desktop/BTP/cinemaudio-studio/backend/Evaluation/Results/Results_from_server/tango2_results.csv",
+  "row_index": 36,
+  "gemini_model": "gemini-3-flash-preview",
+  "dry_run": false,
+  "from_cached_cues": false,
+  "story_prompt": "As an ancient ritual inadvertently unleashes terrifying demonic forces upon a modern city, desperate citizens and heroes alike must confront overwhelming destruction and grotesque horrors, culminating in a poignant moment of familial fear amidst the chaos.",
+  "audio_wav_path": "/Users/ajitesh/Desktop/BTP/cinemaudio-studio/backend/Evaluation/Results/Results_from_server/tango2_audios/prompt_481180dad2.wav",
+  "total_seconds": "47.518164396596454",
+  "cues": [
+    {
+      "audio_class": "high-pitched frantic human screaming",
+      "starting_time": 0.0,
+      "duration": 3.5,
+      "weight_db": -9.2
+    },
+    {
+      "audio_class": "heavy cinematic impact and low-end boom",
+      "starting_time": 0.0,
+      "duration": 1.8,
+      "weight_db": -7.5
+    },
+    {
+      "audio_class": "intense wind rush and whoosh effect",
+      "starting_time": 0.2,
+      "duration": 3.0,
+      "weight_db": -14.0
+    },
+    {
+      "audio_class": "aggressive percussive synth pulse",
+      "starting_time": 0.0,
+      "duration": 5.5,
+      "weight_db": -19.5
+    },
+    {
+      "audio_class": "distorted metallic grinding and screeching",
+      "starting_time": 5.4,
+      "duration": 1.2,
+      "weight_db": -6.0
+    },
+    {
+      "audio_class": "massive explosion with thermal roar",
+      "starting_time": 6.2,
+      "duration": 3.8,
+      "weight_db": -5.5
+    },
+    {
+      "audio_class": "low-frequency sub-bass rumble",
+      "starting_time": 7.0,
+      "duration": 3.0,
+      "weight_db": -20.0
+    },
+    {
+      "audio_class": "debris impact and fire crackling ambience",
+      "starting_time": 8.2,
+      "duration": 1.8,
+      "weight_db": -26.5
+    }
+  ],
+  "yt_coverage_score": "12.5",
+  "yt_sync_score": "0.00018453104742124804",
+  "yt_gemini_eval_error": "",
+  "yt_gemini_cues_json_cell": "{\"cues\":[{\"audio_class\":\"high-pitched frantic human screaming\",\"starting_time\":0.0,\"duration\":3.5,\"weight_db\":-9.2},{\"audio_class\":\"heavy cinematic impact and low-end boom\",\"starting_time\":0.0,\"duration\":1.8,\"weight_db\":-7.5},{\"audio_class\":\"intense wind rush and whoosh effect\",\"starting_time\":0.2,\"duration\":3.0,\"weight_db\":-14.0},{\"audio_class\":\"aggressive percussive synth pulse\",\"starting_time\":0.0,\"duration\":5.5,\"weight_db\":-19.5},{\"audio_class\":\"distorted metallic grinding and screeching\",\"starting_time\":5.4,\"duration\":1.2,\"weight_db\":-6.0},{\"audio_class\":\"massive explosion with thermal roar\",\"starting_time\":6.2,\"duration\":3.8,\"weight_db\":-5.5},{\"audio_class\":\"low-frequency sub-bass rumble\",\"starting_time\":7.0,\"duration\":3.0,\"weight_db\":-20.0},{\"audio_class\":\"debris impact and fire crackling ambience\",\"starting_time\":8.2,\"duration\":1.8,\"weight_db\":-26.5}]}"
+}

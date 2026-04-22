@@ -1,0 +1,72 @@
+{
+  "stage": "ok",
+  "saved_at_utc": "2026-04-21T18:50:15.103591+00:00",
+  "source_csv": "/Users/ajitesh/Desktop/BTP/cinemaudio-studio/backend/Evaluation/Results/Results_from_server/audioldm2_results.csv",
+  "row_index": 29,
+  "gemini_model": "gemini-3-flash-preview",
+  "dry_run": false,
+  "from_cached_cues": false,
+  "story_prompt": "This clip presents a dynamic montage of breathtaking alien landscapes and intense confrontations, featuring Na'vi warriors forming profound bonds with majestic creatures while fiercely battling against overwhelming enemy forces in both aerial dogfights and colossal aquatic skirmishes.",
+  "audio_wav_path": "/Users/ajitesh/Desktop/BTP/cinemaudio-studio/backend/Evaluation/Results/Results_from_server/audioldm_audios/prompt_ef660c64d1.wav",
+  "total_seconds": "57.07924076565541",
+  "cues": [
+    {
+      "audio_class": "deep cinematic sub-bass impact",
+      "starting_time": 0.0,
+      "duration": 2.5,
+      "weight_db": -5.0
+    },
+    {
+      "audio_class": "industrial ambient drone with low hum",
+      "starting_time": 0.0,
+      "duration": 10.0,
+      "weight_db": -22.0
+    },
+    {
+      "audio_class": "metallic screeching and scraping sound effect",
+      "starting_time": 0.8,
+      "duration": 1.5,
+      "weight_db": -16.0
+    },
+    {
+      "audio_class": "heavy rhythmic percussive thud",
+      "starting_time": 2.2,
+      "duration": 2.0,
+      "weight_db": -6.5
+    },
+    {
+      "audio_class": "distorted metallic clang effect",
+      "starting_time": 4.1,
+      "duration": 1.8,
+      "weight_db": -10.0
+    },
+    {
+      "audio_class": "mechanical rhythmic pulse build-up",
+      "starting_time": 5.5,
+      "duration": 4.5,
+      "weight_db": -14.0
+    },
+    {
+      "audio_class": "high-frequency tension synth riser",
+      "starting_time": 6.2,
+      "duration": 3.8,
+      "weight_db": -18.5
+    },
+    {
+      "audio_class": "aggressive metallic friction sound",
+      "starting_time": 7.5,
+      "duration": 2.0,
+      "weight_db": -11.0
+    },
+    {
+      "audio_class": "final heavy orchestral impact boom",
+      "starting_time": 8.8,
+      "duration": 1.2,
+      "weight_db": -4.5
+    }
+  ],
+  "yt_coverage_score": "0.0",
+  "yt_sync_score": "0.0",
+  "yt_gemini_eval_error": "",
+  "yt_gemini_cues_json_cell": "{\"cues\":[{\"audio_class\":\"deep cinematic sub-bass impact\",\"starting_time\":0.0,\"duration\":2.5,\"weight_db\":-5.0},{\"audio_class\":\"industrial ambient drone with low hum\",\"starting_time\":0.0,\"duration\":10.0,\"weight_db\":-22.0},{\"audio_class\":\"metallic screeching and scraping sound effect\",\"starting_time\":0.8,\"duration\":1.5,\"weight_db\":-16.0},{\"audio_class\":\"heavy rhythmic percussive thud\",\"starting_time\":2.2,\"duration\":2.0,\"weight_db\":-6.5},{\"audio_class\":\"distorted metallic clang effect\",\"starting_time\":4.1,\"duration\":1.8,\"weight_db\":-10.0},{\"audio_class\":\"mechanical rhythmic pulse build-up\",\"starting_time\":5.5,\"duration\":4.5,\"weight_db\":-14.0},{\"audio_class\":\"high-frequency tension synth riser\",\"starting_time\":6.2,\"duration\":3.8,\"weight_db\":-18.5},{\"audio_class\":\"aggressive metallic friction sound\",\"starting_time\":7.5,\"duration\":2.0,\"weight_db\":-11.0},{\"audio_class\":\"final heavy orchestral impact boom\",\"starting_time\":8.8,\"duration\":1.2,\"weight_db\":-4.5}]}"
+}

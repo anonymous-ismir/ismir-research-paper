@@ -1,0 +1,66 @@
+{
+  "stage": "ok",
+  "saved_at_utc": "2026-04-21T18:50:03.930578+00:00",
+  "source_csv": "/Users/ajitesh/Desktop/BTP/cinemaudio-studio/backend/Evaluation/Results/Results_from_server/audioldm2_results.csv",
+  "row_index": 28,
+  "gemini_model": "gemini-3-flash-preview",
+  "dry_run": false,
+  "from_cached_cues": false,
+  "story_prompt": "A blue-skinned indigenous family battles futuristic human forces in a series of breathtaking aerial and ground skirmishes involving explosive weaponry and desperate escapes, highlighting their fierce resilience and familial bonds amidst chaos.",
+  "audio_wav_path": "/Users/ajitesh/Desktop/BTP/cinemaudio-studio/backend/Evaluation/Results/Results_from_server/audioldm_audios/prompt_386cc5ccc8.wav",
+  "total_seconds": "57.205409351037815",
+  "cues": [
+    {
+      "audio_class": "low-frequency machinery hum and ambient drone",
+      "starting_time": 0.0,
+      "duration": 2.5,
+      "weight_db": -25.0
+    },
+    {
+      "audio_class": "mechanical metallic clicking and foley",
+      "starting_time": 0.8,
+      "duration": 0.7,
+      "weight_db": -18.5
+    },
+    {
+      "audio_class": "rhythmic synth pulsing with electronic bass",
+      "starting_time": 1.5,
+      "duration": 7.5,
+      "weight_db": -20.0
+    },
+    {
+      "audio_class": "dramatic brass 'braam' cinematic hit",
+      "starting_time": 2.8,
+      "duration": 2.0,
+      "weight_db": -10.0
+    },
+    {
+      "audio_class": "sharp metallic sword clash / impact effect",
+      "starting_time": 4.1,
+      "duration": 0.9,
+      "weight_db": -12.5
+    },
+    {
+      "audio_class": "high-speed cinematic whoosh effect",
+      "starting_time": 5.2,
+      "duration": 0.6,
+      "weight_db": -18.0
+    },
+    {
+      "audio_class": "orchestral string build-up with rising tension",
+      "starting_time": 5.8,
+      "duration": 3.2,
+      "weight_db": -14.0
+    },
+    {
+      "audio_class": "heavy percussive stomp / bass impact",
+      "starting_time": 8.4,
+      "duration": 1.1,
+      "weight_db": -8.5
+    }
+  ],
+  "yt_coverage_score": "33.33333333333333",
+  "yt_sync_score": "0.0",
+  "yt_gemini_eval_error": "",
+  "yt_gemini_cues_json_cell": "{\"cues\":[{\"audio_class\":\"low-frequency machinery hum and ambient drone\",\"starting_time\":0.0,\"duration\":2.5,\"weight_db\":-25.0},{\"audio_class\":\"mechanical metallic clicking and foley\",\"starting_time\":0.8,\"duration\":0.7,\"weight_db\":-18.5},{\"audio_class\":\"rhythmic synth pulsing with electronic bass\",\"starting_time\":1.5,\"duration\":7.5,\"weight_db\":-20.0},{\"audio_class\":\"dramatic brass 'braam' cinematic hit\",\"starting_time\":2.8,\"duration\":2.0,\"weight_db\":-10.0},{\"audio_class\":\"sharp metallic sword clash / impact effect\",\"starting_time\":4.1,\"duration\":0.9,\"weight_db\":-12.5},{\"audio_class\":\"high-speed cinematic whoosh effect\",\"starting_time\":5.2,\"duration\":0.6,\"weight_db\":-18.0},{\"audio_class\":\"orchestral string build-up with rising tension\",\"starting_time\":5.8,\"duration\":3.2,\"weight_db\":-14.0},{\"audio_class\":\"heavy percussive stomp / bass impact\",\"starting_time\":8.4,\"duration\":1.1,\"weight_db\":-8.5}]}"
+}

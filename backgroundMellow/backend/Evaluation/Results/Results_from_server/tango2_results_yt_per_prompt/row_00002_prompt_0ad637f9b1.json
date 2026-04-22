@@ -1,0 +1,72 @@
+{
+  "stage": "ok",
+  "saved_at_utc": "2026-04-21T18:53:56.037588+00:00",
+  "source_csv": "/Users/ajitesh/Desktop/BTP/cinemaudio-studio/backend/Evaluation/Results/Results_from_server/tango2_results.csv",
+  "row_index": 2,
+  "gemini_model": "gemini-3-flash-preview",
+  "dry_run": false,
+  "from_cached_cues": false,
+  "story_prompt": "A series of tense, rain-soaked western confrontations erupts across saloons and dusty streets, as a determined man in a fedora faces off against multiple adversaries amidst a hail of gunfire and declarations of impending battle.",
+  "audio_wav_path": "/Users/ajitesh/Desktop/BTP/cinemaudio-studio/backend/Evaluation/Results/Results_from_server/tango2_audios/prompt_0ad637f9b1.wav",
+  "total_seconds": "50.84803791856393",
+  "cues": [
+    {
+      "audio_class": "intense action music with driving percussion",
+      "starting_time": 0.0,
+      "duration": 9.0,
+      "weight_db": -12.0
+    },
+    {
+      "audio_class": "ambient chaos and explosion sounds",
+      "starting_time": 0.0,
+      "duration": 3.0,
+      "weight_db": -8.5
+    },
+    {
+      "audio_class": "high-pitched screaming and background shouting",
+      "starting_time": 0.0,
+      "duration": 2.5,
+      "weight_db": -10.0
+    },
+    {
+      "audio_class": "male character shouting dialogue",
+      "starting_time": 1.0,
+      "duration": 2.5,
+      "weight_db": -6.0
+    },
+    {
+      "audio_class": "dramatic male voice dialogue",
+      "starting_time": 4.5,
+      "duration": 4.0,
+      "weight_db": -5.0
+    },
+    {
+      "audio_class": "orchestral build-up with strings",
+      "starting_time": 4.0,
+      "duration": 5.0,
+      "weight_db": -15.0
+    },
+    {
+      "audio_class": "metallic clang impact sound effect",
+      "starting_time": 8.5,
+      "duration": 0.5,
+      "weight_db": -7.0
+    },
+    {
+      "audio_class": "rhythmic percussion with synth bass",
+      "starting_time": 2.0,
+      "duration": 7.0,
+      "weight_db": -14.0
+    },
+    {
+      "audio_class": "wind whoosh and fire rumble ambience",
+      "starting_time": 0.0,
+      "duration": 4.0,
+      "weight_db": -18.0
+    }
+  ],
+  "yt_coverage_score": "28.57142857142857",
+  "yt_sync_score": "0.00028649551837385",
+  "yt_gemini_eval_error": "",
+  "yt_gemini_cues_json_cell": "{\"cues\":[{\"audio_class\":\"intense action music with driving percussion\",\"starting_time\":0.0,\"duration\":9.0,\"weight_db\":-12.0},{\"audio_class\":\"ambient chaos and explosion sounds\",\"starting_time\":0.0,\"duration\":3.0,\"weight_db\":-8.5},{\"audio_class\":\"high-pitched screaming and background shouting\",\"starting_time\":0.0,\"duration\":2.5,\"weight_db\":-10.0},{\"audio_class\":\"male character shouting dialogue\",\"starting_time\":1.0,\"duration\":2.5,\"weight_db\":-6.0},{\"audio_class\":\"dramatic male voice dialogue\",\"starting_time\":4.5,\"duration\":4.0,\"weight_db\":-5.0},{\"audio_class\":\"orchestral build-up with strings\",\"starting_time\":4.0,\"duration\":5.0,\"weight_db\":-15.0},{\"audio_class\":\"metallic clang impact sound effect\",\"starting_time\":8.5,\"duration\":0.5,\"weight_db\":-7.0},{\"audio_class\":\"rhythmic percussion with synth bass\",\"starting_time\":2.0,\"duration\":7.0,\"weight_db\":-14.0},{\"audio_class\":\"wind whoosh and fire rumble ambience\",\"starting_time\":0.0,\"duration\":4.0,\"weight_db\":-18.0}]}"
+}

@@ -1,0 +1,84 @@
+{
+  "stage": "ok",
+  "saved_at_utc": "2026-04-21T18:57:20.475593+00:00",
+  "source_csv": "/Users/ajitesh/Desktop/BTP/cinemaudio-studio/backend/Evaluation/Results/Results_from_server/tango2_results.csv",
+  "row_index": 13,
+  "gemini_model": "gemini-3-flash-preview",
+  "dry_run": false,
+  "from_cached_cues": false,
+  "story_prompt": "Bruce Wayne and Alfred discuss the concept of subtlety within their urban environment, humorously juxtaposed with the powerful roar of a high-performance Lamborghini, before the scene dramatically cuts to a climactic title card reveal.",
+  "audio_wav_path": "/Users/ajitesh/Desktop/BTP/cinemaudio-studio/backend/Evaluation/Results/Results_from_server/tango2_audios/prompt_013da81d0e.wav",
+  "total_seconds": "48.93111898424104",
+  "cues": [
+    {
+      "audio_class": "intense rhythmic orchestral music",
+      "starting_time": 0,
+      "duration": 9,
+      "weight_db": -16.0
+    },
+    {
+      "audio_class": "opening cinematic impact hit",
+      "starting_time": 0,
+      "duration": 1.2,
+      "weight_db": -6.0
+    },
+    {
+      "audio_class": "loud terrified female scream",
+      "starting_time": 0.1,
+      "duration": 1.9,
+      "weight_db": -7.5
+    },
+    {
+      "audio_class": "sharp metallic sword clash",
+      "starting_time": 1.2,
+      "duration": 0.5,
+      "weight_db": -9.0
+    },
+    {
+      "audio_class": "sustained orchestral brass rise",
+      "starting_time": 2.0,
+      "duration": 3.5,
+      "weight_db": -13.2
+    },
+    {
+      "audio_class": "eerie high-pitched screeching sound effect",
+      "starting_time": 2.5,
+      "duration": 4.0,
+      "weight_db": -18.5
+    },
+    {
+      "audio_class": "heavy metallic impact and debris",
+      "starting_time": 4.5,
+      "duration": 1.0,
+      "weight_db": -10.0
+    },
+    {
+      "audio_class": "dramatic sub-bass impact boom",
+      "starting_time": 5.5,
+      "duration": 1.8,
+      "weight_db": -7.8
+    },
+    {
+      "audio_class": "aggressive fast-paced trailer percussion",
+      "starting_time": 6.5,
+      "duration": 2.5,
+      "weight_db": -14.0
+    },
+    {
+      "audio_class": "distant crowd shouting and chaos ambience",
+      "starting_time": 0,
+      "duration": 9,
+      "weight_db": -24.5
+    },
+    {
+      "audio_class": "closing metallic whoosh and blade shimmer",
+      "starting_time": 8.1,
+      "duration": 0.9,
+      "weight_db": -12.3
+    }
+  ],
+  "yt_coverage_score": "14.285714285714285",
+  "yt_sync_score": "1.2205693186733567e-07",
+  "yt_gemini_eval_error": "",
+  "yt_gemini_cues_json_cell": "{\"cues\":[{\"audio_class\":\"intense rhythmic orchestral music\",\"starting_time\":0,\"duration\":9,\"weight_db\":-16.0},{\"audio_class\":\"opening cinematic impact hit\",\"starting_time\":0,\"duration\":1.2,\"weight_db\":-6.0},{\"audio_class\":\"loud terrified female scream\",\"starting_time\":0.1,\"duration\":1.9,\"weight_db\":-7.5},{\"audio_class\":\"sharp metallic sword clash\",\"starting_time\":1.2,\"duration\":0.5,\"weight_db\":-9.0},{\"audio_class\":\"sustained orchestral brass rise\",\"starting_time\":2.0,\"duration\":3.5,\"weight_db\":-13.2},{\"audio_class\":\"eerie high-pitched screeching sound effect\",\"starting_time\":2.5,\"duration\":4.0,\"weight_db\":-18.5},{\"audio_class\":\"heavy metallic impact and debris\",\"starting_time\":4.5,\"duration\":1.0,\"weight_db\":-10.0},{\"audio_class\":\"dramatic sub-bass impact boom\",\"starting_time\":5.5,\"duration\":1.8,\"weight_db\":-7.8},{\"audio_class\":\"aggressive fast-paced trailer percussion\",\"starting_time\":6.5,\"duration\":2.5,\"weight_db\":-14.0},{\"audio_class\":\"distant crowd shouting and chaos ambience\",\"starting_time\":0,\"duration\":9,\"weight_db\":-24.5},{\"audio_class\":\"closing metallic whoosh and blade shimmer\",\"starting_time\":8.1,\"duration\":0.9,\"weight_db\":-12.3}]}"
+}

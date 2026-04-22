@@ -1,0 +1,48 @@
+{
+  "stage": "ok",
+  "saved_at_utc": "2026-04-21T18:44:57.406622+00:00",
+  "source_csv": "/Users/ajitesh/Desktop/BTP/cinemaudio-studio/backend/Evaluation/Results/Results_from_server/audioldm2_results.csv",
+  "row_index": 11,
+  "gemini_model": "gemini-3-flash-preview",
+  "dry_run": false,
+  "from_cached_cues": false,
+  "story_prompt": "Amidst scenes of meticulous scientific assembly in both sterile labs and desolate desert outposts, a profound and escalating tension builds as brilliant minds confront the monumental, world-altering implications of their creation.",
+  "audio_wav_path": "/Users/ajitesh/Desktop/BTP/cinemaudio-studio/backend/Evaluation/Results/Results_from_server/audioldm_audios/prompt_ef0404baa7.wav",
+  "total_seconds": "60.37083923188038",
+  "cues": [
+    {
+      "audio_class": "loud industrial alarm siren / braam",
+      "starting_time": 0.0,
+      "duration": 10.0,
+      "weight_db": -8.5
+    },
+    {
+      "audio_class": "rhythmic pulsing synth bass",
+      "starting_time": 0.0,
+      "duration": 10.0,
+      "weight_db": -12.0
+    },
+    {
+      "audio_class": "dark atmospheric drone with low-end rumble",
+      "starting_time": 0.0,
+      "duration": 10.0,
+      "weight_db": -20.5
+    },
+    {
+      "audio_class": "distorted metallic mechanical screech",
+      "starting_time": 0.0,
+      "duration": 10.0,
+      "weight_db": -15.0
+    },
+    {
+      "audio_class": "deep sub-bass impact hit",
+      "starting_time": 0.0,
+      "duration": 1.8,
+      "weight_db": -9.5
+    }
+  ],
+  "yt_coverage_score": "0.0",
+  "yt_sync_score": "0.0",
+  "yt_gemini_eval_error": "",
+  "yt_gemini_cues_json_cell": "{\"cues\":[{\"audio_class\":\"loud industrial alarm siren / braam\",\"starting_time\":0.0,\"duration\":10.0,\"weight_db\":-8.5},{\"audio_class\":\"rhythmic pulsing synth bass\",\"starting_time\":0.0,\"duration\":10.0,\"weight_db\":-12.0},{\"audio_class\":\"dark atmospheric drone with low-end rumble\",\"starting_time\":0.0,\"duration\":10.0,\"weight_db\":-20.5},{\"audio_class\":\"distorted metallic mechanical screech\",\"starting_time\":0.0,\"duration\":10.0,\"weight_db\":-15.0},{\"audio_class\":\"deep sub-bass impact hit\",\"starting_time\":0.0,\"duration\":1.8,\"weight_db\":-9.5}]}"
+}

@@ -1,0 +1,54 @@
+{
+  "stage": "ok",
+  "saved_at_utc": "2026-04-21T18:48:51.841392+00:00",
+  "source_csv": "/Users/ajitesh/Desktop/BTP/cinemaudio-studio/backend/Evaluation/Results/Results_from_server/audioldm2_results.csv",
+  "row_index": 24,
+  "gemini_model": "gemini-3-flash-preview",
+  "dry_run": false,
+  "from_cached_cues": false,
+  "story_prompt": "Two frantic men attempt a chaotic escape from relentless pursuers in a parking lot, culminating in an absurdly intense car chase on the highway, suddenly soundtracked by an unexpected pop anthem.",
+  "audio_wav_path": "/Users/ajitesh/Desktop/BTP/cinemaudio-studio/backend/Evaluation/Results/Results_from_server/audioldm_audios/prompt_92f8575006.wav",
+  "total_seconds": "57.23182687652297",
+  "cues": [
+    {
+      "audio_class": "low-frequency atmospheric rumble",
+      "starting_time": 0.0,
+      "duration": 10.0,
+      "weight_db": -25.0
+    },
+    {
+      "audio_class": "rapid rhythmic mechanical ticking",
+      "starting_time": 0.0,
+      "duration": 1.8,
+      "weight_db": -18.5
+    },
+    {
+      "audio_class": "fast heavy percussive impacts / thuds",
+      "starting_time": 1.8,
+      "duration": 2.4,
+      "weight_db": -12.0
+    },
+    {
+      "audio_class": "intense mechanical engine riser / synth drone",
+      "starting_time": 4.2,
+      "duration": 5.8,
+      "weight_db": -7.5
+    },
+    {
+      "audio_class": "distorted metallic whirring / grinding sound effect",
+      "starting_time": 5.5,
+      "duration": 4.5,
+      "weight_db": -11.0
+    },
+    {
+      "audio_class": "high-frequency electronic sizzle",
+      "starting_time": 6.8,
+      "duration": 3.2,
+      "weight_db": -15.0
+    }
+  ],
+  "yt_coverage_score": "0.0",
+  "yt_sync_score": "0.0",
+  "yt_gemini_eval_error": "",
+  "yt_gemini_cues_json_cell": "{\"cues\":[{\"audio_class\":\"low-frequency atmospheric rumble\",\"starting_time\":0.0,\"duration\":10.0,\"weight_db\":-25.0},{\"audio_class\":\"rapid rhythmic mechanical ticking\",\"starting_time\":0.0,\"duration\":1.8,\"weight_db\":-18.5},{\"audio_class\":\"fast heavy percussive impacts / thuds\",\"starting_time\":1.8,\"duration\":2.4,\"weight_db\":-12.0},{\"audio_class\":\"intense mechanical engine riser / synth drone\",\"starting_time\":4.2,\"duration\":5.8,\"weight_db\":-7.5},{\"audio_class\":\"distorted metallic whirring / grinding sound effect\",\"starting_time\":5.5,\"duration\":4.5,\"weight_db\":-11.0},{\"audio_class\":\"high-frequency electronic sizzle\",\"starting_time\":6.8,\"duration\":3.2,\"weight_db\":-15.0}]}"
+}

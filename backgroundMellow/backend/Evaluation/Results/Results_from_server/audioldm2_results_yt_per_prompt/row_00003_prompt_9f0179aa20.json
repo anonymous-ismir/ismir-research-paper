@@ -1,0 +1,78 @@
+{
+  "stage": "ok",
+  "saved_at_utc": "2026-04-21T18:41:49.060524+00:00",
+  "source_csv": "/Users/ajitesh/Desktop/BTP/cinemaudio-studio/backend/Evaluation/Results/Results_from_server/audioldm2_results.csv",
+  "row_index": 3,
+  "gemini_model": "gemini-3-flash-preview",
+  "dry_run": false,
+  "from_cached_cues": false,
+  "story_prompt": "A calm restaurant conversation about violent films abruptly cuts to an explosive, over-the-top movie scene where a flamethrower-wielding soldier incinerates Nazis, then transitions to a vibrant montage of 1960s Los Angeles glamour and lively parties.",
+  "audio_wav_path": "/Users/ajitesh/Desktop/BTP/cinemaudio-studio/backend/Evaluation/Results/Results_from_server/audioldm_audios/prompt_9f0179aa20.wav",
+  "total_seconds": "57.947004144545645",
+  "cues": [
+    {
+      "audio_class": "chaotic crowd screaming and panic ambience",
+      "starting_time": 0.0,
+      "duration": 3.5,
+      "weight_db": -18.0
+    },
+    {
+      "audio_class": "intense rhythmic industrial percussion",
+      "starting_time": 0.0,
+      "duration": 9.0,
+      "weight_db": -12.5
+    },
+    {
+      "audio_class": "sharp metallic impact sound effect",
+      "starting_time": 0.1,
+      "duration": 0.8,
+      "weight_db": -10.0
+    },
+    {
+      "audio_class": "high-pitched synth textures",
+      "starting_time": 1.0,
+      "duration": 5.0,
+      "weight_db": -22.0
+    },
+    {
+      "audio_class": "heavy mechanical stomp / bass hit",
+      "starting_time": 3.2,
+      "duration": 0.7,
+      "weight_db": -9.5
+    },
+    {
+      "audio_class": "air whoosh transition effect",
+      "starting_time": 2.8,
+      "duration": 1.2,
+      "weight_db": -15.0
+    },
+    {
+      "audio_class": "rapid metallic sword clashing sounds",
+      "starting_time": 4.5,
+      "duration": 2.5,
+      "weight_db": -11.0
+    },
+    {
+      "audio_class": "low-frequency sub bass drone",
+      "starting_time": 2.0,
+      "duration": 7.0,
+      "weight_db": -20.5
+    },
+    {
+      "audio_class": "distorted industrial grinding sound",
+      "starting_time": 6.0,
+      "duration": 3.0,
+      "weight_db": -18.0
+    },
+    {
+      "audio_class": "orchestral percussion build-up",
+      "starting_time": 7.5,
+      "duration": 1.5,
+      "weight_db": -13.2
+    }
+  ],
+  "yt_coverage_score": "14.285714285714285",
+  "yt_sync_score": "0.0",
+  "yt_gemini_eval_error": "",
+  "yt_gemini_cues_json_cell": "{\"cues\":[{\"audio_class\":\"chaotic crowd screaming and panic ambience\",\"starting_time\":0.0,\"duration\":3.5,\"weight_db\":-18.0},{\"audio_class\":\"intense rhythmic industrial percussion\",\"starting_time\":0.0,\"duration\":9.0,\"weight_db\":-12.5},{\"audio_class\":\"sharp metallic impact sound effect\",\"starting_time\":0.1,\"duration\":0.8,\"weight_db\":-10.0},{\"audio_class\":\"high-pitched synth textures\",\"starting_time\":1.0,\"duration\":5.0,\"weight_db\":-22.0},{\"audio_class\":\"heavy mechanical stomp / bass hit\",\"starting_time\":3.2,\"duration\":0.7,\"weight_db\":-9.5},{\"audio_class\":\"air whoosh transition effect\",\"starting_time\":2.8,\"duration\":1.2,\"weight_db\":-15.0},{\"audio_class\":\"rapid metallic sword clashing sounds\",\"starting_time\":4.5,\"duration\":2.5,\"weight_db\":-11.0},{\"audio_class\":\"low-frequency sub bass drone\",\"starting_time\":2.0,\"duration\":7.0,\"weight_db\":-20.5},{\"audio_class\":\"distorted industrial grinding sound\",\"starting_time\":6.0,\"duration\":3.0,\"weight_db\":-18.0},{\"audio_class\":\"orchestral percussion build-up\",\"starting_time\":7.5,\"duration\":1.5,\"weight_db\":-13.2}]}"
+}

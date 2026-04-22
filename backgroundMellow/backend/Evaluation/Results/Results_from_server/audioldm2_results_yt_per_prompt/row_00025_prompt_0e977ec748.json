@@ -1,0 +1,60 @@
+{
+  "stage": "ok",
+  "saved_at_utc": "2026-04-21T18:49:06.265178+00:00",
+  "source_csv": "/Users/ajitesh/Desktop/BTP/cinemaudio-studio/backend/Evaluation/Results/Results_from_server/audioldm2_results.csv",
+  "row_index": 25,
+  "gemini_model": "gemini-3-flash-preview",
+  "dry_run": false,
+  "from_cached_cues": false,
+  "story_prompt": "An armored, monstrous creature grunts and struggles to pull itself through a dense, muddy forest floor, punctuated by on-screen text, before a dramatic transition to the iconic studio logo and a final ominous silhouette of a warrior.",
+  "audio_wav_path": "/Users/ajitesh/Desktop/BTP/cinemaudio-studio/backend/Evaluation/Results/Results_from_server/audioldm_audios/prompt_0e977ec748.wav",
+  "total_seconds": "57.123790132114664",
+  "cues": [
+    {
+      "audio_class": "heavy cinematic impact / boom",
+      "starting_time": 0.0,
+      "duration": 1.5,
+      "weight_db": -8.0
+    },
+    {
+      "audio_class": "mechanical roar and engine hum",
+      "starting_time": 0.5,
+      "duration": 2.0,
+      "weight_db": -12.0
+    },
+    {
+      "audio_class": "low-frequency atmospheric drone",
+      "starting_time": 0.0,
+      "duration": 9.0,
+      "weight_db": -25.0
+    },
+    {
+      "audio_class": "high-pitched metallic screech",
+      "starting_time": 3.2,
+      "duration": 1.5,
+      "weight_db": -15.0
+    },
+    {
+      "audio_class": "deep bass pulse / rhythmic thud",
+      "starting_time": 5.0,
+      "duration": 1.0,
+      "weight_db": -10.0
+    },
+    {
+      "audio_class": "dramatic brassy braam sound effect",
+      "starting_time": 6.5,
+      "duration": 2.5,
+      "weight_db": -9.0
+    },
+    {
+      "audio_class": "metallic clatter / mechanical movement SFX",
+      "starting_time": 1.5,
+      "duration": 3.0,
+      "weight_db": -20.0
+    }
+  ],
+  "yt_coverage_score": "37.5",
+  "yt_sync_score": "0.0009878694583482352",
+  "yt_gemini_eval_error": "",
+  "yt_gemini_cues_json_cell": "{\"cues\":[{\"audio_class\":\"heavy cinematic impact / boom\",\"starting_time\":0.0,\"duration\":1.5,\"weight_db\":-8.0},{\"audio_class\":\"mechanical roar and engine hum\",\"starting_time\":0.5,\"duration\":2.0,\"weight_db\":-12.0},{\"audio_class\":\"low-frequency atmospheric drone\",\"starting_time\":0.0,\"duration\":9.0,\"weight_db\":-25.0},{\"audio_class\":\"high-pitched metallic screech\",\"starting_time\":3.2,\"duration\":1.5,\"weight_db\":-15.0},{\"audio_class\":\"deep bass pulse / rhythmic thud\",\"starting_time\":5.0,\"duration\":1.0,\"weight_db\":-10.0},{\"audio_class\":\"dramatic brassy braam sound effect\",\"starting_time\":6.5,\"duration\":2.5,\"weight_db\":-9.0},{\"audio_class\":\"metallic clatter / mechanical movement SFX\",\"starting_time\":1.5,\"duration\":3.0,\"weight_db\":-20.0}]}"
+}

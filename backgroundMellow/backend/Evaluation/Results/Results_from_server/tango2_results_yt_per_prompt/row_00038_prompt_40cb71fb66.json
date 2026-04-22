@@ -1,0 +1,54 @@
+{
+  "stage": "ok",
+  "saved_at_utc": "2026-04-21T19:05:40.475349+00:00",
+  "source_csv": "/Users/ajitesh/Desktop/BTP/cinemaudio-studio/backend/Evaluation/Results/Results_from_server/tango2_results.csv",
+  "row_index": 38,
+  "gemini_model": "gemini-3-flash-preview",
+  "dry_run": false,
+  "from_cached_cues": false,
+  "story_prompt": "The scene abruptly shifts from a dimly lit, intense discussion between two men about writing a serial killer's story, punctuated by stark textual reveals and unsettling sound effects, to sun-drenched, idyllic moments of a loving couple joyfully embracing while moving into a charming, tree-lined suburban home, underscored by melancholic music and the nostalgic sound of a record player, hinting at a sharp dichotomy between dark narrative creation and a serene domestic life.",
+  "audio_wav_path": "/Users/ajitesh/Desktop/BTP/cinemaudio-studio/backend/Evaluation/Results/Results_from_server/tango2_audios/prompt_40cb71fb66.wav",
+  "total_seconds": "47.51114687540879",
+  "cues": [
+    {
+      "audio_class": "high-energy electronic trailer music with heavy synth",
+      "starting_time": 0.0,
+      "duration": 5.5,
+      "weight_db": -12.0
+    },
+    {
+      "audio_class": "rhythmic vocal shouts",
+      "starting_time": 0.0,
+      "duration": 2.2,
+      "weight_db": -15.5
+    },
+    {
+      "audio_class": "distorted synth bass pulse",
+      "starting_time": 0.0,
+      "duration": 5.5,
+      "weight_db": -10.0
+    },
+    {
+      "audio_class": "fast-paced drum and bass percussion loop",
+      "starting_time": 0.0,
+      "duration": 5.5,
+      "weight_db": -14.0
+    },
+    {
+      "audio_class": "high-pitched melodic synth layer",
+      "starting_time": 2.0,
+      "duration": 3.5,
+      "weight_db": -16.5
+    },
+    {
+      "audio_class": "electronic transition glitch SFX",
+      "starting_time": 3.0,
+      "duration": 0.8,
+      "weight_db": -18.0
+    }
+  ],
+  "yt_coverage_score": "0.0",
+  "yt_sync_score": "0.0",
+  "yt_gemini_eval_error": "",
+  "yt_gemini_cues_json_cell": "{\"cues\":[{\"audio_class\":\"high-energy electronic trailer music with heavy synth\",\"starting_time\":0.0,\"duration\":5.5,\"weight_db\":-12.0},{\"audio_class\":\"rhythmic vocal shouts\",\"starting_time\":0.0,\"duration\":2.2,\"weight_db\":-15.5},{\"audio_class\":\"distorted synth bass pulse\",\"starting_time\":0.0,\"duration\":5.5,\"weight_db\":-10.0},{\"audio_class\":\"fast-paced drum and bass percussion loop\",\"starting_time\":0.0,\"duration\":5.5,\"weight_db\":-14.0},{\"audio_class\":\"high-pitched melodic synth layer\",\"starting_time\":2.0,\"duration\":3.5,\"weight_db\":-16.5},{\"audio_class\":\"electronic transition glitch SFX\",\"starting_time\":3.0,\"duration\":0.8,\"weight_db\":-18.0}]}"
+}

@@ -1,0 +1,60 @@
+{
+  "stage": "ok",
+  "saved_at_utc": "2026-04-21T18:42:40.808142+00:00",
+  "source_csv": "/Users/ajitesh/Desktop/BTP/cinemaudio-studio/backend/Evaluation/Results/Results_from_server/audioldm2_results.csv",
+  "row_index": 5,
+  "gemini_model": "gemini-3-flash-preview",
+  "dry_run": false,
+  "from_cached_cues": false,
+  "story_prompt": "The chaotic clip rapidly shifts between fantastical delusions of a towering creature causing explosive urban destruction and the stark reality of an actor grappling with inner voices, intense rooftop confrontations, a dramatic plunge from a skyscraper, and the overwhelming scrutiny of paparazzi.",
+  "audio_wav_path": "/Users/ajitesh/Desktop/BTP/cinemaudio-studio/backend/Evaluation/Results/Results_from_server/audioldm_audios/prompt_47523e0b68.wav",
+  "total_seconds": "61.409014251315966",
+  "cues": [
+    {
+      "audio_class": "industrial mechanical drone and wind ambience",
+      "starting_time": 0.0,
+      "duration": 10.0,
+      "weight_db": -24.5
+    },
+    {
+      "audio_class": "heavy metallic door opening impact with reverb",
+      "starting_time": 0.0,
+      "duration": 1.8,
+      "weight_db": -9.0
+    },
+    {
+      "audio_class": "high-pitched metallic screech and grinding noise",
+      "starting_time": 0.5,
+      "duration": 3.2,
+      "weight_db": -15.5
+    },
+    {
+      "audio_class": "rhythmic cinematic synth pulses with low-end bass",
+      "starting_time": 3.5,
+      "duration": 6.5,
+      "weight_db": -18.0
+    },
+    {
+      "audio_class": "mechanical gear shifts and metallic clicking sounds",
+      "starting_time": 5.2,
+      "duration": 2.5,
+      "weight_db": -13.5
+    },
+    {
+      "audio_class": "sharp metallic latch click / lock mechanism",
+      "starting_time": 8.0,
+      "duration": 0.4,
+      "weight_db": -12.0
+    },
+    {
+      "audio_class": "dramatic metallic impact slam ending",
+      "starting_time": 8.9,
+      "duration": 1.1,
+      "weight_db": -7.5
+    }
+  ],
+  "yt_coverage_score": "12.5",
+  "yt_sync_score": "0.0",
+  "yt_gemini_eval_error": "",
+  "yt_gemini_cues_json_cell": "{\"cues\":[{\"audio_class\":\"industrial mechanical drone and wind ambience\",\"starting_time\":0.0,\"duration\":10.0,\"weight_db\":-24.5},{\"audio_class\":\"heavy metallic door opening impact with reverb\",\"starting_time\":0.0,\"duration\":1.8,\"weight_db\":-9.0},{\"audio_class\":\"high-pitched metallic screech and grinding noise\",\"starting_time\":0.5,\"duration\":3.2,\"weight_db\":-15.5},{\"audio_class\":\"rhythmic cinematic synth pulses with low-end bass\",\"starting_time\":3.5,\"duration\":6.5,\"weight_db\":-18.0},{\"audio_class\":\"mechanical gear shifts and metallic clicking sounds\",\"starting_time\":5.2,\"duration\":2.5,\"weight_db\":-13.5},{\"audio_class\":\"sharp metallic latch click / lock mechanism\",\"starting_time\":8.0,\"duration\":0.4,\"weight_db\":-12.0},{\"audio_class\":\"dramatic metallic impact slam ending\",\"starting_time\":8.9,\"duration\":1.1,\"weight_db\":-7.5}]}"
+}

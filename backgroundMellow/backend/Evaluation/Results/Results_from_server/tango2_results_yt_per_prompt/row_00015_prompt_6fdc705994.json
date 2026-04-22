@@ -1,0 +1,48 @@
+{
+  "stage": "ok",
+  "saved_at_utc": "2026-04-21T18:57:46.461620+00:00",
+  "source_csv": "/Users/ajitesh/Desktop/BTP/cinemaudio-studio/backend/Evaluation/Results/Results_from_server/tango2_results.csv",
+  "row_index": 15,
+  "gemini_model": "gemini-3-flash-preview",
+  "dry_run": false,
+  "from_cached_cues": false,
+  "story_prompt": "The clip rapidly stitches together unsettling scenes of tense pursuit, fleeting confrontations, and sudden, brutal violence across desolate landscapes and dimly lit interiors, hinting at a relentless and dangerous cat-and-mouse game.",
+  "audio_wav_path": "/Users/ajitesh/Desktop/BTP/cinemaudio-studio/backend/Evaluation/Results/Results_from_server/tango2_audios/prompt_6fdc705994.wav",
+  "total_seconds": "48.93125398317352",
+  "cues": [
+    {
+      "audio_class": "massive explosion roar and continuous fire",
+      "starting_time": 0.0,
+      "duration": 10.0,
+      "weight_db": -5.5
+    },
+    {
+      "audio_class": "heavy metallic grinding and screeching",
+      "starting_time": 0.0,
+      "duration": 8.2,
+      "weight_db": -7.8
+    },
+    {
+      "audio_class": "deep sub-bass rumble and seismic vibration",
+      "starting_time": 0.0,
+      "duration": 10.0,
+      "weight_db": -12.0
+    },
+    {
+      "audio_class": "shattering debris and secondary metallic impacts",
+      "starting_time": 0.5,
+      "duration": 5.0,
+      "weight_db": -10.2
+    },
+    {
+      "audio_class": "high-pitched air rushing and steam hiss",
+      "starting_time": 1.5,
+      "duration": 8.5,
+      "weight_db": -18.5
+    }
+  ],
+  "yt_coverage_score": "12.5",
+  "yt_sync_score": "0.0",
+  "yt_gemini_eval_error": "",
+  "yt_gemini_cues_json_cell": "{\"cues\":[{\"audio_class\":\"massive explosion roar and continuous fire\",\"starting_time\":0.0,\"duration\":10.0,\"weight_db\":-5.5},{\"audio_class\":\"heavy metallic grinding and screeching\",\"starting_time\":0.0,\"duration\":8.2,\"weight_db\":-7.8},{\"audio_class\":\"deep sub-bass rumble and seismic vibration\",\"starting_time\":0.0,\"duration\":10.0,\"weight_db\":-12.0},{\"audio_class\":\"shattering debris and secondary metallic impacts\",\"starting_time\":0.5,\"duration\":5.0,\"weight_db\":-10.2},{\"audio_class\":\"high-pitched air rushing and steam hiss\",\"starting_time\":1.5,\"duration\":8.5,\"weight_db\":-18.5}]}"
+}

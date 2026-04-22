@@ -1,0 +1,78 @@
+{
+  "stage": "ok",
+  "saved_at_utc": "2026-04-21T18:54:30.631907+00:00",
+  "source_csv": "/Users/ajitesh/Desktop/BTP/cinemaudio-studio/backend/Evaluation/Results/Results_from_server/tango2_results.csv",
+  "row_index": 4,
+  "gemini_model": "gemini-3-flash-preview",
+  "dry_run": false,
+  "from_cached_cues": false,
+  "story_prompt": "The clip transitions from a vibrant, yet subtly tense, nocturnal Hollywood of poolside relaxation and car conversations, into the bright daytime world of movie theaters, culminating with Sharon Tate joyfully witnessing her own performance on the big screen.",
+  "audio_wav_path": "/Users/ajitesh/Desktop/BTP/cinemaudio-studio/backend/Evaluation/Results/Results_from_server/tango2_audios/prompt_0b92f63df3.wav",
+  "total_seconds": "50.184194133616984",
+  "cues": [
+    {
+      "audio_class": "high-pitched emergency siren with oscillating tone",
+      "starting_time": 0.0,
+      "duration": 3.2,
+      "weight_db": -16.5
+    },
+    {
+      "audio_class": "overlapping crowd panic and distant screaming",
+      "starting_time": 0.0,
+      "duration": 4.5,
+      "weight_db": -14.0
+    },
+    {
+      "audio_class": "deep cinematic sub-bass rumble",
+      "starting_time": 0.2,
+      "duration": 8.8,
+      "weight_db": -18.0
+    },
+    {
+      "audio_class": "intense ice crystallization and sharp cracking SFX",
+      "starting_time": 0.8,
+      "duration": 5.0,
+      "weight_db": -9.5
+    },
+    {
+      "audio_class": "heavy orchestral brass hit with long decay",
+      "starting_time": 2.1,
+      "duration": 2.5,
+      "weight_db": -6.0
+    },
+    {
+      "audio_class": "distressed male character dialogue shouting",
+      "starting_time": 3.4,
+      "duration": 1.8,
+      "weight_db": -11.2
+    },
+    {
+      "audio_class": "dark synth pad with low-frequency movement",
+      "starting_time": 4.5,
+      "duration": 4.5,
+      "weight_db": -22.0
+    },
+    {
+      "audio_class": "glass shattering and frozen debris impact",
+      "starting_time": 5.8,
+      "duration": 2.2,
+      "weight_db": -13.5
+    },
+    {
+      "audio_class": "metallic scrape and resonance effect",
+      "starting_time": 7.2,
+      "duration": 1.5,
+      "weight_db": -19.0
+    },
+    {
+      "audio_class": "low-end cinematic boom impact",
+      "starting_time": 8.5,
+      "duration": 0.5,
+      "weight_db": -7.5
+    }
+  ],
+  "yt_coverage_score": "33.33333333333333",
+  "yt_sync_score": "0.0",
+  "yt_gemini_eval_error": "",
+  "yt_gemini_cues_json_cell": "{\"cues\":[{\"audio_class\":\"high-pitched emergency siren with oscillating tone\",\"starting_time\":0.0,\"duration\":3.2,\"weight_db\":-16.5},{\"audio_class\":\"overlapping crowd panic and distant screaming\",\"starting_time\":0.0,\"duration\":4.5,\"weight_db\":-14.0},{\"audio_class\":\"deep cinematic sub-bass rumble\",\"starting_time\":0.2,\"duration\":8.8,\"weight_db\":-18.0},{\"audio_class\":\"intense ice crystallization and sharp cracking SFX\",\"starting_time\":0.8,\"duration\":5.0,\"weight_db\":-9.5},{\"audio_class\":\"heavy orchestral brass hit with long decay\",\"starting_time\":2.1,\"duration\":2.5,\"weight_db\":-6.0},{\"audio_class\":\"distressed male character dialogue shouting\",\"starting_time\":3.4,\"duration\":1.8,\"weight_db\":-11.2},{\"audio_class\":\"dark synth pad with low-frequency movement\",\"starting_time\":4.5,\"duration\":4.5,\"weight_db\":-22.0},{\"audio_class\":\"glass shattering and frozen debris impact\",\"starting_time\":5.8,\"duration\":2.2,\"weight_db\":-13.5},{\"audio_class\":\"metallic scrape and resonance effect\",\"starting_time\":7.2,\"duration\":1.5,\"weight_db\":-19.0},{\"audio_class\":\"low-end cinematic boom impact\",\"starting_time\":8.5,\"duration\":0.5,\"weight_db\":-7.5}]}"
+}

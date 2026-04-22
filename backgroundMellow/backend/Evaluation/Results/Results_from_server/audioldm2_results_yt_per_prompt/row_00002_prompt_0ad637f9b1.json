@@ -1,0 +1,48 @@
+{
+  "stage": "ok",
+  "saved_at_utc": "2026-04-21T18:41:30.093140+00:00",
+  "source_csv": "/Users/ajitesh/Desktop/BTP/cinemaudio-studio/backend/Evaluation/Results/Results_from_server/audioldm2_results.csv",
+  "row_index": 2,
+  "gemini_model": "gemini-3-flash-preview",
+  "dry_run": false,
+  "from_cached_cues": false,
+  "story_prompt": "A series of tense, rain-soaked western confrontations erupts across saloons and dusty streets, as a determined man in a fedora faces off against multiple adversaries amidst a hail of gunfire and declarations of impending battle.",
+  "audio_wav_path": "/Users/ajitesh/Desktop/BTP/cinemaudio-studio/backend/Evaluation/Results/Results_from_server/audioldm_audios/prompt_0ad637f9b1.wav",
+  "total_seconds": "57.92118202755228",
+  "cues": [
+    {
+      "audio_class": "loud stadium crowd cheering and applause",
+      "starting_time": 0.0,
+      "duration": 1.4,
+      "weight_db": -5.0
+    },
+    {
+      "audio_class": "sharp atmospheric cut-off transition",
+      "starting_time": 1.2,
+      "duration": 0.5,
+      "weight_db": -10.0
+    },
+    {
+      "audio_class": "desolate whistling wind and hollow ambience",
+      "starting_time": 1.4,
+      "duration": 8.6,
+      "weight_db": -28.0
+    },
+    {
+      "audio_class": "low-frequency ominous synth drone",
+      "starting_time": 2.0,
+      "duration": 8.0,
+      "weight_db": -22.0
+    },
+    {
+      "audio_class": "deep male voice whispering 'Why' with heavy reverb",
+      "starting_time": 9.1,
+      "duration": 0.9,
+      "weight_db": -12.5
+    }
+  ],
+  "yt_coverage_score": "0.0",
+  "yt_sync_score": "0.0",
+  "yt_gemini_eval_error": "",
+  "yt_gemini_cues_json_cell": "{\"cues\":[{\"audio_class\":\"loud stadium crowd cheering and applause\",\"starting_time\":0.0,\"duration\":1.4,\"weight_db\":-5.0},{\"audio_class\":\"sharp atmospheric cut-off transition\",\"starting_time\":1.2,\"duration\":0.5,\"weight_db\":-10.0},{\"audio_class\":\"desolate whistling wind and hollow ambience\",\"starting_time\":1.4,\"duration\":8.6,\"weight_db\":-28.0},{\"audio_class\":\"low-frequency ominous synth drone\",\"starting_time\":2.0,\"duration\":8.0,\"weight_db\":-22.0},{\"audio_class\":\"deep male voice whispering 'Why' with heavy reverb\",\"starting_time\":9.1,\"duration\":0.9,\"weight_db\":-12.5}]}"
+}

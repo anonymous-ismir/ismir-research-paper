@@ -1,0 +1,13 @@
+ablation,mean_rank
+AudioLDM2,3.413793103448276
+decide_model_gemini-2.5-flash,6.241379310344827
+tango2,6.241379310344827
+toggle_use_narrator,6.275862068965517
+toggle_use_dl_based_llm_and_dsp_alignment_predictor,6.379310344827586
+toggle_use_avg_llm_and_dsp_to_predict_align,6.551724137931035
+BackgroundMellow_baseline,6.620689655172414
+toggle_use_movie_bgms,6.862068965517241
+toggle_use_dsp_to_predict_align,6.931034482758621
+toggle_fill_coverage_by_llm,7.103448275862069
+toggle_use_dsp,7.241379310344827
+toggle_use_llm_to_predict_align,8.137931034482758

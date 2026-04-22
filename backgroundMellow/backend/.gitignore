@@ -1,0 +1,10 @@
+*/__pycache__/
+*/Output/*
+*/Debug/*
+Debugs/*
+.env
+*.pyc
+__pycache__/
+*.wav
+Test/*
+data/*

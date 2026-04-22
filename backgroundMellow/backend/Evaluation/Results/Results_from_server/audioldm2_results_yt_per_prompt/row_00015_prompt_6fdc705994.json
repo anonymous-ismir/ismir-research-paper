@@ -1,0 +1,60 @@
+{
+  "stage": "ok",
+  "saved_at_utc": "2026-04-21T18:45:46.212540+00:00",
+  "source_csv": "/Users/ajitesh/Desktop/BTP/cinemaudio-studio/backend/Evaluation/Results/Results_from_server/audioldm2_results.csv",
+  "row_index": 15,
+  "gemini_model": "gemini-3-flash-preview",
+  "dry_run": false,
+  "from_cached_cues": false,
+  "story_prompt": "The clip rapidly stitches together unsettling scenes of tense pursuit, fleeting confrontations, and sudden, brutal violence across desolate landscapes and dimly lit interiors, hinting at a relentless and dangerous cat-and-mouse game.",
+  "audio_wav_path": "/Users/ajitesh/Desktop/BTP/cinemaudio-studio/backend/Evaluation/Results/Results_from_server/audioldm_audios/prompt_6fdc705994.wav",
+  "total_seconds": "58.27203700947575",
+  "cues": [
+    {
+      "audio_class": "heavy metallic impact sound effect",
+      "starting_time": 0.0,
+      "duration": 1.5,
+      "weight_db": -8.0
+    },
+    {
+      "audio_class": "rhythmic industrial percussion with metallic hits",
+      "starting_time": 0.0,
+      "duration": 5.0,
+      "weight_db": -12.0
+    },
+    {
+      "audio_class": "low-frequency tension drone",
+      "starting_time": 1.0,
+      "duration": 4.0,
+      "weight_db": -20.0
+    },
+    {
+      "audio_class": "cinematic rising whoosh effect",
+      "starting_time": 4.0,
+      "duration": 1.1,
+      "weight_db": -10.0
+    },
+    {
+      "audio_class": "massive metallic slamming impact",
+      "starting_time": 5.1,
+      "duration": 2.4,
+      "weight_db": -6.0
+    },
+    {
+      "audio_class": "deep sub-bass impact tail",
+      "starting_time": 5.1,
+      "duration": 3.9,
+      "weight_db": -15.0
+    },
+    {
+      "audio_class": "low ambient rumble and room tone",
+      "starting_time": 7.5,
+      "duration": 1.5,
+      "weight_db": -25.0
+    }
+  ],
+  "yt_coverage_score": "25.0",
+  "yt_sync_score": "0.018876978675400117",
+  "yt_gemini_eval_error": "",
+  "yt_gemini_cues_json_cell": "{\"cues\":[{\"audio_class\":\"heavy metallic impact sound effect\",\"starting_time\":0.0,\"duration\":1.5,\"weight_db\":-8.0},{\"audio_class\":\"rhythmic industrial percussion with metallic hits\",\"starting_time\":0.0,\"duration\":5.0,\"weight_db\":-12.0},{\"audio_class\":\"low-frequency tension drone\",\"starting_time\":1.0,\"duration\":4.0,\"weight_db\":-20.0},{\"audio_class\":\"cinematic rising whoosh effect\",\"starting_time\":4.0,\"duration\":1.1,\"weight_db\":-10.0},{\"audio_class\":\"massive metallic slamming impact\",\"starting_time\":5.1,\"duration\":2.4,\"weight_db\":-6.0},{\"audio_class\":\"deep sub-bass impact tail\",\"starting_time\":5.1,\"duration\":3.9,\"weight_db\":-15.0},{\"audio_class\":\"low ambient rumble and room tone\",\"starting_time\":7.5,\"duration\":1.5,\"weight_db\":-25.0}]}"
+}

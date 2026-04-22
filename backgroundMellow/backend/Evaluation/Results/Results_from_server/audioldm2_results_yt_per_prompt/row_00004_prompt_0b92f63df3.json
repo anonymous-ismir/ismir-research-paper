@@ -1,0 +1,54 @@
+{
+  "stage": "ok",
+  "saved_at_utc": "2026-04-21T18:42:11.450217+00:00",
+  "source_csv": "/Users/ajitesh/Desktop/BTP/cinemaudio-studio/backend/Evaluation/Results/Results_from_server/audioldm2_results.csv",
+  "row_index": 4,
+  "gemini_model": "gemini-3-flash-preview",
+  "dry_run": false,
+  "from_cached_cues": false,
+  "story_prompt": "The clip transitions from a vibrant, yet subtly tense, nocturnal Hollywood of poolside relaxation and car conversations, into the bright daytime world of movie theaters, culminating with Sharon Tate joyfully witnessing her own performance on the big screen.",
+  "audio_wav_path": "/Users/ajitesh/Desktop/BTP/cinemaudio-studio/backend/Evaluation/Results/Results_from_server/audioldm_audios/prompt_0b92f63df3.wav",
+  "total_seconds": "61.494547898182645",
+  "cues": [
+    {
+      "audio_class": "energetic crowd chanting and cheering",
+      "starting_time": 0.0,
+      "duration": 10.0,
+      "weight_db": -12.0
+    },
+    {
+      "audio_class": "loud stadium chant 'Wolverine'",
+      "starting_time": 0.0,
+      "duration": 3.0,
+      "weight_db": -8.0
+    },
+    {
+      "audio_class": "deep cinematic synth growl",
+      "starting_time": 1.5,
+      "duration": 3.5,
+      "weight_db": -15.5
+    },
+    {
+      "audio_class": "atmospheric stadium reverb and ambient noise",
+      "starting_time": 0.0,
+      "duration": 10.0,
+      "weight_db": -25.0
+    },
+    {
+      "audio_class": "repetitive crowd rhythmic shouting",
+      "starting_time": 4.0,
+      "duration": 4.5,
+      "weight_db": -14.0
+    },
+    {
+      "audio_class": "low-frequency orchestral sub-bass drone",
+      "starting_time": 6.8,
+      "duration": 3.2,
+      "weight_db": -18.5
+    }
+  ],
+  "yt_coverage_score": "0.0",
+  "yt_sync_score": "0.0",
+  "yt_gemini_eval_error": "",
+  "yt_gemini_cues_json_cell": "{\"cues\":[{\"audio_class\":\"energetic crowd chanting and cheering\",\"starting_time\":0.0,\"duration\":10.0,\"weight_db\":-12.0},{\"audio_class\":\"loud stadium chant 'Wolverine'\",\"starting_time\":0.0,\"duration\":3.0,\"weight_db\":-8.0},{\"audio_class\":\"deep cinematic synth growl\",\"starting_time\":1.5,\"duration\":3.5,\"weight_db\":-15.5},{\"audio_class\":\"atmospheric stadium reverb and ambient noise\",\"starting_time\":0.0,\"duration\":10.0,\"weight_db\":-25.0},{\"audio_class\":\"repetitive crowd rhythmic shouting\",\"starting_time\":4.0,\"duration\":4.5,\"weight_db\":-14.0},{\"audio_class\":\"low-frequency orchestral sub-bass drone\",\"starting_time\":6.8,\"duration\":3.2,\"weight_db\":-18.5}]}"
+}

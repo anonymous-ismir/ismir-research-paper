@@ -1,0 +1,66 @@
+{
+  "stage": "ok",
+  "saved_at_utc": "2026-04-21T18:47:27.169756+00:00",
+  "source_csv": "/Users/ajitesh/Desktop/BTP/cinemaudio-studio/backend/Evaluation/Results/Results_from_server/audioldm2_results.csv",
+  "row_index": 21,
+  "gemini_model": "gemini-3-flash-preview",
+  "dry_run": false,
+  "from_cached_cues": false,
+  "story_prompt": "A whirlwind montage of lavish excess, power-flaunting, and hints of impending legal scrutiny, showcasing a charismatic financial mogul surrounded by money, beautiful women, and luxurious settings, culminating in a confrontational yacht encounter with federal agents.",
+  "audio_wav_path": "/Users/ajitesh/Desktop/BTP/cinemaudio-studio/backend/Evaluation/Results/Results_from_server/audioldm_audios/prompt_2246375d98.wav",
+  "total_seconds": "58.1118898591958",
+  "cues": [
+    {
+      "audio_class": "fast-paced rhythmic synth with electronic glitch whoosh",
+      "starting_time": 0.0,
+      "duration": 1.8,
+      "weight_db": -9.5
+    },
+    {
+      "audio_class": "low-frequency percussive synth pulse",
+      "starting_time": 1.8,
+      "duration": 8.2,
+      "weight_db": -22.0
+    },
+    {
+      "audio_class": "dark atmospheric sci-fi drone",
+      "starting_time": 0.0,
+      "duration": 10.0,
+      "weight_db": -28.0
+    },
+    {
+      "audio_class": "heavy labored male breathing",
+      "starting_time": 4.1,
+      "duration": 2.6,
+      "weight_db": -13.5
+    },
+    {
+      "audio_class": "whispered male voice saying 'let's go'",
+      "starting_time": 6.7,
+      "duration": 0.9,
+      "weight_db": -11.0
+    },
+    {
+      "audio_class": "gritty stone and sand shifting sound effect",
+      "starting_time": 7.6,
+      "duration": 0.7,
+      "weight_db": -19.0
+    },
+    {
+      "audio_class": "heavy metallic trailer impact with deep sub-bass boom",
+      "starting_time": 8.3,
+      "duration": 1.7,
+      "weight_db": -5.5
+    },
+    {
+      "audio_class": "shrill high-pitched dissonant synth riser",
+      "starting_time": 8.4,
+      "duration": 1.6,
+      "weight_db": -14.0
+    }
+  ],
+  "yt_coverage_score": "0.0",
+  "yt_sync_score": "0.0",
+  "yt_gemini_eval_error": "",
+  "yt_gemini_cues_json_cell": "{\"cues\":[{\"audio_class\":\"fast-paced rhythmic synth with electronic glitch whoosh\",\"starting_time\":0.0,\"duration\":1.8,\"weight_db\":-9.5},{\"audio_class\":\"low-frequency percussive synth pulse\",\"starting_time\":1.8,\"duration\":8.2,\"weight_db\":-22.0},{\"audio_class\":\"dark atmospheric sci-fi drone\",\"starting_time\":0.0,\"duration\":10.0,\"weight_db\":-28.0},{\"audio_class\":\"heavy labored male breathing\",\"starting_time\":4.1,\"duration\":2.6,\"weight_db\":-13.5},{\"audio_class\":\"whispered male voice saying 'let's go'\",\"starting_time\":6.7,\"duration\":0.9,\"weight_db\":-11.0},{\"audio_class\":\"gritty stone and sand shifting sound effect\",\"starting_time\":7.6,\"duration\":0.7,\"weight_db\":-19.0},{\"audio_class\":\"heavy metallic trailer impact with deep sub-bass boom\",\"starting_time\":8.3,\"duration\":1.7,\"weight_db\":-5.5},{\"audio_class\":\"shrill high-pitched dissonant synth riser\",\"starting_time\":8.4,\"duration\":1.6,\"weight_db\":-14.0}]}"
+}

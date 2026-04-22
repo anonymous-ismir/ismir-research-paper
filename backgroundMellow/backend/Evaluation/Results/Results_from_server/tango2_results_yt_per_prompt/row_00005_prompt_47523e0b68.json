@@ -1,0 +1,66 @@
+{
+  "stage": "ok",
+  "saved_at_utc": "2026-04-21T18:54:41.962373+00:00",
+  "source_csv": "/Users/ajitesh/Desktop/BTP/cinemaudio-studio/backend/Evaluation/Results/Results_from_server/tango2_results.csv",
+  "row_index": 5,
+  "gemini_model": "gemini-3-flash-preview",
+  "dry_run": false,
+  "from_cached_cues": false,
+  "story_prompt": "The chaotic clip rapidly shifts between fantastical delusions of a towering creature causing explosive urban destruction and the stark reality of an actor grappling with inner voices, intense rooftop confrontations, a dramatic plunge from a skyscraper, and the overwhelming scrutiny of paparazzi.",
+  "audio_wav_path": "/Users/ajitesh/Desktop/BTP/cinemaudio-studio/backend/Evaluation/Results/Results_from_server/tango2_audios/prompt_47523e0b68.wav",
+  "total_seconds": "50.122092043980956",
+  "cues": [
+    {
+      "audio_class": "epic orchestral music with rhythmic strings and aggressive brass",
+      "starting_time": 0,
+      "duration": 9,
+      "weight_db": -14.5
+    },
+    {
+      "audio_class": "ambient crowd screaming and chaotic background noise",
+      "starting_time": 0,
+      "duration": 9,
+      "weight_db": -22.0
+    },
+    {
+      "audio_class": "rapid aerodynamic whoosh and wind displacement",
+      "starting_time": 0,
+      "duration": 1.8,
+      "weight_db": -11.0
+    },
+    {
+      "audio_class": "large-scale explosion and heavy debris impact",
+      "starting_time": 1.8,
+      "duration": 2.5,
+      "weight_db": -7.5
+    },
+    {
+      "audio_class": "metallic clanging and mechanical scraping sounds",
+      "starting_time": 4.5,
+      "duration": 2.0,
+      "weight_db": -16.0
+    },
+    {
+      "audio_class": "high-pitched energy surge and electrical hum",
+      "starting_time": 6.5,
+      "duration": 2.5,
+      "weight_db": -13.0
+    },
+    {
+      "audio_class": "deep sub-bass cinematic hit",
+      "starting_time": 2.0,
+      "duration": 1.5,
+      "weight_db": -10.0
+    },
+    {
+      "audio_class": "sharp cinematic transition swoosh",
+      "starting_time": 8.2,
+      "duration": 0.8,
+      "weight_db": -9.0
+    }
+  ],
+  "yt_coverage_score": "12.5",
+  "yt_sync_score": "0.0",
+  "yt_gemini_eval_error": "",
+  "yt_gemini_cues_json_cell": "{\"cues\":[{\"audio_class\":\"epic orchestral music with rhythmic strings and aggressive brass\",\"starting_time\":0,\"duration\":9,\"weight_db\":-14.5},{\"audio_class\":\"ambient crowd screaming and chaotic background noise\",\"starting_time\":0,\"duration\":9,\"weight_db\":-22.0},{\"audio_class\":\"rapid aerodynamic whoosh and wind displacement\",\"starting_time\":0,\"duration\":1.8,\"weight_db\":-11.0},{\"audio_class\":\"large-scale explosion and heavy debris impact\",\"starting_time\":1.8,\"duration\":2.5,\"weight_db\":-7.5},{\"audio_class\":\"metallic clanging and mechanical scraping sounds\",\"starting_time\":4.5,\"duration\":2.0,\"weight_db\":-16.0},{\"audio_class\":\"high-pitched energy surge and electrical hum\",\"starting_time\":6.5,\"duration\":2.5,\"weight_db\":-13.0},{\"audio_class\":\"deep sub-bass cinematic hit\",\"starting_time\":2.0,\"duration\":1.5,\"weight_db\":-10.0},{\"audio_class\":\"sharp cinematic transition swoosh\",\"starting_time\":8.2,\"duration\":0.8,\"weight_db\":-9.0}]}"
+}

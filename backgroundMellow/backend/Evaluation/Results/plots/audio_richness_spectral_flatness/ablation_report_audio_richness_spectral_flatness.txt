@@ -1,0 +1,64 @@
+# Ablation comparison: audio_richness_spectral_flatness
+objective: maximize
+specialist_model_variant_tag filter: 'baseline_tango2'
+
+## Best configuration by mean over prompts: toggle_use_llm_to_predict_align
+value: 0.0571537 (n_prompts=30)
+
+## Best configuration by peak single-prompt score: toggle_use_llm_to_predict_align
+value: 0.90085 (n_prompts=30)
+
+## Table
+                                              label  mean_over_prompts  best_single_prompt_value  n_prompts
+                                           baseline           0.037154                  0.424969         39
+                      decide_model_gemini-2.5-flash           0.026091                  0.132501         36
+                        toggle_fill_coverage_by_llm           0.021126                  0.083243         35
+        toggle_use_avg_llm_and_dsp_to_predict_align           0.023885                  0.158207         29
+toggle_use_dl_based_llm_and_dsp_alignment_predictor           0.021619                  0.110239         29
+                                     toggle_use_dsp           0.034076                  0.212225         35
+                    toggle_use_dsp_to_predict_align           0.028041                  0.176214         30
+                    toggle_use_llm_to_predict_align           0.057154                  0.900850         30
+                              toggle_use_movie_bgms           0.024297                  0.239298         32
+                                toggle_use_narrator           0.025663                  0.151053         31
+                                             tango2           0.000273                  0.000509         39
+                                          AudioLDM2           0.000128                  0.001247         39
+
+## Largest mean drop vs baseline
+AudioLDM2 (delta=-0.0370268)
+## Per-prompt consensus (intersection only)
+prompts_in_intersection: 29
+ablations: 12
+
+### Win summary (fractional wins split on ties)
+                                           ablation  prompts_won_strict  prompts_won_fractional  win_rate_strict  win_rate_fractional  beats_baseline_count  beats_baseline_rate
+                                     toggle_use_dsp                   5                     5.0         0.172414             0.172414                  16.0             0.551724
+                      decide_model_gemini-2.5-flash                   4                     4.0         0.137931             0.137931                  17.0             0.586207
+        toggle_use_avg_llm_and_dsp_to_predict_align                   4                     4.0         0.137931             0.137931                  15.0             0.517241
+toggle_use_dl_based_llm_and_dsp_alignment_predictor                   3                     3.0         0.103448             0.103448                  16.0             0.551724
+                    toggle_use_dsp_to_predict_align                   3                     3.0         0.103448             0.103448                  17.0             0.586207
+                              toggle_use_movie_bgms                   3                     3.0         0.103448             0.103448                  14.0             0.482759
+                                           baseline                   2                     2.0         0.068966             0.068966                   NaN                  NaN
+                        toggle_fill_coverage_by_llm                   2                     2.0         0.068966             0.068966                  13.0             0.448276
+                    toggle_use_llm_to_predict_align                   2                     2.0         0.068966             0.068966                  14.0             0.482759
+                                toggle_use_narrator                   1                     1.0         0.034483             0.034483                  12.0             0.413793
+                                             tango2                   0                     0.0         0.000000             0.000000                   0.0             0.000000
+                                          AudioLDM2                   0                     0.0         0.000000             0.000000                   0.0             0.000000
+
+### Mean rank (1 = best)
+                                           ablation  mean_rank
+                                     toggle_use_dsp   4.724138
+                      decide_model_gemini-2.5-flash   5.206897
+                    toggle_use_dsp_to_predict_align   5.413793
+toggle_use_dl_based_llm_and_dsp_alignment_predictor   5.482759
+        toggle_use_avg_llm_and_dsp_to_predict_align   5.551724
+                    toggle_use_llm_to_predict_align   5.551724
+                                           baseline   5.620690
+                        toggle_fill_coverage_by_llm   5.620690
+                              toggle_use_movie_bgms   5.827586
+                                toggle_use_narrator   6.000000
+                                             tango2  11.103448
+                                          AudioLDM2  11.896552
+
+Saved: /Users/ajitesh/Desktop/BTP/cinemaudio-studio/backend/Evaluation/Results/plots/audio_richness_spectral_flatness/ablation_matrix_audio_richness_spectral_flatness.csv
+Saved: /Users/ajitesh/Desktop/BTP/cinemaudio-studio/backend/Evaluation/Results/plots/audio_richness_spectral_flatness/win_summary_audio_richness_spectral_flatness.csv
+Saved: /Users/ajitesh/Desktop/BTP/cinemaudio-studio/backend/Evaluation/Results/plots/audio_richness_spectral_flatness/mean_ranks_audio_richness_spectral_flatness.csv

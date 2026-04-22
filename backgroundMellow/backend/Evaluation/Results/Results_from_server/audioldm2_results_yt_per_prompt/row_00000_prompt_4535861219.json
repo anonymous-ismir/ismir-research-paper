@@ -1,0 +1,30 @@
+{
+  "stage": "ok",
+  "saved_at_utc": "2026-04-21T18:36:30.928496+00:00",
+  "source_csv": "/Users/ajitesh/Desktop/BTP/cinemaudio-studio/backend/Evaluation/Results/Results_from_server/audioldm2_results.csv",
+  "row_index": 0,
+  "gemini_model": "gemini-2.5-flash",
+  "dry_run": false,
+  "from_cached_cues": false,
+  "story_prompt": "A man with an enigmatic past navigates sterile medical environments and unsettling revelations, uncovering disturbing truths about experimental treatments and tracking that suggest a profound and potentially dangerous transformation within himself.",
+  "audio_wav_path": "/Users/ajitesh/Desktop/BTP/cinemaudio-studio/backend/Evaluation/Results/Results_from_server/audioldm_audios/prompt_4535861219.wav",
+  "total_seconds": "57.86671015853062",
+  "cues": [
+    {
+      "audio_class": "High-pitched wailing synth drone",
+      "starting_time": 0.0,
+      "duration": 4.5,
+      "weight_db": -15.0
+    },
+    {
+      "audio_class": "Deep ominous creature growl / low rumble",
+      "starting_time": 2.5,
+      "duration": 6.5,
+      "weight_db": -9.0
+    }
+  ],
+  "yt_coverage_score": "14.285714285714285",
+  "yt_sync_score": "0.0",
+  "yt_gemini_eval_error": "",
+  "yt_gemini_cues_json_cell": "{\"cues\":[{\"audio_class\":\"High-pitched wailing synth drone\",\"starting_time\":0.0,\"duration\":4.5,\"weight_db\":-15.0},{\"audio_class\":\"Deep ominous creature growl / low rumble\",\"starting_time\":2.5,\"duration\":6.5,\"weight_db\":-9.0}]}"
+}

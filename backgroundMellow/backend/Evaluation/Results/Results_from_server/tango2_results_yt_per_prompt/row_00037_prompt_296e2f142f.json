@@ -1,0 +1,60 @@
+{
+  "stage": "ok",
+  "saved_at_utc": "2026-04-21T19:04:59.832083+00:00",
+  "source_csv": "/Users/ajitesh/Desktop/BTP/cinemaudio-studio/backend/Evaluation/Results/Results_from_server/tango2_results.csv",
+  "row_index": 37,
+  "gemini_model": "gemini-3-flash-preview",
+  "dry_run": false,
+  "from_cached_cues": false,
+  "story_prompt": "A quirky counselor interjects into a couple's seemingly troubled relationship, navigating their skepticism with a confident, slightly enigmatic demeanor across various domestic and public settings.",
+  "audio_wav_path": "/Users/ajitesh/Desktop/BTP/cinemaudio-studio/backend/Evaluation/Results/Results_from_server/tango2_audios/prompt_296e2f142f.wav",
+  "total_seconds": "47.509965309252344",
+  "cues": [
+    {
+      "audio_class": "high-pitched formula one engine roar",
+      "starting_time": 0,
+      "duration": 3.2,
+      "weight_db": -10.0
+    },
+    {
+      "audio_class": "ambient crowd screaming and cheering",
+      "starting_time": 0,
+      "duration": 9.0,
+      "weight_db": -18.5
+    },
+    {
+      "audio_class": "male voiceover narration",
+      "starting_time": 0.2,
+      "duration": 8.6,
+      "weight_db": -7.5
+    },
+    {
+      "audio_class": "rhythmic electronic synth pulse",
+      "starting_time": 0,
+      "duration": 9.0,
+      "weight_db": -22.0
+    },
+    {
+      "audio_class": "cinematic whoosh sound effect",
+      "starting_time": 2.1,
+      "duration": 0.9,
+      "weight_db": -14.0
+    },
+    {
+      "audio_class": "cinematic whoosh sound effect",
+      "starting_time": 4.8,
+      "duration": 0.8,
+      "weight_db": -15.5
+    },
+    {
+      "audio_class": "heavy bass impact",
+      "starting_time": 8.4,
+      "duration": 0.6,
+      "weight_db": -9.0
+    }
+  ],
+  "yt_coverage_score": "12.5",
+  "yt_sync_score": "0.0",
+  "yt_gemini_eval_error": "",
+  "yt_gemini_cues_json_cell": "{\"cues\":[{\"audio_class\":\"high-pitched formula one engine roar\",\"starting_time\":0,\"duration\":3.2,\"weight_db\":-10.0},{\"audio_class\":\"ambient crowd screaming and cheering\",\"starting_time\":0,\"duration\":9.0,\"weight_db\":-18.5},{\"audio_class\":\"male voiceover narration\",\"starting_time\":0.2,\"duration\":8.6,\"weight_db\":-7.5},{\"audio_class\":\"rhythmic electronic synth pulse\",\"starting_time\":0,\"duration\":9.0,\"weight_db\":-22.0},{\"audio_class\":\"cinematic whoosh sound effect\",\"starting_time\":2.1,\"duration\":0.9,\"weight_db\":-14.0},{\"audio_class\":\"cinematic whoosh sound effect\",\"starting_time\":4.8,\"duration\":0.8,\"weight_db\":-15.5},{\"audio_class\":\"heavy bass impact\",\"starting_time\":8.4,\"duration\":0.6,\"weight_db\":-9.0}]}"
+}

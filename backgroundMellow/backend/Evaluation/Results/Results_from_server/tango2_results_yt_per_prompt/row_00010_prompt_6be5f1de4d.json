@@ -1,0 +1,78 @@
+{
+  "stage": "ok",
+  "saved_at_utc": "2026-04-21T18:56:30.546988+00:00",
+  "source_csv": "/Users/ajitesh/Desktop/BTP/cinemaudio-studio/backend/Evaluation/Results/Results_from_server/tango2_results.csv",
+  "row_index": 10,
+  "gemini_model": "gemini-3-flash-preview",
+  "dry_run": false,
+  "from_cached_cues": false,
+  "story_prompt": "In a claustrophobic, dimly lit urban alleyway, a rugged operative fiercely battles masked assailants in brutal hand-to-hand combat and gunfire, before frantically dragging a young civilian through the chaotic streets and up a flight of stairs to an open-air escape.",
+  "audio_wav_path": "/Users/ajitesh/Desktop/BTP/cinemaudio-studio/backend/Evaluation/Results/Results_from_server/tango2_audios/prompt_6be5f1de4d.wav",
+  "total_seconds": "49.909847679315135",
+  "cues": [
+    {
+      "audio_class": "heavy industrial mechanical grinding",
+      "starting_time": 0.0,
+      "duration": 3.2,
+      "weight_db": -10.0
+    },
+    {
+      "audio_class": "sharp metallic impact and crunch",
+      "starting_time": 0.6,
+      "duration": 0.8,
+      "weight_db": -8.5
+    },
+    {
+      "audio_class": "deep male narrator voice",
+      "starting_time": 1.1,
+      "duration": 5.4,
+      "weight_db": -12.0
+    },
+    {
+      "audio_class": "dark cinematic synth drone with low-frequency rumble",
+      "starting_time": 0.0,
+      "duration": 10.0,
+      "weight_db": -24.0
+    },
+    {
+      "audio_class": "aggressive engine revving and mechanical gears",
+      "starting_time": 0.2,
+      "duration": 1.5,
+      "weight_db": -15.0
+    },
+    {
+      "audio_class": "high-pitched mechanical whine and metallic resonance",
+      "starting_time": 4.1,
+      "duration": 2.2,
+      "weight_db": -21.0
+    },
+    {
+      "audio_class": "rhythmic mechanical clicking and metal transformation sounds",
+      "starting_time": 6.3,
+      "duration": 2.5,
+      "weight_db": -11.5
+    },
+    {
+      "audio_class": "loud percussive explosion with energy pulse",
+      "starting_time": 8.1,
+      "duration": 1.8,
+      "weight_db": -7.0
+    },
+    {
+      "audio_class": "female vocal shout / scream",
+      "starting_time": 8.3,
+      "duration": 0.9,
+      "weight_db": -18.0
+    },
+    {
+      "audio_class": "falling debris and crumbling building ambience",
+      "starting_time": 0.0,
+      "duration": 10.0,
+      "weight_db": -28.0
+    }
+  ],
+  "yt_coverage_score": "0.0",
+  "yt_sync_score": "0.0",
+  "yt_gemini_eval_error": "",
+  "yt_gemini_cues_json_cell": "{\"cues\":[{\"audio_class\":\"heavy industrial mechanical grinding\",\"starting_time\":0.0,\"duration\":3.2,\"weight_db\":-10.0},{\"audio_class\":\"sharp metallic impact and crunch\",\"starting_time\":0.6,\"duration\":0.8,\"weight_db\":-8.5},{\"audio_class\":\"deep male narrator voice\",\"starting_time\":1.1,\"duration\":5.4,\"weight_db\":-12.0},{\"audio_class\":\"dark cinematic synth drone with low-frequency rumble\",\"starting_time\":0.0,\"duration\":10.0,\"weight_db\":-24.0},{\"audio_class\":\"aggressive engine revving and mechanical gears\",\"starting_time\":0.2,\"duration\":1.5,\"weight_db\":-15.0},{\"audio_class\":\"high-pitched mechanical whine and metallic resonance\",\"starting_time\":4.1,\"duration\":2.2,\"weight_db\":-21.0},{\"audio_class\":\"rhythmic mechanical clicking and metal transformation sounds\",\"starting_time\":6.3,\"duration\":2.5,\"weight_db\":-11.5},{\"audio_class\":\"loud percussive explosion with energy pulse\",\"starting_time\":8.1,\"duration\":1.8,\"weight_db\":-7.0},{\"audio_class\":\"female vocal shout / scream\",\"starting_time\":8.3,\"duration\":0.9,\"weight_db\":-18.0},{\"audio_class\":\"falling debris and crumbling building ambience\",\"starting_time\":0.0,\"duration\":10.0,\"weight_db\":-28.0}]}"
+}

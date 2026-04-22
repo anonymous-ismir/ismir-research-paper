@@ -1,0 +1,60 @@
+{
+  "stage": "ok",
+  "saved_at_utc": "2026-04-21T18:43:38.952300+00:00",
+  "source_csv": "/Users/ajitesh/Desktop/BTP/cinemaudio-studio/backend/Evaluation/Results/Results_from_server/audioldm2_results.csv",
+  "row_index": 8,
+  "gemini_model": "gemini-3-flash-preview",
+  "dry_run": false,
+  "from_cached_cues": false,
+  "story_prompt": "In a seemingly tranquil small town, a man navigates a silent general store with meticulous caution, his quiet footsteps and the rustle of a plastic bag cutting through the eerie stillness until a faint, almost imperceptible announcement disrupts the unsettling calm.",
+  "audio_wav_path": "/Users/ajitesh/Desktop/BTP/cinemaudio-studio/backend/Evaluation/Results/Results_from_server/audioldm_audios/prompt_8acd94a91b.wav",
+  "total_seconds": "60.449858584674075",
+  "cues": [
+    {
+      "audio_class": "low-frequency ambient room tone",
+      "starting_time": 0.0,
+      "duration": 9.0,
+      "weight_db": -25.0
+    },
+    {
+      "audio_class": "rhythmic footsteps on hard surface",
+      "starting_time": 0.0,
+      "duration": 4.2,
+      "weight_db": -16.5
+    },
+    {
+      "audio_class": "mechanical sliding door sound effect",
+      "starting_time": 1.5,
+      "duration": 1.8,
+      "weight_db": -12.0
+    },
+    {
+      "audio_class": "metallic rattling of chains and shackles",
+      "starting_time": 4.0,
+      "duration": 1.5,
+      "weight_db": -18.0
+    },
+    {
+      "audio_class": "heavy cinematic thud / door slamming shut",
+      "starting_time": 5.2,
+      "duration": 1.2,
+      "weight_db": -8.5
+    },
+    {
+      "audio_class": "deep synth bass drone swell",
+      "starting_time": 6.0,
+      "duration": 3.0,
+      "weight_db": -10.0
+    },
+    {
+      "audio_class": "sharp metallic scrape / blade sound effect",
+      "starting_time": 8.0,
+      "duration": 1.0,
+      "weight_db": -14.0
+    }
+  ],
+  "yt_coverage_score": "33.33333333333333",
+  "yt_sync_score": "0.01700215355075043",
+  "yt_gemini_eval_error": "",
+  "yt_gemini_cues_json_cell": "{\"cues\":[{\"audio_class\":\"low-frequency ambient room tone\",\"starting_time\":0.0,\"duration\":9.0,\"weight_db\":-25.0},{\"audio_class\":\"rhythmic footsteps on hard surface\",\"starting_time\":0.0,\"duration\":4.2,\"weight_db\":-16.5},{\"audio_class\":\"mechanical sliding door sound effect\",\"starting_time\":1.5,\"duration\":1.8,\"weight_db\":-12.0},{\"audio_class\":\"metallic rattling of chains and shackles\",\"starting_time\":4.0,\"duration\":1.5,\"weight_db\":-18.0},{\"audio_class\":\"heavy cinematic thud / door slamming shut\",\"starting_time\":5.2,\"duration\":1.2,\"weight_db\":-8.5},{\"audio_class\":\"deep synth bass drone swell\",\"starting_time\":6.0,\"duration\":3.0,\"weight_db\":-10.0},{\"audio_class\":\"sharp metallic scrape / blade sound effect\",\"starting_time\":8.0,\"duration\":1.0,\"weight_db\":-14.0}]}"
+}

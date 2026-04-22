@@ -1,0 +1,60 @@
+{
+  "stage": "ok",
+  "saved_at_utc": "2026-04-21T19:00:50.461194+00:00",
+  "source_csv": "/Users/ajitesh/Desktop/BTP/cinemaudio-studio/backend/Evaluation/Results/Results_from_server/tango2_results.csv",
+  "row_index": 25,
+  "gemini_model": "gemini-3-flash-preview",
+  "dry_run": false,
+  "from_cached_cues": false,
+  "story_prompt": "An armored, monstrous creature grunts and struggles to pull itself through a dense, muddy forest floor, punctuated by on-screen text, before a dramatic transition to the iconic studio logo and a final ominous silhouette of a warrior.",
+  "audio_wav_path": "/Users/ajitesh/Desktop/BTP/cinemaudio-studio/backend/Evaluation/Results/Results_from_server/tango2_audios/prompt_0e977ec748.wav",
+  "total_seconds": "49.692013170337304",
+  "cues": [
+    {
+      "audio_class": "Heavy industrial engine roar / constant mechanical drone",
+      "starting_time": 0.0,
+      "duration": 10.0,
+      "weight_db": -12.5
+    },
+    {
+      "audio_class": "High-pitched electric screech / metallic friction",
+      "starting_time": 0.0,
+      "duration": 3.2,
+      "weight_db": -8.0
+    },
+    {
+      "audio_class": "Low-frequency atmospheric rumble / sub-bass",
+      "starting_time": 0.0,
+      "duration": 10.0,
+      "weight_db": -22.0
+    },
+    {
+      "audio_class": "Distorted mechanical growl / robotic oscillation",
+      "starting_time": 3.5,
+      "duration": 4.5,
+      "weight_db": -14.0
+    },
+    {
+      "audio_class": "Rapid mechanical stuttering / rhythmic synth pulses",
+      "starting_time": 7.0,
+      "duration": 3.0,
+      "weight_db": -16.5
+    },
+    {
+      "audio_class": "Mid-frequency metallic grinding sound",
+      "starting_time": 1.5,
+      "duration": 2.5,
+      "weight_db": -18.0
+    },
+    {
+      "audio_class": "High-frequency tension riser / electronic shimmer",
+      "starting_time": 8.2,
+      "duration": 1.8,
+      "weight_db": -20.0
+    }
+  ],
+  "yt_coverage_score": "12.5",
+  "yt_sync_score": "2.5032730000227122e-14",
+  "yt_gemini_eval_error": "",
+  "yt_gemini_cues_json_cell": "{\"cues\":[{\"audio_class\":\"Heavy industrial engine roar / constant mechanical drone\",\"starting_time\":0.0,\"duration\":10.0,\"weight_db\":-12.5},{\"audio_class\":\"High-pitched electric screech / metallic friction\",\"starting_time\":0.0,\"duration\":3.2,\"weight_db\":-8.0},{\"audio_class\":\"Low-frequency atmospheric rumble / sub-bass\",\"starting_time\":0.0,\"duration\":10.0,\"weight_db\":-22.0},{\"audio_class\":\"Distorted mechanical growl / robotic oscillation\",\"starting_time\":3.5,\"duration\":4.5,\"weight_db\":-14.0},{\"audio_class\":\"Rapid mechanical stuttering / rhythmic synth pulses\",\"starting_time\":7.0,\"duration\":3.0,\"weight_db\":-16.5},{\"audio_class\":\"Mid-frequency metallic grinding sound\",\"starting_time\":1.5,\"duration\":2.5,\"weight_db\":-18.0},{\"audio_class\":\"High-frequency tension riser / electronic shimmer\",\"starting_time\":8.2,\"duration\":1.8,\"weight_db\":-20.0}]}"
+}

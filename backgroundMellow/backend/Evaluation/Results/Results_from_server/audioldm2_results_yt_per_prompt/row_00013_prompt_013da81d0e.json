@@ -1,0 +1,66 @@
+{
+  "stage": "ok",
+  "saved_at_utc": "2026-04-21T18:45:23.014840+00:00",
+  "source_csv": "/Users/ajitesh/Desktop/BTP/cinemaudio-studio/backend/Evaluation/Results/Results_from_server/audioldm2_results.csv",
+  "row_index": 13,
+  "gemini_model": "gemini-3-flash-preview",
+  "dry_run": false,
+  "from_cached_cues": false,
+  "story_prompt": "Bruce Wayne and Alfred discuss the concept of subtlety within their urban environment, humorously juxtaposed with the powerful roar of a high-performance Lamborghini, before the scene dramatically cuts to a climactic title card reveal.",
+  "audio_wav_path": "/Users/ajitesh/Desktop/BTP/cinemaudio-studio/backend/Evaluation/Results/Results_from_server/audioldm_audios/prompt_013da81d0e.wav",
+  "total_seconds": "58.27749319351278",
+  "cues": [
+    {
+      "audio_class": "deep male narrator voice",
+      "starting_time": 0.0,
+      "duration": 9.0,
+      "weight_db": -11.5
+    },
+    {
+      "audio_class": "low-frequency atmospheric rumble",
+      "starting_time": 0.0,
+      "duration": 10.0,
+      "weight_db": -28.0
+    },
+    {
+      "audio_class": "heavy cinematic thud impact",
+      "starting_time": 1.8,
+      "duration": 1.2,
+      "weight_db": -8.5
+    },
+    {
+      "audio_class": "orchestral low brass swell",
+      "starting_time": 3.0,
+      "duration": 4.5,
+      "weight_db": -16.0
+    },
+    {
+      "audio_class": "rushing air whoosh sound effect",
+      "starting_time": 4.5,
+      "duration": 1.5,
+      "weight_db": -19.0
+    },
+    {
+      "audio_class": "metallic clanging hit",
+      "starting_time": 6.7,
+      "duration": 0.8,
+      "weight_db": -10.0
+    },
+    {
+      "audio_class": "rhythmic synth pulse with percussion",
+      "starting_time": 5.0,
+      "duration": 5.0,
+      "weight_db": -22.5
+    },
+    {
+      "audio_class": "dramatic cinematic braam hit",
+      "starting_time": 8.4,
+      "duration": 1.6,
+      "weight_db": -6.5
+    }
+  ],
+  "yt_coverage_score": "14.285714285714285",
+  "yt_sync_score": "0.0",
+  "yt_gemini_eval_error": "",
+  "yt_gemini_cues_json_cell": "{\"cues\":[{\"audio_class\":\"deep male narrator voice\",\"starting_time\":0.0,\"duration\":9.0,\"weight_db\":-11.5},{\"audio_class\":\"low-frequency atmospheric rumble\",\"starting_time\":0.0,\"duration\":10.0,\"weight_db\":-28.0},{\"audio_class\":\"heavy cinematic thud impact\",\"starting_time\":1.8,\"duration\":1.2,\"weight_db\":-8.5},{\"audio_class\":\"orchestral low brass swell\",\"starting_time\":3.0,\"duration\":4.5,\"weight_db\":-16.0},{\"audio_class\":\"rushing air whoosh sound effect\",\"starting_time\":4.5,\"duration\":1.5,\"weight_db\":-19.0},{\"audio_class\":\"metallic clanging hit\",\"starting_time\":6.7,\"duration\":0.8,\"weight_db\":-10.0},{\"audio_class\":\"rhythmic synth pulse with percussion\",\"starting_time\":5.0,\"duration\":5.0,\"weight_db\":-22.5},{\"audio_class\":\"dramatic cinematic braam hit\",\"starting_time\":8.4,\"duration\":1.6,\"weight_db\":-6.5}]}"
+}

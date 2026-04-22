@@ -1,0 +1,90 @@
+{
+  "stage": "ok",
+  "saved_at_utc": "2026-04-21T18:44:09.708795+00:00",
+  "source_csv": "/Users/ajitesh/Desktop/BTP/cinemaudio-studio/backend/Evaluation/Results/Results_from_server/audioldm2_results.csv",
+  "row_index": 9,
+  "gemini_model": "gemini-3-flash-preview",
+  "dry_run": false,
+  "from_cached_cues": false,
+  "story_prompt": "A helmet-clad soldier cautiously navigates a grimy, dimly lit urban corridor before being brutally ambushed by a bloodied operative, who then, protecting a young boy, plunges into a chaotic close-quarters gunfight against multiple assailants.",
+  "audio_wav_path": "/Users/ajitesh/Desktop/BTP/cinemaudio-studio/backend/Evaluation/Results/Results_from_server/audioldm_audios/prompt_cf2fd90480.wav",
+  "total_seconds": "60.37036283337511",
+  "cues": [
+    {
+      "audio_class": "sharp metallic sword unsheathing sound",
+      "starting_time": 0.0,
+      "duration": 0.8,
+      "weight_db": -16.0
+    },
+    {
+      "audio_class": "low-frequency cinematic tension drone",
+      "starting_time": 0.0,
+      "duration": 8.5,
+      "weight_db": -28.0
+    },
+    {
+      "audio_class": "clothing rustle and movement ambience",
+      "starting_time": 0.2,
+      "duration": 1.5,
+      "weight_db": -22.0
+    },
+    {
+      "audio_class": "high-pitched metallic sword clang",
+      "starting_time": 1.0,
+      "duration": 0.5,
+      "weight_db": -11.5
+    },
+    {
+      "audio_class": "secondary sharp sword impact",
+      "starting_time": 1.7,
+      "duration": 0.6,
+      "weight_db": -12.0
+    },
+    {
+      "audio_class": "sequence of rapid metallic parries",
+      "starting_time": 2.3,
+      "duration": 1.4,
+      "weight_db": -14.0
+    },
+    {
+      "audio_class": "heavy dull body impact / thud",
+      "starting_time": 3.6,
+      "duration": 0.9,
+      "weight_db": -10.0
+    },
+    {
+      "audio_class": "metallic ringing resonance tail",
+      "starting_time": 4.5,
+      "duration": 1.2,
+      "weight_db": -18.5
+    },
+    {
+      "audio_class": "aggressive male battle shout",
+      "starting_time": 5.1,
+      "duration": 0.8,
+      "weight_db": -7.5
+    },
+    {
+      "audio_class": "loud cinematic explosion with bass impact",
+      "starting_time": 5.6,
+      "duration": 2.5,
+      "weight_db": -5.0
+    },
+    {
+      "audio_class": "reverberant impact decay and wind tail",
+      "starting_time": 6.5,
+      "duration": 2.0,
+      "weight_db": -15.0
+    },
+    {
+      "audio_class": "faint dramatic choral swell",
+      "starting_time": 7.0,
+      "duration": 1.5,
+      "weight_db": -24.0
+    }
+  ],
+  "yt_coverage_score": "0.0",
+  "yt_sync_score": "0.0",
+  "yt_gemini_eval_error": "",
+  "yt_gemini_cues_json_cell": "{\"cues\":[{\"audio_class\":\"sharp metallic sword unsheathing sound\",\"starting_time\":0.0,\"duration\":0.8,\"weight_db\":-16.0},{\"audio_class\":\"low-frequency cinematic tension drone\",\"starting_time\":0.0,\"duration\":8.5,\"weight_db\":-28.0},{\"audio_class\":\"clothing rustle and movement ambience\",\"starting_time\":0.2,\"duration\":1.5,\"weight_db\":-22.0},{\"audio_class\":\"high-pitched metallic sword clang\",\"starting_time\":1.0,\"duration\":0.5,\"weight_db\":-11.5},{\"audio_class\":\"secondary sharp sword impact\",\"starting_time\":1.7,\"duration\":0.6,\"weight_db\":-12.0},{\"audio_class\":\"sequence of rapid metallic parries\",\"starting_time\":2.3,\"duration\":1.4,\"weight_db\":-14.0},{\"audio_class\":\"heavy dull body impact / thud\",\"starting_time\":3.6,\"duration\":0.9,\"weight_db\":-10.0},{\"audio_class\":\"metallic ringing resonance tail\",\"starting_time\":4.5,\"duration\":1.2,\"weight_db\":-18.5},{\"audio_class\":\"aggressive male battle shout\",\"starting_time\":5.1,\"duration\":0.8,\"weight_db\":-7.5},{\"audio_class\":\"loud cinematic explosion with bass impact\",\"starting_time\":5.6,\"duration\":2.5,\"weight_db\":-5.0},{\"audio_class\":\"reverberant impact decay and wind tail\",\"starting_time\":6.5,\"duration\":2.0,\"weight_db\":-15.0},{\"audio_class\":\"faint dramatic choral swell\",\"starting_time\":7.0,\"duration\":1.5,\"weight_db\":-24.0}]}"
+}

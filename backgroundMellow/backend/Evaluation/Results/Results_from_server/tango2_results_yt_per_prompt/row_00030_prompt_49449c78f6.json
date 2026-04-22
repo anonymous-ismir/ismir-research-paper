@@ -1,0 +1,72 @@
+{
+  "stage": "ok",
+  "saved_at_utc": "2026-04-21T19:03:21.362739+00:00",
+  "source_csv": "/Users/ajitesh/Desktop/BTP/cinemaudio-studio/backend/Evaluation/Results/Results_from_server/tango2_results.csv",
+  "row_index": 30,
+  "gemini_model": "gemini-3-flash-preview",
+  "dry_run": false,
+  "from_cached_cues": false,
+  "story_prompt": "A young girl transitions from an innocent conversation about monsters and money with an older man and a chicken in a dimly lit, cozy home to a chaotic, explosive urban battlefield where she confronts real monsters amidst fireworks and destruction.",
+  "audio_wav_path": "/Users/ajitesh/Desktop/BTP/cinemaudio-studio/backend/Evaluation/Results/Results_from_server/tango2_audios/prompt_49449c78f6.wav",
+  "total_seconds": "49.1899579167366",
+  "cues": [
+    {
+      "audio_class": "stadium crowd cheering and ambience",
+      "starting_time": 0.0,
+      "duration": 10.0,
+      "weight_db": -18.0
+    },
+    {
+      "audio_class": "male voice shouting 'Come on Jack'",
+      "starting_time": 0.1,
+      "duration": 1.4,
+      "weight_db": -10.0
+    },
+    {
+      "audio_class": "heavy stadium buzzer sound effect",
+      "starting_time": 1.8,
+      "duration": 0.7,
+      "weight_db": -8.0
+    },
+    {
+      "audio_class": "energetic female voice shout",
+      "starting_time": 2.6,
+      "duration": 1.4,
+      "weight_db": -10.0
+    },
+    {
+      "audio_class": "sharp referee whistle sound effect",
+      "starting_time": 3.7,
+      "duration": 0.4,
+      "weight_db": -14.0
+    },
+    {
+      "audio_class": "uplifting orchestral music with brass and strings",
+      "starting_time": 4.2,
+      "duration": 5.8,
+      "weight_db": -12.0
+    },
+    {
+      "audio_class": "female voice 'He's our star'",
+      "starting_time": 4.8,
+      "duration": 1.2,
+      "weight_db": -11.0
+    },
+    {
+      "audio_class": "child voice shout",
+      "starting_time": 6.4,
+      "duration": 1.1,
+      "weight_db": -10.0
+    },
+    {
+      "audio_class": "rhythmic orchestral percussion hits",
+      "starting_time": 4.5,
+      "duration": 5.5,
+      "weight_db": -14.0
+    }
+  ],
+  "yt_coverage_score": "16.666666666666664",
+  "yt_sync_score": "0.0",
+  "yt_gemini_eval_error": "",
+  "yt_gemini_cues_json_cell": "{\"cues\":[{\"audio_class\":\"stadium crowd cheering and ambience\",\"starting_time\":0.0,\"duration\":10.0,\"weight_db\":-18.0},{\"audio_class\":\"male voice shouting 'Come on Jack'\",\"starting_time\":0.1,\"duration\":1.4,\"weight_db\":-10.0},{\"audio_class\":\"heavy stadium buzzer sound effect\",\"starting_time\":1.8,\"duration\":0.7,\"weight_db\":-8.0},{\"audio_class\":\"energetic female voice shout\",\"starting_time\":2.6,\"duration\":1.4,\"weight_db\":-10.0},{\"audio_class\":\"sharp referee whistle sound effect\",\"starting_time\":3.7,\"duration\":0.4,\"weight_db\":-14.0},{\"audio_class\":\"uplifting orchestral music with brass and strings\",\"starting_time\":4.2,\"duration\":5.8,\"weight_db\":-12.0},{\"audio_class\":\"female voice 'He's our star'\",\"starting_time\":4.8,\"duration\":1.2,\"weight_db\":-11.0},{\"audio_class\":\"child voice shout\",\"starting_time\":6.4,\"duration\":1.1,\"weight_db\":-10.0},{\"audio_class\":\"rhythmic orchestral percussion hits\",\"starting_time\":4.5,\"duration\":5.5,\"weight_db\":-14.0}]}"
+}

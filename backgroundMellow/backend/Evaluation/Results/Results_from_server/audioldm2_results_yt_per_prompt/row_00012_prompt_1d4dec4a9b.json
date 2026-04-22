@@ -1,0 +1,84 @@
+{
+  "stage": "ok",
+  "saved_at_utc": "2026-04-21T18:45:09.065241+00:00",
+  "source_csv": "/Users/ajitesh/Desktop/BTP/cinemaudio-studio/backend/Evaluation/Results/Results_from_server/audioldm2_results.csv",
+  "row_index": 12,
+  "gemini_model": "gemini-3-flash-preview",
+  "dry_run": false,
+  "from_cached_cues": false,
+  "story_prompt": "An astronaut frantically grapples with failing equipment in the dark abyss of space, punctuated by a catastrophic explosion, before the scene transitions to a corporate logo and then back to the desperate astronaut spinning uncontrollably against the Earth, pleading for help amidst escalating chaos and radio silence.",
+  "audio_wav_path": "/Users/ajitesh/Desktop/BTP/cinemaudio-studio/backend/Evaluation/Results/Results_from_server/audioldm_audios/prompt_1d4dec4a9b.wav",
+  "total_seconds": "58.2526559305843",
+  "cues": [
+    {
+      "audio_class": "low-frequency rumble and mechanical ambience",
+      "starting_time": 0.0,
+      "duration": 8.0,
+      "weight_db": -22.5
+    },
+    {
+      "audio_class": "heavy percussive impact with mechanical grinding",
+      "starting_time": 0.0,
+      "duration": 1.5,
+      "weight_db": -8.0
+    },
+    {
+      "audio_class": "high-pitched metallic shearing sound effect",
+      "starting_time": 0.8,
+      "duration": 1.2,
+      "weight_db": -12.4
+    },
+    {
+      "audio_class": "orchestral tension build-up with strings",
+      "starting_time": 1.5,
+      "duration": 3.0,
+      "weight_db": -18.2
+    },
+    {
+      "audio_class": "deep synth bass pulse",
+      "starting_time": 2.1,
+      "duration": 1.0,
+      "weight_db": -14.5
+    },
+    {
+      "audio_class": "dramatic orchestral brass hit",
+      "starting_time": 3.2,
+      "duration": 1.8,
+      "weight_db": -10.0
+    },
+    {
+      "audio_class": "massive explosion and glass shattering SFX",
+      "starting_time": 4.1,
+      "duration": 2.5,
+      "weight_db": -5.5
+    },
+    {
+      "audio_class": "visceral creature roar / vocalization",
+      "starting_time": 4.7,
+      "duration": 2.2,
+      "weight_db": -7.2
+    },
+    {
+      "audio_class": "sharp metallic impact / clang",
+      "starting_time": 5.3,
+      "duration": 1.1,
+      "weight_db": -9.8
+    },
+    {
+      "audio_class": "chaotic debris and falling rubble sounds",
+      "starting_time": 6.0,
+      "duration": 2.0,
+      "weight_db": -16.0
+    },
+    {
+      "audio_class": "epic orchestral finale swell with tail",
+      "starting_time": 7.0,
+      "duration": 1.0,
+      "weight_db": -13.5
+    }
+  ],
+  "yt_coverage_score": "50.0",
+  "yt_sync_score": "3.2743570004539806e-05",
+  "yt_gemini_eval_error": "",
+  "yt_gemini_cues_json_cell": "{\"cues\":[{\"audio_class\":\"low-frequency rumble and mechanical ambience\",\"starting_time\":0.0,\"duration\":8.0,\"weight_db\":-22.5},{\"audio_class\":\"heavy percussive impact with mechanical grinding\",\"starting_time\":0.0,\"duration\":1.5,\"weight_db\":-8.0},{\"audio_class\":\"high-pitched metallic shearing sound effect\",\"starting_time\":0.8,\"duration\":1.2,\"weight_db\":-12.4},{\"audio_class\":\"orchestral tension build-up with strings\",\"starting_time\":1.5,\"duration\":3.0,\"weight_db\":-18.2},{\"audio_class\":\"deep synth bass pulse\",\"starting_time\":2.1,\"duration\":1.0,\"weight_db\":-14.5},{\"audio_class\":\"dramatic orchestral brass hit\",\"starting_time\":3.2,\"duration\":1.8,\"weight_db\":-10.0},{\"audio_class\":\"massive explosion and glass shattering SFX\",\"starting_time\":4.1,\"duration\":2.5,\"weight_db\":-5.5},{\"audio_class\":\"visceral creature roar / vocalization\",\"starting_time\":4.7,\"duration\":2.2,\"weight_db\":-7.2},{\"audio_class\":\"sharp metallic impact / clang\",\"starting_time\":5.3,\"duration\":1.1,\"weight_db\":-9.8},{\"audio_class\":\"chaotic debris and falling rubble sounds\",\"starting_time\":6.0,\"duration\":2.0,\"weight_db\":-16.0},{\"audio_class\":\"epic orchestral finale swell with tail\",\"starting_time\":7.0,\"duration\":1.0,\"weight_db\":-13.5}]}"
+}

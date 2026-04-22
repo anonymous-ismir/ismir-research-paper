@@ -1,0 +1,84 @@
+{
+  "stage": "ok",
+  "saved_at_utc": "2026-04-21T18:46:46.012654+00:00",
+  "source_csv": "/Users/ajitesh/Desktop/BTP/cinemaudio-studio/backend/Evaluation/Results/Results_from_server/audioldm2_results.csv",
+  "row_index": 19,
+  "gemini_model": "gemini-3-flash-preview",
+  "dry_run": false,
+  "from_cached_cues": false,
+  "story_prompt": "Amidst a crumbling future where humanity immerses itself in the vibrant virtual realm of the OASIS, a high-stakes hunt for dominance ignites, forcing characters to confront the perilous fusion of digital escapism and tangible consequences.",
+  "audio_wav_path": "/Users/ajitesh/Desktop/BTP/cinemaudio-studio/backend/Evaluation/Results/Results_from_server/audioldm_audios/prompt_8e663ae4c7.wav",
+  "total_seconds": "58.82109301327728",
+  "cues": [
+    {
+      "audio_class": "heavy metallic hammer strike with ringing reverb",
+      "starting_time": 0.0,
+      "duration": 0.9,
+      "weight_db": -11.5
+    },
+    {
+      "audio_class": "heavy metallic hammer strike with ringing reverb",
+      "starting_time": 1.0,
+      "duration": 0.9,
+      "weight_db": -11.5
+    },
+    {
+      "audio_class": "heavy metallic hammer strike with ringing reverb",
+      "starting_time": 2.0,
+      "duration": 0.9,
+      "weight_db": -11.5
+    },
+    {
+      "audio_class": "heavy metallic hammer strike with ringing reverb",
+      "starting_time": 3.0,
+      "duration": 0.9,
+      "weight_db": -11.5
+    },
+    {
+      "audio_class": "heavy metallic hammer strike with ringing reverb",
+      "starting_time": 4.0,
+      "duration": 0.9,
+      "weight_db": -11.5
+    },
+    {
+      "audio_class": "heavy metallic hammer strike with ringing reverb",
+      "starting_time": 5.0,
+      "duration": 0.9,
+      "weight_db": -11.5
+    },
+    {
+      "audio_class": "heavy metallic hammer strike with ringing reverb",
+      "starting_time": 6.0,
+      "duration": 0.9,
+      "weight_db": -11.5
+    },
+    {
+      "audio_class": "heavy metallic hammer strike with ringing reverb",
+      "starting_time": 7.0,
+      "duration": 0.9,
+      "weight_db": -11.5
+    },
+    {
+      "audio_class": "heavy metallic hammer strike with ringing reverb",
+      "starting_time": 8.0,
+      "duration": 0.9,
+      "weight_db": -11.5
+    },
+    {
+      "audio_class": "deep cinematic synth drone",
+      "starting_time": 0.0,
+      "duration": 9.0,
+      "weight_db": -28.0
+    },
+    {
+      "audio_class": "industrial room tone ambience",
+      "starting_time": 0.0,
+      "duration": 9.0,
+      "weight_db": -40.0
+    }
+  ],
+  "yt_coverage_score": "0.0",
+  "yt_sync_score": "0.0",
+  "yt_gemini_eval_error": "",
+  "yt_gemini_cues_json_cell": "{\"cues\":[{\"audio_class\":\"heavy metallic hammer strike with ringing reverb\",\"starting_time\":0.0,\"duration\":0.9,\"weight_db\":-11.5},{\"audio_class\":\"heavy metallic hammer strike with ringing reverb\",\"starting_time\":1.0,\"duration\":0.9,\"weight_db\":-11.5},{\"audio_class\":\"heavy metallic hammer strike with ringing reverb\",\"starting_time\":2.0,\"duration\":0.9,\"weight_db\":-11.5},{\"audio_class\":\"heavy metallic hammer strike with ringing reverb\",\"starting_time\":3.0,\"duration\":0.9,\"weight_db\":-11.5},{\"audio_class\":\"heavy metallic hammer strike with ringing reverb\",\"starting_time\":4.0,\"duration\":0.9,\"weight_db\":-11.5},{\"audio_class\":\"heavy metallic hammer strike with ringing reverb\",\"starting_time\":5.0,\"duration\":0.9,\"weight_db\":-11.5},{\"audio_class\":\"heavy metallic hammer strike with ringing reverb\",\"starting_time\":6.0,\"duration\":0.9,\"weight_db\":-11.5},{\"audio_class\":\"heavy metallic hammer strike with ringing reverb\",\"starting_time\":7.0,\"duration\":0.9,\"weight_db\":-11.5},{\"audio_class\":\"heavy metallic hammer strike with ringing reverb\",\"starting_time\":8.0,\"duration\":0.9,\"weight_db\":-11.5},{\"audio_class\":\"deep cinematic synth drone\",\"starting_time\":0.0,\"duration\":9.0,\"weight_db\":-28.0},{\"audio_class\":\"industrial room tone ambience\",\"starting_time\":0.0,\"duration\":9.0,\"weight_db\":-40.0}]}"
+}

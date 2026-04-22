@@ -1,0 +1,78 @@
+{
+  "stage": "ok",
+  "saved_at_utc": "2026-04-21T18:54:10.805919+00:00",
+  "source_csv": "/Users/ajitesh/Desktop/BTP/cinemaudio-studio/backend/Evaluation/Results/Results_from_server/tango2_results.csv",
+  "row_index": 3,
+  "gemini_model": "gemini-3-flash-preview",
+  "dry_run": false,
+  "from_cached_cues": false,
+  "story_prompt": "A calm restaurant conversation about violent films abruptly cuts to an explosive, over-the-top movie scene where a flamethrower-wielding soldier incinerates Nazis, then transitions to a vibrant montage of 1960s Los Angeles glamour and lively parties.",
+  "audio_wav_path": "/Users/ajitesh/Desktop/BTP/cinemaudio-studio/backend/Evaluation/Results/Results_from_server/tango2_audios/prompt_9f0179aa20.wav",
+  "total_seconds": "50.83686901582405",
+  "cues": [
+    {
+      "audio_class": "intense metallic digital glitch roar",
+      "starting_time": 0.0,
+      "duration": 2.2,
+      "weight_db": -8.0
+    },
+    {
+      "audio_class": "low industrial background drone",
+      "starting_time": 0.0,
+      "duration": 10.0,
+      "weight_db": -28.0
+    },
+    {
+      "audio_class": "high-pitched distorted synth shriek",
+      "starting_time": 0.5,
+      "duration": 4.0,
+      "weight_db": -12.5
+    },
+    {
+      "audio_class": "rapid mechanical clicking and glitch sounds",
+      "starting_time": 0.1,
+      "duration": 1.8,
+      "weight_db": -15.0
+    },
+    {
+      "audio_class": "dramatic metallic impact sound effect",
+      "starting_time": 1.1,
+      "duration": 0.4,
+      "weight_db": -9.5
+    },
+    {
+      "audio_class": "terrified female scream",
+      "starting_time": 3.2,
+      "duration": 3.5,
+      "weight_db": -11.0
+    },
+    {
+      "audio_class": "child-like high-pitched scream",
+      "starting_time": 4.8,
+      "duration": 2.2,
+      "weight_db": -14.0
+    },
+    {
+      "audio_class": "descending whoosh / riser release sound effect",
+      "starting_time": 4.5,
+      "duration": 2.8,
+      "weight_db": -13.0
+    },
+    {
+      "audio_class": "intense peaking high-frequency scream",
+      "starting_time": 7.3,
+      "duration": 2.7,
+      "weight_db": -6.5
+    },
+    {
+      "audio_class": "heavy thud / industrial impact",
+      "starting_time": 9.6,
+      "duration": 0.4,
+      "weight_db": -10.0
+    }
+  ],
+  "yt_coverage_score": "14.285714285714285",
+  "yt_sync_score": "0.0",
+  "yt_gemini_eval_error": "",
+  "yt_gemini_cues_json_cell": "{\"cues\":[{\"audio_class\":\"intense metallic digital glitch roar\",\"starting_time\":0.0,\"duration\":2.2,\"weight_db\":-8.0},{\"audio_class\":\"low industrial background drone\",\"starting_time\":0.0,\"duration\":10.0,\"weight_db\":-28.0},{\"audio_class\":\"high-pitched distorted synth shriek\",\"starting_time\":0.5,\"duration\":4.0,\"weight_db\":-12.5},{\"audio_class\":\"rapid mechanical clicking and glitch sounds\",\"starting_time\":0.1,\"duration\":1.8,\"weight_db\":-15.0},{\"audio_class\":\"dramatic metallic impact sound effect\",\"starting_time\":1.1,\"duration\":0.4,\"weight_db\":-9.5},{\"audio_class\":\"terrified female scream\",\"starting_time\":3.2,\"duration\":3.5,\"weight_db\":-11.0},{\"audio_class\":\"child-like high-pitched scream\",\"starting_time\":4.8,\"duration\":2.2,\"weight_db\":-14.0},{\"audio_class\":\"descending whoosh / riser release sound effect\",\"starting_time\":4.5,\"duration\":2.8,\"weight_db\":-13.0},{\"audio_class\":\"intense peaking high-frequency scream\",\"starting_time\":7.3,\"duration\":2.7,\"weight_db\":-6.5},{\"audio_class\":\"heavy thud / industrial impact\",\"starting_time\":9.6,\"duration\":0.4,\"weight_db\":-10.0}]}"
+}
